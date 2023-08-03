@@ -1,25 +1,41 @@
 # Utility-sc
 
+## 前提
+
+- JDK20 or newer : https://www.oracle.com/java/technologies/downloads/
+- Apache Maven ver 3.9.3 or more : https://maven.apache.org/download.cgi
+
+
+
+## Install
+
 1, `git clone`する。
 
 ```
 git clone https://github.com/oogasawa/Utility-sc
 ```
 
-2, コンパイルする。
+2, 依存ライブラリをインストールする。
 
 ```
 cd Utility-sc
+bash install_libs.sh
+```
+
+
+3, コンパイルする。
+
+```
 mvn clean install assembly:single
 ```
 
-3, 出来上がったfat jarをどこか決まった場所に置いておく。
+4, 出来上がったfat jarをどこか決まった場所に置いておく。
 
 ```
 cp target/Utility-sc-fat.jar ~/local/jars
 ```
 
-4, ヘルプの表示（動作確認)
+5, ヘルプの表示（動作確認)
 
 ```
 java -jar ~/local/jars/Utility-sc-fat.jar
@@ -49,7 +65,7 @@ usage: tsv:toHtml -i <infile>
  -i,--infile <infile>   Input file
 ```
 
-5, 例えばTSVをHTMLに変換する場合
+6, 例えばTSVをHTMLに変換する場合
 
 ```
 java -jar ~/local/jars/Utility-sc-fat.jar tsv:toHtml -i your_data.txt > your_data.html
