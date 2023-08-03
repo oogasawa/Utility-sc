@@ -1,243 +1,215 @@
 package com.github.oogasawa.utility.sc.paper;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
+
+
+/**
+ * 
+ * <p>
+ * The NIG supercomputer asks users to declare a list of their publications when they apply for end-of-year renewal.
+ * The application for the end-of-year renewal is made using the "User Application System.
+ * The list of publications can be output in tabular form (Excel file) from the "User Application System.
+ * </p>
+ *
+ * <p>
+ * However, this Excel file contains many cases where the PubMed ID is not written, the Journal name is not written, and so on.
+ * The PaperSorter class is a simple and easy way to create a list of articles in a tabular format (Excel file).
+ * </p>
+ * <p>
+ * In order to simplify the task of creating a list of published papers for the NIG supercomputer website,
+ * the PaperSorter class classifies and sorts each row of the Excel file in the following order:
+ * </p>
+ * <ol>
+ * <li>Data with PubMed IDs</li>
+ * <li>data without PubMed ID but with correct journal name</li>
+ * <li>data with neither PubMed ID nor journal name, but with DOI</li>
+ * <li>Other data</li>
+ * </ol>
+ *
+ * <hr style="border: none; border-top: 1px dotted #999;" />
+ * 
+ * <p>
+ * 遺伝研スパコンでは年度末更新申請の際に、ユーザーに発表論文のリストを申告してもらっている。
+ * 年度末更新申請は「利用申請システム」を用いて行われる。
+ * 「利用申請システム」から発表論文のリストを表形式（Excelファイル）で出力することができる。
+ * </p>
+ *
+ * <p>
+ * しかし、このExcelファイルにはPubMed IDが書かれていない場合、Journal名が書かれていない場合など
+ * 不完全なデータが多数含まれる。
+ * </p>
+ * <p>
+ * PaperSorterクラスは、遺伝研スパコンホームページの発表論文リストを作る作業を簡単にするために
+ * Excelファイルの各行を分類し以下の順番に並べ替える。
+ * </p>
+ * 
+ * <ol>
+ * <li>PubMed IDが書かれているデータ</li>
+ * <li>PubMed IDが書かれていないが、正しくJournal名が書かれているデータ</li>
+ * <li>PubMed IDもJournal名も書かれていないがDOIが書かれているデータ</li>
+ * <li>それ以外のデータ</li>
+ * </ol>
+ *
+ * 
+ * 
+ */
 public class PaperSorter {
 
-    Logger logger = null;
+    private static final Logger logger = Logger.getLogger(PaperSorter.class.getName());
     
-    String infile;
+    /** A data file path. */
+    Path infile;
 
-    String outfile1 = "valid_papers.txt";
-    String outfile2 = "invalid.txt";
-
-    List<PaperInfo> infoList = new ArrayList<PaperInfo>();
-    List<PaperInfo> otherList = new ArrayList<PaperInfo>();
-    
     static public class Builder {
 
-        String loggerName = "PaperSorter";
-        String infile;
+        /** A data file path. */
+        Path infile;
         
 
-        public Builder(String infile) {
+        public Builder(Path infile) {
             if (infile == null)
                 throw new NullPointerException();
 
             this.infile = infile;
         }
 
-        public Builder loggerName(String name) {
-            loggerName = name;
-            return this;
-        }
         
         public PaperSorter build() {
             PaperSorter sorter = new PaperSorter();
             sorter.setInfile(infile);
-            sorter.logger = Logger.getLogger(loggerName);
             
             return sorter;
         }
     }
 
 
-    public List<PaperInfo> deepCopy(List<PaperInfo> list) {
+    public List<PaperInfo> sort() {
 
-        List<PaperInfo> result = new ArrayList<PaperInfo>();
+        List<PaperInfo> results = new ArrayList<PaperInfo>();
 
-        for (PaperInfo info: list) {
-            result.add(info);
-        }
+        // 1. Sort rows
+        results.addAll(sortPmidRows());
+        results.addAll(sortDoiRows());
+        results.addAll(sortOtherRows());
 
-        return result;
+        // 2. Print out the results.
+        results
+            .stream()
+            .forEach((info)->{
+                    System.out.println(info.toTSV());
+                });
+
+        // 3. return the results.
+        return results;
+        
     }
 
 
 
-    
-    public void printPaperInfoList(List<PaperInfo> infoList) {
+    public List<PaperInfo> sortPmidRows() {
 
-        Collections.sort(infoList, new PaperInfoComparator());
+        List<PaperInfo> pmidRows = null;
         
-        for (PaperInfo info : infoList) {
-            System.out.println(info.toTSV());
-        }
-    }
+        try {
+            pmidRows
+                = Files.lines(this.infile)
+                .skip(1)
+                .map(l -> {
+                        return new PaperInfo(l);
+                    })
+                .filter(p -> {
+                        return !p.getPubmedId().trim().isEmpty();
+                    })
+                .sorted((a, b)->{return a.getPubmedId().compareTo(b.getPubmedId());})
+                .collect(Collectors.toList());
 
+            //logger.info(String.format("Rows with PMID: %d", rowsWithPMID.size()));
 
-    
-
-    public void sort() {
-
-        this.printPaperInfoList(this.sortPubmed());
-        this.printPaperInfoList(this.sortOtherValidJournalName());
-        this.printPaperInfoList(this.sortOtherDoi());
-        
-        this.printPaperInfoList(infoList);
-    }
-
-    
-    public List<PaperInfo> sortPubmed() {
-
-        List<PaperInfo> result = new ArrayList<PaperInfo>();
-        
-        String str = null;
-        try (BufferedReader br = new BufferedReader(new FileReader(this.infile))) {
-            while ((str = br.readLine()) != null) {
-                List<String> cols = splitByTab(str, 15);
-
-                
-                PaperInfo info = new PaperInfo(cols);
-
-
-                if (info.pubmedId() != null && info.pubmedId().length() > 0) {
-                    result.add(info);
-                }
-                else {
-                    otherList.add(info);
-                }
-                
-            }
-        } catch (FileNotFoundException f) {
-            System.out.println(infile + " does not exist");
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(Level.SEVERE, "Exception occurred when loading data.", e);
         }
 
-        this.infoList = this.otherList;
-        this.otherList = new ArrayList<PaperInfo>();
-        
-        return result;
-        
-    }
-
-
-
-    public List<PaperInfo> sortOtherValidJournalName() {
-
-        List<PaperInfo> result = new ArrayList<PaperInfo>();
-
-        Pattern pValidJournal = Pattern.compile("^[a-zA-Z]+");
-        
-        for (PaperInfo info : this.infoList) {
-
-            if (info.journal() != null) {
-                Matcher m = pValidJournal.matcher(info.journal());
-                if (m.find()) {
-                    result.add(info);
-                }
-                else {
-                    otherList.add(info);
-                }
-            }
-            else {
-                otherList.add(info);
-            }
-            
-        }
-
-
-        this.infoList = this.otherList;
-        this.otherList = new ArrayList<PaperInfo>();
-        
-        return result;
-
-        
+        return pmidRows;
     }
 
 
     
-    public List<PaperInfo> sortOtherDoi() {
+    public List<PaperInfo> sortDoiRows() {
 
-        List<PaperInfo> result = new ArrayList<PaperInfo>();
-        
-        for (PaperInfo info : this.infoList) {
+        List<PaperInfo> doiRows = null;
 
-            if (info.doi() != null && info.doi().length() > 0) {
-                result.add(info);
-            }
-            else {
-                otherList.add(info);
-            }
-            
+        try {
+
+            doiRows
+                = Files.lines(this.infile)
+                .skip(1)
+                .map(l -> {
+                        return new PaperInfo(l);
+                    })
+                .filter(p -> {
+                        return p.getPubmedId().trim().isEmpty()
+                            && !p.getDoi().trim().isEmpty();
+                    })
+                .sorted((a, b)->{return a.getDoi().compareTo(b.getDoi());})
+                .collect(Collectors.toList());
+
+            //logger.info(String.format("Rows with DOI: %d", rowsWithDoi.size()));
+
+        } catch (IOException e) {
+            logger.log(Level.SEVERE, "Exception occurred when loading data.", e);
         }
 
-        this.infoList = this.otherList;
-        this.otherList = new ArrayList<PaperInfo>();
-        
-        return result;
-
+        return doiRows;
         
     }
 
 
+    public List<PaperInfo> sortOtherRows() {
 
+        List<PaperInfo> otherRows = null;
 
-    
-    public List<String> splitByChar(String str, char ch) {
+        try {
 
-        List<String> ret = new ArrayList<String>();
-        StringBuilder sb = new StringBuilder();
+            otherRows
+                = Files.lines(this.infile)
+                .skip(1)
+                .map(l -> {
+                        return new PaperInfo(l);
+                    })
+                .filter(p -> {
+                        return p.getPubmedId().trim().isEmpty()
+                            && p.getDoi().trim().isEmpty();
+                    })
+                .sorted((a, b)->{return a.getJournal().compareTo(b.getJournal());})
+                .collect(Collectors.toList());
 
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == ch) {
-                ret.add(sb.toString());
-                sb.delete(0, sb.length());
+            //logger.info(String.format("otherRows: %d", otherRows.size()));
 
-                // When a delimiting character is at the last of a string,
-                // the last element of the returned list should be an empty string.
-                if (i == str.length() - 1) {
-                    sb.append("");
-                }
-            } else {
-                sb.append(str.charAt(i));
-            }
-
+        } catch (IOException e) {
+            logger.log(Level.SEVERE, "Exception occurred when loading data.", e);
         }
-
-        ret.add(sb.toString());
-
-        return ret;
+        
+        return otherRows;
     }
 
 
     
-    public List<String> splitByTab(String str) {
-        return splitByChar(str, '\t');
-    }
-
-
-    
-    public List<String> splitByTab(String str, int length) {
-
-        List<String> cols = splitByChar(str, '\t');
-
-        if (cols.size() < length) {
-            for (int i = cols.size() - 1; i < 15; i++) {
-                cols.add("");
-            }
-        }
-
-        return cols;
-    }
-
-
-
-    
-    public void setInfile(String infile) {
+    public void setInfile(Path infile) {
         this.infile = infile;
     }
 

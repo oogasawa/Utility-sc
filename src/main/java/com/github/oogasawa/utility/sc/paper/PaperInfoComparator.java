@@ -5,7 +5,8 @@ import java.util.Comparator;
 public class PaperInfoComparator implements Comparator<PaperInfo> {
 
     public int compare(PaperInfo a, PaperInfo b) {
-        return a.pubmedId().compareTo(b.pubmedId());
+        return 0;
+        //return a.pubmedId().compareTo(b.pubmedId());
     }
     
 }
