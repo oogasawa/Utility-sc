@@ -25,6 +25,7 @@ import com.github.oogasawa.utility.sc.paper.PaperInfo;
 import com.github.oogasawa.utility.sc.paper.PaperSorter;
 import com.github.oogasawa.utility.sc.pubmed.PubmedTableRow;
 import com.github.oogasawa.utility.sc.pubmed.StAXUtil;
+import com.github.oogasawa.utility.sc.tsv.TableChecker;
 import com.github.oogasawa.utility.sc.tsv.ToHtml;
 
 
@@ -49,6 +50,7 @@ public class App {
         cli.addCommand("paper:pmid_table", createPmidTableOptions(), "Print a table with respect to the elements with PMIDs");
         cli.addCommand("paper:pubmed_xml", createPubmedXmlOptions(), "Print an XML corresponding to the given Pubmed ID.");
         cli.addCommand("tsv:toHtml", createToHtmlOptions(), "Convert a TSV table to a HTML table.");
+        cli.addCommand("tsv:check_table", createTableCheckerOptions(), "Check if the data in the table is normal.");
         
 
         try {
@@ -85,6 +87,13 @@ public class App {
 
                 ToHtml converter = new ToHtml();
                 converter.convert(Path.of(infile));
+                
+            }
+
+            else if (cli.getCommand().equals("tsv:check_table")) {
+                String infile = cmd.getOptionValue("infile");
+
+                TableChecker.check(Path.of(infile));
                 
             }
 
@@ -196,6 +205,23 @@ public class App {
 
     
     public static Options createToHtmlOptions() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("infile")
+                       .option("i")
+                       .longOpt("infile")
+                       .hasArg(true)
+                       .argName("infile")
+                       .desc("Input file")
+                       .required(true)
+                       .build());
+
+        return opts;
+    }
+
+
+        
+    public static Options createTableCheckerOptions() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("infile")
