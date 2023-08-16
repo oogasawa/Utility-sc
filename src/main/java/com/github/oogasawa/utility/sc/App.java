@@ -21,6 +21,7 @@ import java.util.regex.Pattern;
 import javax.xml.stream.XMLStreamException;
 
 import com.github.oogasawa.utility.cli.CliCommands;
+import com.github.oogasawa.utility.sc.apt.AptInstaller;
 import com.github.oogasawa.utility.sc.paper.PaperInfo;
 import com.github.oogasawa.utility.sc.paper.PaperSorter;
 import com.github.oogasawa.utility.sc.pubmed.PubmedTableRow;
@@ -46,11 +47,13 @@ public class App {
         var helpStr = "java -jar utility-sc-fat.jar <command> <options>";
         var cli = new CliCommands();
 
+        cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
         cli.addCommand("paper:sort", createPaperSortOptions(), "Sort papers into meaingful categories");
         cli.addCommand("paper:pmid_table", createPmidTableOptions(), "Print a table with respect to the elements with PMIDs");
         cli.addCommand("paper:pubmed_xml", createPubmedXmlOptions(), "Print an XML corresponding to the given Pubmed ID.");
         cli.addCommand("tsv:toHtml", createToHtmlOptions(), "Convert a TSV table to a HTML table.");
         cli.addCommand("tsv:check_table", createTableCheckerOptions(), "Check if the data in the table is normal.");
+
         
 
         try {
@@ -64,11 +67,18 @@ public class App {
                 }
 
             }
+
+            
+            else if (cli.getCommand().equals("apt:install")) {
+                String infile = cmd.getOptionValue("infile");
+                AptInstaller installer = new AptInstaller.Builder(Path.of(infile)).build();
+                installer.install();
+            }
+            
             else if (cli.getCommand().equals("paper:sort")) {
                 String infile = cmd.getOptionValue("infile");
                 PaperSorter sorter = new PaperSorter.Builder(Path.of(infile)).build();
                 sorter.sort();
-                
             }
             else if (cli.getCommand().equals("paper:pubmed_xml")) {
                 String pmid = cmd.getOptionValue("pmid");
@@ -155,6 +165,26 @@ public class App {
         }
     }
 
+
+
+        
+    public static Options createAptInstallOptions() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("infile")
+                       .option("i")
+                       .longOpt("infile")
+                       .hasArg(true)
+                       .argName("infile")
+                       .desc("Input file with list of packages to install.")
+                       .required(true)
+                       .build());
+
+        return opts;
+    }
+
+
+    
     public static Options createPaperSortOptions() {
         Options opts = new Options();
 
