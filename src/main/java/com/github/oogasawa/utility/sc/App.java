@@ -47,6 +47,7 @@ public class App {
         var helpStr = "java -jar utility-sc-fat.jar <command> <options>";
         var cli = new CliCommands();
 
+        cli.addCommand("apt:command", createAptCommandOptions(), "Generate apt install command line.");
         cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
         cli.addCommand("paper:sort", createPaperSortOptions(), "Sort papers into meaingful categories");
         cli.addCommand("paper:pmid_table", createPmidTableOptions(), "Print a table with respect to the elements with PMIDs");
@@ -68,6 +69,12 @@ public class App {
 
             }
 
+            
+            else if (cli.getCommand().equals("apt:command")) {
+                String infile = cmd.getOptionValue("infile");
+                AptInstaller installer = new AptInstaller.Builder(Path.of(infile)).build();
+                System.out.println(installer.toAptCommand());
+            }
             
             else if (cli.getCommand().equals("apt:install")) {
                 String infile = cmd.getOptionValue("infile");
@@ -167,6 +174,23 @@ public class App {
 
 
 
+        
+    public static Options createAptCommandOptions() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("infile")
+                       .option("i")
+                       .longOpt("infile")
+                       .hasArg(true)
+                       .argName("infile")
+                       .desc("Input file with list of packages to install.")
+                       .required(true)
+                       .build());
+
+        return opts;
+    }
+
+    
         
     public static Options createAptInstallOptions() {
         Options opts = new Options();

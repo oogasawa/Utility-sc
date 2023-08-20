@@ -6,6 +6,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.StringJoiner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
@@ -38,6 +39,9 @@ public class AptInstaller {
         }
     }
 
+
+
+    
 
     public void install() {
 
@@ -106,6 +110,29 @@ public class AptInstaller {
         return result;
     }
 
+
+
+
+    public String toAptCommand() {
+        
+        StringJoiner rowJoiner = new StringJoiner(" \\\n");
+        
+        List<String> aptPackages = this.readFile();
+
+        StringJoiner colJoiner = new StringJoiner(" ");
+        for (int i=1; i<=aptPackages.size(); i++) {
+            colJoiner.add(aptPackages.get(i-1));
+            if (i%5 == 0) {
+                rowJoiner.add("    " + colJoiner.toString());
+                colJoiner = new StringJoiner(" ");
+            }
+        }
+
+        return "apt install -y " + rowJoiner.toString();
+        
+    }
+
+    
 
     
 
