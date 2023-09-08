@@ -18,34 +18,13 @@ public class AptInstaller {
 
     private static final Logger logger = Logger.getLogger(AptInstaller.class.getName());
     
-    Path infile;
-
-    static public class Builder {
-        Path infile;
-
-        public Builder(Path infile) {
-            if (infile == null)
-                throw new NullPointerException();
-
-            this.infile = infile;
-        }
-
-
-        public AptInstaller build() {
-            AptInstaller obj = new AptInstaller();
-            obj.setInfile(this.infile);
-
-            return obj;
-        }
-    }
-
-
 
     
-
-    public void install() {
-
-        List<String> aptPackages = this.readFile();
+    /** Applies {@code apt install} to each package given a list of package names.
+     * 
+     * @param aptPackages A list of package names to install.
+     */
+    public static void install(List<String> aptPackages) {
 
         for (String pkg: aptPackages) {
             Process p;
@@ -62,7 +41,6 @@ public class AptInstaller {
                 logger.log(Level.SEVERE, "Interrupted", e);
             }
 
-
         }
         
     }
@@ -71,9 +49,38 @@ public class AptInstaller {
     
     /** Reads the input file and extract packages to install.
      *
+     * <h4>Example of the input data formats (1)</h4>
+     *
+     * <pre>{@code
+     * python3/jammy-updates,jammy-security,now 3.10.6-1~22.04 amd64 [installed]
+     *   interactive high-level object-oriented language (default python3 version)
+     *
+     * python-is-python3/jammy,jammy,now 3.9.2-2 all [installed]
+     *   symlinks /usr/bin/python to python3
+     * }</pre>
+     *
+     * <h4>Example of the input data formats (2)</h4>
+     *  <pre>{@code
+     * build-essential
+     * gfortran
+     * gcc-doc
+     * flex
+     * bison
+     * automake
+     * autoconf
+     * libtool
+     * autogen
+     * shtool
+     * lib6-dev-amd64
+     * libarchive-dev
+     * cmake
+     *  }</pre>
+     * 
+     * 
+     * @param infile A Path object of an input file.
      * @return A list of package names to install.
      */
-    public List<String> readFile() {
+    public static List<String> readFile(Path infile) {
 
         List<String> result = new ArrayList<String>();
         
@@ -81,7 +88,7 @@ public class AptInstaller {
         Pattern p2 = Pattern.compile("^([a-zA-Z0-9-_]+)$");
         try {
             result =
-                Files.lines(this.infile)
+                Files.lines(infile)
                 .map(line->{
                         Matcher m = p1.matcher(line);
                         if (m.find()) {
@@ -104,7 +111,7 @@ public class AptInstaller {
 
             
         } catch (IOException e) {
-            logger.log(Level.SEVERE, "Can not read " + this.infile.toString(), e);
+            logger.log(Level.SEVERE, "Can not read " + infile.toString(), e);
         }
 
         return result;
@@ -112,12 +119,24 @@ public class AptInstaller {
 
 
 
-
-    public String toAptCommand() {
+    /** Generates a list of apt commands from a list of apt package names.
+     * <p>
+     * This method returns the following string when a list of package names is given.
+     * </p>
+     *
+     * <pre>{@code
+     * apt install -y \
+     *    build-essential \
+     *    gfortran \
+     *    gcc-doc
+     * }</pre>
+     * 
+     * @param aptPackages apt package list.
+     */
+    public static String toAptCommand(List<String> aptPackages) {
         
         StringJoiner rowJoiner = new StringJoiner(" \\\n");
         
-        List<String> aptPackages = this.readFile();
 
         StringJoiner colJoiner = new StringJoiner(" ");
         for (int i=1; i<=aptPackages.size(); i++) {
@@ -136,14 +155,14 @@ public class AptInstaller {
 
     
 
-    // --- setters and getters ---
+    // // --- setters and getters ---
     
-    public Path getInfile() {
-        return infile;
-    }
+    // public Path getInfile() {
+    //     return infile;
+    // }
 
-    public void setInfile(Path infile) {
-        this.infile = infile;
-    }
+    // public void setInfile(Path infile) {
+    //     this.infile = infile;
+    // }
 
 }

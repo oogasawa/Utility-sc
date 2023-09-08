@@ -6,10 +6,13 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
 import java.util.logging.Level;
@@ -22,6 +25,7 @@ import javax.xml.stream.XMLStreamException;
 
 import com.github.oogasawa.utility.cli.CliCommands;
 import com.github.oogasawa.utility.sc.apt.AptInstaller;
+import com.github.oogasawa.utility.sc.apt.AptSearcher;
 import com.github.oogasawa.utility.sc.paper.PaperInfo;
 import com.github.oogasawa.utility.sc.paper.PaperSorter;
 import com.github.oogasawa.utility.sc.pubmed.PubmedTableRow;
@@ -49,14 +53,15 @@ public class App {
 
         cli.addCommand("apt:command", createAptCommandOptions(), "Generate apt install command line.");
         cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
+        cli.addCommand("apt:filter", createAptFilterOptions(), "Filter apt search results.");
         cli.addCommand("paper:sort", createPaperSortOptions(), "Sort papers into meaingful categories");
         cli.addCommand("paper:pmid_table", createPmidTableOptions(), "Print a table with respect to the elements with PMIDs");
         cli.addCommand("paper:pubmed_xml", createPubmedXmlOptions(), "Print an XML corresponding to the given Pubmed ID.");
         cli.addCommand("tsv:toHtml", createToHtmlOptions(), "Convert a TSV table to a HTML table.");
         cli.addCommand("tsv:check_table", createTableCheckerOptions(), "Check if the data in the table is normal.");
 
-        
 
+        
         try {
 
             CommandLine cmd = cli.parse(args);
@@ -72,14 +77,44 @@ public class App {
             
             else if (cli.getCommand().equals("apt:command")) {
                 String infile = cmd.getOptionValue("infile");
-                AptInstaller installer = new AptInstaller.Builder(Path.of(infile)).build();
-                System.out.println(installer.toAptCommand());
+
+                List<String> packages = AptInstaller.readFile(Path.of(infile));
+                System.out.println(AptInstaller.toAptCommand(packages));
             }
+
+
+            else if (cli.getCommand().equals("apt:filter")) {
+                List<String> pkgList = new ArrayList<>();
+                
+                String[] pkgNames = cmd.getOptionValues("list");
+                if (pkgNames != null) {
+                    pkgList = List.of(cmd.getOptionValue("list").split(","));
+                }
+                
+                String pkg = cmd.getOptionValue("pkg");
+                if (pkg != null) {
+                    pkgList.add(pkg);
+                }
+
+                if (pkgList.size() == 0) {
+                    cli.printHelp(helpStr);
+                }
+                else {
+                    try (BufferedReader is = new BufferedReader(new InputStreamReader(System.in))) {
+                        AptSearcher.filter(is, pkgList);
+                    } catch (IOException e) {
+                        logger.log(Level.SEVERE, "Error occured when reading from stdin", e);
+                    }
+                }
+
+            }
+
             
             else if (cli.getCommand().equals("apt:install")) {
                 String infile = cmd.getOptionValue("infile");
-                AptInstaller installer = new AptInstaller.Builder(Path.of(infile)).build();
-                installer.install();
+
+                List<String> packages = AptInstaller.readFile(Path.of(infile));
+                AptInstaller.install(packages);
             }
             
             else if (cli.getCommand().equals("paper:sort")) {
@@ -189,6 +224,35 @@ public class App {
 
         return opts;
     }
+
+
+
+    
+    public static Options createAptFilterOptions() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("pkg")
+                       .option("p")
+                       .longOpt("pkg")
+                       .hasArg(true)
+                       .argName("pkg")
+                       .desc("A package name to display.")
+                       .required(false)
+                       .build());
+
+        
+        opts.addOption(Option.builder("list")
+                       .option("l")
+                       .longOpt("list")
+                       .hasArg(true)
+                       .argName("list")
+                       .desc("A list of package names (comma delimited)")
+                       .required(false)
+                       .build());
+        
+        return opts;
+    }
+
 
     
         
