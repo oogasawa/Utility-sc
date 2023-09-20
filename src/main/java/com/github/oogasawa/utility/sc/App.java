@@ -54,9 +54,11 @@ public class App {
         cli.addCommand("apt:command", createAptCommandOptions(), "Generate apt install command line.");
         cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
         cli.addCommand("apt:filter", createAptFilterOptions(), "Filter apt search results.");
+
         cli.addCommand("paper:sort", createPaperSortOptions(), "Sort papers into meaingful categories");
         cli.addCommand("paper:pmid_table", createPmidTableOptions(), "Print a table with respect to the elements with PMIDs");
         cli.addCommand("paper:pubmed_xml", createPubmedXmlOptions(), "Print an XML corresponding to the given Pubmed ID.");
+
         cli.addCommand("tsv:toHtml", createToHtmlOptions(), "Convert a TSV table to a HTML table.");
         cli.addCommand("tsv:check_table", createTableCheckerOptions(), "Check if the data in the table is normal.");
 
