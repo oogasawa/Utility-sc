@@ -31,6 +31,29 @@ import java.util.regex.Pattern;
  */
 public class AptSearcher {
     private static final Logger logger = Logger.getLogger(AptSearcher.class.getName());
+
+
+    /** Execute {@code apt search} command.
+     * 
+     * @param query A query string of {@code apt search}.
+     */
+    public static void aptSearch(String query) {
+        Process p;
+        try {
+            p = new ProcessBuilder("apt", "search", query)
+                .start();
+
+            BufferedReader is = new BufferedReader(new InputStreamReader(p.getInputStream()));
+
+            p.waitFor();
+        } catch (IOException e) {
+            logger.log(Level.WARNING, "Error occured while installing: " + query, e);
+        } catch (InterruptedException e) {
+            logger.log(Level.SEVERE, "Interrupted", e);
+        }
+    }
+
+
     
 
     /** Print the output of apt search to standard output
@@ -122,6 +145,13 @@ public class AptSearcher {
     }
 
 
+
+    public static void list(String category) {
+        if (category.equals("r-cran")) {
+            aptSearch("r-cran-*");
+        }
+    }
+    
 
     
 }

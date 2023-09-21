@@ -54,6 +54,7 @@ public class App {
         cli.addCommand("apt:command", createAptCommandOptions(), "Generate apt install command line.");
         cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
         cli.addCommand("apt:filter", createAptFilterOptions(), "Filter apt search results.");
+        cli.addCommand("apt:list", createAptListOptions(), "List deb packages");
         cli.addCommand("paper:sort", createPaperSortOptions(), "Sort papers into meaingful categories");
         cli.addCommand("paper:pmid_table", createPmidTableOptions(), "Print a table with respect to the elements with PMIDs");
         cli.addCommand("paper:pubmed_xml", createPubmedXmlOptions(), "Print an XML corresponding to the given Pubmed ID.");
@@ -87,11 +88,12 @@ public class App {
                 List<String> pkgList = new ArrayList<>();
                 
                 String[] pkgNames = cmd.getOptionValues("list");
+
                 if (pkgNames != null) {
                     pkgList = List.of(cmd.getOptionValue("list").split(","));
                 }
                 
-                String pkg = cmd.getOptionValue("pkg");
+                String pkg = cmd.getOptionValue("infile");
                 if (pkg != null) {
                     pkgList.add(pkg);
                 }
@@ -116,6 +118,25 @@ public class App {
                 List<String> packages = AptInstaller.readFile(Path.of(infile));
                 AptInstaller.install(packages);
             }
+
+
+            
+            else if (cli.getCommand().equals("apt:list")) {
+
+                String category = cmd.getOptionValue("category");
+                if (category != null) {
+                    AptSearcher.list(category);
+                }
+
+                
+                String infile = cmd.getOptionValue("infile");
+
+                List<String> packages = AptInstaller.readFile(Path.of(infile));
+                AptInstaller.install(packages);
+            }
+
+
+            
             
             else if (cli.getCommand().equals("paper:sort")) {
                 String infile = cmd.getOptionValue("infile");
@@ -272,6 +293,38 @@ public class App {
     }
 
 
+
+    
+    public static Options createAptListOptions() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("category")
+                       .option("c")
+                       .longOpt("category")
+                       .hasArg(true)
+                       .argName("category")
+                       .desc("Software category name (e.g. r-cran)")
+                       .required(false)
+                       .build());
+
+        
+        opts.addOption(Option.builder("infile")
+                       .option("i")
+                       .longOpt("infile")
+                       .hasArg(true)
+                       .argName("infile")
+                       .desc("A package name list file.")
+                       .required(false)
+                       .build());
+        
+        return opts;
+    }
+
+
+
+
+
+    
     
     public static Options createPaperSortOptions() {
         Options opts = new Options();

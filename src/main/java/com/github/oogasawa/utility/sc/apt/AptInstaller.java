@@ -1,6 +1,9 @@
 package com.github.oogasawa.utility.sc.apt;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -118,6 +121,55 @@ public class AptInstaller {
     }
 
 
+    /** Reads the input file and extract packages to install.
+     *
+     * @param resource A resource name (e.g. "/file.txt")
+     * @return A list of package names to install.
+     */
+    public static List<String> readResource(String resource) {
+
+        List<String> result = new ArrayList<String>();
+        
+        Pattern p1 = Pattern.compile("^([a-zA-Z0-9-_]+)\\/");
+        Pattern p2 = Pattern.compile("^([a-zA-Z0-9-_]+)$");
+
+        
+        try (InputStream in = AptInstaller.class.getResourceAsStream(resource);
+             BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
+
+
+            result =
+                reader.lines()
+                .map(line->{
+                        Matcher m = p1.matcher(line);
+                        if (m.find()) {
+                            Optional<String> opt = Optional.of(m.group(1));
+                            return opt;
+                        }
+
+                        m = p2.matcher(line);
+                        if (m.find()) {
+                            Optional<String> opt = Optional.of(m.group(1));
+                            return opt;
+                        }
+
+                        Optional<String> opt = Optional.empty();
+                        return opt;
+                    })
+                .filter(Optional::isPresent)
+                .map(Optional::get)
+                .collect(Collectors.toList());
+
+
+        }
+        catch (IOException e) {
+            logger.log(Level.SEVERE, "Can not read resource", e);
+        }
+
+        return result;
+    }
+
+    
 
     /** Generates a list of apt commands from a list of apt package names.
      * <p>
@@ -151,6 +203,30 @@ public class AptInstaller {
         
     }
 
+
+
+    /** Generates a list of apt commands from a list of apt package names.
+     * <p>
+     * This method returns a list of strings as shown in the following example.
+     * </p>
+     *
+     * <pre>{@code
+     * apt install -y build-essential
+     * apt install -y gfortran
+     * apt install -y gcc-doc
+     * }</pre>
+     * 
+     * @param aptPackages apt package list.
+     */
+    public static List<String> toAptCommandList(List<String> aptPackages) {
+        List<String> result = new ArrayList<>();
+
+        for (int i=0; i<aptPackages.size(); i++) {
+            result.add("apt install -y " + aptPackages.get(i));
+        }
+        
+        return result;
+    }
     
 
     
