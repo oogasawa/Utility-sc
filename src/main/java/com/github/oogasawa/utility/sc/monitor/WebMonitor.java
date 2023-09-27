@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -197,7 +198,10 @@ public class WebMonitor {
             codeList.add("Other");
 
             StringJoiner joiner = new StringJoiner("\t");
-            joiner.add(LocalDateTime.now().toString());
+
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+            String formattedTime = LocalDateTime.now().format(formatter);
+            joiner.add(formattedTime);
             for (String code: codeArray) {
                 if (statusCodeStats.containsKey(code)) {
                     joiner.add(String.valueOf(statusCodeStats.get(code)));
