@@ -89,6 +89,7 @@ public class AptInstaller {
         
         Pattern p1 = Pattern.compile("^([a-zA-Z0-9-_]+)\\/");
         Pattern p2 = Pattern.compile("^([a-zA-Z0-9-_]+)$");
+        Pattern p3 = Pattern.compile("^([a-zA-Z0-9-_]+)\\s");
         try {
             result =
                 Files.lines(infile)
@@ -105,6 +106,13 @@ public class AptInstaller {
                             return opt;
                         }
 
+                        m = p3.matcher(line);
+                        if (m.find()) {
+                            Optional<String> opt = Optional.of(m.group(1));
+                            return opt;
+                        }
+
+                        
                         Optional<String> opt = Optional.empty();
                         return opt;
                     })
@@ -169,6 +177,36 @@ public class AptInstaller {
         return result;
     }
 
+
+    
+    /** Applies {@code apt remove -y --purge} to each package given a list of package names.
+     * 
+     * @param aptPackages A list of package names to install.
+     */
+    public static void remove(List<String> aptPackages) {
+
+        for (String pkg: aptPackages) {
+            Process p;
+            try {
+                System.out.println("%Install " + pkg);
+                p = new ProcessBuilder("apt", "remove", "-y", "--purge", pkg)
+                    .inheritIO()
+                    .start();
+
+                p.waitFor();
+            } catch (IOException e) {
+                logger.log(Level.WARNING, "Error occured while installing: " + pkg, e);
+            } catch (InterruptedException e) {
+                logger.log(Level.SEVERE, "Interrupted", e);
+            }
+
+        }
+        
+    }
+
+
+
+
     
 
     /** Generates a list of apt commands from a list of apt package names.
@@ -185,7 +223,7 @@ public class AptInstaller {
      * 
      * @param aptPackages apt package list.
      */
-    public static String toAptCommand(List<String> aptPackages) {
+    public static String toAptInstallCommand(List<String> aptPackages) {
         
         StringJoiner rowJoiner = new StringJoiner(" \\\n");
         
@@ -200,6 +238,40 @@ public class AptInstaller {
         }
 
         return "apt install -y " + rowJoiner.toString();
+        
+    }
+
+
+    
+    /** Generates a list of apt commands from a list of apt package names.
+     * <p>
+     * This method returns the following string when a list of package names is given.
+     * </p>
+     *
+     * <pre>{@code
+     * apt remove -y --purge \
+     *    build-essential \
+     *    gfortran \
+     *    gcc-doc
+     * }</pre>
+     * 
+     * @param aptPackages apt package list.
+     */
+    public static String toAptRemoveCommand(List<String> aptPackages) {
+        
+        StringJoiner rowJoiner = new StringJoiner(" \\\n");
+        
+
+        StringJoiner colJoiner = new StringJoiner(" ");
+        for (int i=1; i<=aptPackages.size(); i++) {
+            colJoiner.add(aptPackages.get(i-1));
+            if (i%5 == 0) {
+                rowJoiner.add("    " + colJoiner.toString());
+                colJoiner = new StringJoiner(" ");
+            }
+        }
+
+        return "apt remove -y --purge " + rowJoiner.toString();
         
     }
 

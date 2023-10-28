@@ -55,7 +55,9 @@ public class App {
         cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
         cli.addCommand("apt:filter", createAptFilterOptions(), "Filter apt search results.");
         cli.addCommand("apt:list", createAptListOptions(), "List deb packages");
+        cli.addCommand("apt:remove", createAptRemoveOptions(), "Batch uninstall with apt remove");
 
+        
         cli.addCommand("paper:sort", createPaperSortOptions(), "Sort papers into meaingful categories");
         cli.addCommand("paper:pmid_table", createPmidTableOptions(), "Print a table with respect to the elements with PMIDs");
         cli.addCommand("paper:pubmed_xml", createPubmedXmlOptions(), "Print an XML corresponding to the given Pubmed ID.");
@@ -82,8 +84,9 @@ public class App {
                 String infile = cmd.getOptionValue("infile");
 
                 List<String> packages = AptInstaller.readFile(Path.of(infile));
-                System.out.println(AptInstaller.toAptCommand(packages));
+                System.out.println(AptInstaller.toAptInstallCommand(packages));
             }
+            
 
 
             else if (cli.getCommand().equals("apt:filter")) {
@@ -137,7 +140,15 @@ public class App {
                 AptInstaller.install(packages);
             }
 
+            else if (cli.getCommand().equals("apt:remove")) {
+                String infile = cmd.getOptionValue("infile");
 
+                List<String> packages = AptInstaller.readFile(Path.of(infile));
+                AptInstaller.remove(packages);
+            }
+
+
+            
             
             
             else if (cli.getCommand().equals("paper:sort")) {
@@ -322,6 +333,22 @@ public class App {
         return opts;
     }
 
+
+        
+    public static Options createAptRemoveOptions() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("infile")
+                       .option("i")
+                       .longOpt("infile")
+                       .hasArg(true)
+                       .argName("infile")
+                       .desc("Input file with list of packages to remove.")
+                       .required(true)
+                       .build());
+
+        return opts;
+    }
 
 
 
