@@ -120,8 +120,21 @@ public class App {
             else if (cli.getCommand().equals("apt:install")) {
                 String infile = cmd.getOptionValue("infile");
 
-                List<String> packages = AptInstaller.readFile(Path.of(infile));
-                AptInstaller.install(packages);
+                String fnumStr = cmd.getOptionValue("from");
+                String tnumStr = cmd.getOptionValue("to");
+
+                if (fnumStr != null && tnumStr != null) {
+                    int fnum = Integer.parseInt(fnumStr);
+                    int tnum = Integer.parseInt(tnumStr);
+                    List<String> packages = AptInstaller.readFile(Path.of(infile));
+                    AptInstaller.install(packages, fnum, tnum);
+                }
+                else {
+                    List<String> packages = AptInstaller.readFile(Path.of(infile));
+                    AptInstaller.install(packages);
+                }
+
+                
             }
 
 
@@ -143,8 +156,28 @@ public class App {
             else if (cli.getCommand().equals("apt:remove")) {
                 String infile = cmd.getOptionValue("infile");
 
-                List<String> packages = AptInstaller.readFile(Path.of(infile));
-                AptInstaller.remove(packages);
+                String includeComment = cmd.getOptionValue("includeComment");
+                List<String> packages = null;
+                if (includeComment != null) {
+                    packages = AptInstaller.readFile(Path.of(infile), true);
+                }
+                else {
+                    packages = AptInstaller.readFile(Path.of(infile), false);
+                }
+
+                
+                String fnumStr = cmd.getOptionValue("from");
+                String tnumStr = cmd.getOptionValue("to");
+
+                if (fnumStr != null && tnumStr != null) {
+                    int fnum = Integer.parseInt(fnumStr);
+                    int tnum = Integer.parseInt(tnumStr);
+                    AptInstaller.remove(packages, fnum, tnum);
+                }
+                else {
+                    AptInstaller.remove(packages);
+                }
+
             }
 
 
@@ -302,6 +335,26 @@ public class App {
                        .required(true)
                        .build());
 
+
+        opts.addOption(Option.builder("from")
+                       .option("f")
+                       .longOpt("from")
+                       .hasArg(true)
+                       .argName("from")
+                       .desc("Range of package numbers to install.")
+                       .required(false)
+                       .build());
+
+        opts.addOption(Option.builder("to")
+                       .option("t")
+                       .longOpt("to")
+                       .hasArg(true)
+                       .argName("to")
+                       .desc("Range of package numbers to install.")
+                       .required(false)
+                       .build());
+
+        
         return opts;
     }
 
@@ -347,6 +400,37 @@ public class App {
                        .required(true)
                        .build());
 
+        
+        opts.addOption(Option.builder("from")
+                       .option("f")
+                       .longOpt("from")
+                       .hasArg(true)
+                       .argName("from")
+                       .desc("Range of package numbers to be removed.")
+                       .required(false)
+                       .build());
+
+        opts.addOption(Option.builder("to")
+                       .option("t")
+                       .longOpt("to")
+                       .hasArg(true)
+                       .argName("to")
+                       .desc("Range of package numbers to be removed.")
+                       .required(false)
+                       .build());
+
+
+        opts.addOption(Option.builder("includeComment")
+                       .option("c")
+                       .longOpt("includeComment")
+                       .hasArg(false)
+                       .argName("includeComment")
+                       .desc("Lines with the package name commented out will also be processed for that package.")
+                       .required(false)
+                       .build());
+
+
+        
         return opts;
     }
 

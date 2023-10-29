@@ -20,7 +20,30 @@ import java.util.stream.Collectors;
 public class AptInstaller {
 
     private static final Logger logger = Logger.getLogger(AptInstaller.class.getName());
+
     
+    /** Applies {@code apt install} to each package given a list of package names.
+     * 
+     * @param aptPackages A list of package names to install.
+     */
+    public static void install(String pkg) {
+
+        try {
+            System.out.println("%Install " + pkg);
+            Process p = new ProcessBuilder("apt", "install", "-y", pkg)
+                    .inheritIO()
+                    .start();
+
+            p.waitFor();
+        } catch (IOException e) {
+            logger.log(Level.WARNING, "Error occured while installing: " + pkg, e);
+        } catch (InterruptedException e) {
+            logger.log(Level.SEVERE, "Interrupted", e);
+        }        
+        
+    }
+
+
 
     
     /** Applies {@code apt install} to each package given a list of package names.
@@ -48,6 +71,34 @@ public class AptInstaller {
         
     }
 
+
+    
+    /** Applies {@code apt install} to each package given a list of package names.
+     * 
+     * @param aptPackages A list of package names to install.
+     */
+    public static void install(List<String> aptPackages, int fnum, int tnum) {
+
+        for (int i=fnum; i<=tnum; i++) {
+            Process p;
+            try {
+                System.out.println("%Install " + aptPackages.get(i));
+                p = new ProcessBuilder("apt", "install", "-y", aptPackages.get(i))
+                    .inheritIO()
+                    .start();
+
+                p.waitFor();
+            } catch (IOException e) {
+                logger.log(Level.WARNING, "Error occured while installing: " + aptPackages.get(i), e);
+            } catch (InterruptedException e) {
+                logger.log(Level.SEVERE, "Interrupted", e);
+            }
+
+        }
+        
+    }
+
+    
 
     
     /** Reads the input file and extract packages to install.
@@ -129,6 +180,103 @@ public class AptInstaller {
     }
 
 
+
+
+    public static List<String> readFile(Path infile, boolean ignoreCommentingOut) {
+        if (ignoreCommentingOut) {
+            return readFileWithIgnoringCommentingOut(infile);
+        }
+        else {
+            return readFile(infile);
+        }
+    }
+
+
+    
+
+    
+    /** Reads the input file and extract packages to install.
+     *
+     * <h4>Example of the input data formats (1)</h4>
+     *
+     * <pre>{@code
+     * python3/jammy-updates,jammy-security,now 3.10.6-1~22.04 amd64 [installed]
+     *   interactive high-level object-oriented language (default python3 version)
+     *
+     * python-is-python3/jammy,jammy,now 3.9.2-2 all [installed]
+     *   symlinks /usr/bin/python to python3
+     * }</pre>
+     *
+     * <h4>Example of the input data formats (2)</h4>
+     *  <pre>{@code
+     * build-essential
+     * gfortran
+     * gcc-doc
+     * flex
+     * bison
+     * automake
+     * autoconf
+     * libtool
+     * autogen
+     * shtool
+     * lib6-dev-amd64
+     * libarchive-dev
+     * cmake
+     *  }</pre>
+     * 
+     * 
+     * @param infile A Path object of an input file.
+     * @return A list of package names to install.
+     */
+    public static List<String> readFileWithIgnoringCommentingOut(Path infile) {
+
+        List<String> result = new ArrayList<String>();
+        
+        Pattern p1 = Pattern.compile("^#?\\s*([a-zA-Z0-9-_]+)\\/");
+        Pattern p2 = Pattern.compile("^#?\\s*([a-zA-Z0-9-_]+)$");
+        Pattern p3 = Pattern.compile("^#?\\s*([a-zA-Z0-9-_]+)\\s");
+        try {
+            result =
+                Files.lines(infile)
+                .map(line->{
+                        Matcher m = p1.matcher(line);
+                        if (m.find()) {
+                            Optional<String> opt = Optional.of(m.group(1));
+                            return opt;
+                        }
+
+                        m = p2.matcher(line);
+                        if (m.find()) {
+                            Optional<String> opt = Optional.of(m.group(1));
+                            return opt;
+                        }
+
+                        m = p3.matcher(line);
+                        if (m.find()) {
+                            Optional<String> opt = Optional.of(m.group(1));
+                            return opt;
+                        }
+
+                        
+                        Optional<String> opt = Optional.empty();
+                        return opt;
+                    })
+                .filter(Optional::isPresent)
+                .map(Optional::get)
+                .collect(Collectors.toList());
+
+            
+        } catch (IOException e) {
+            logger.log(Level.SEVERE, "Can not read " + infile.toString(), e);
+        }
+
+        return result;
+    }
+
+
+
+    
+
     /** Reads the input file and extract packages to install.
      *
      * @param resource A resource name (e.g. "/file.txt")
@@ -204,6 +352,32 @@ public class AptInstaller {
         
     }
 
+
+    
+    /** Applies {@code apt remove -y --purge} to each package given a list of package names.
+     * 
+     * @param aptPackages A list of package names to install.
+     */
+    public static void remove(List<String> aptPackages, int fnum, int tnum) {
+
+        for (int i=fnum; i<=tnum; i++) {
+            Process p;
+            try {
+                System.out.println("%Install " + aptPackages.get(i));
+                p = new ProcessBuilder("apt", "remove", "-y", "--purge", aptPackages.get(i))
+                    .inheritIO()
+                    .start();
+
+                p.waitFor();
+            } catch (IOException e) {
+                logger.log(Level.WARNING, "Error occured while installing: " + aptPackages.get(i), e);
+            } catch (InterruptedException e) {
+                logger.log(Level.SEVERE, "Interrupted", e);
+            }
+
+        }
+        
+    }
 
 
 
