@@ -7,6 +7,7 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URISyntaxException;
@@ -24,6 +25,7 @@ import java.util.regex.Pattern;
 import javax.xml.stream.XMLStreamException;
 
 import com.github.oogasawa.utility.cli.CliCommands;
+import com.github.oogasawa.utility.sc.apt.AptFormatter;
 import com.github.oogasawa.utility.sc.apt.AptInstaller;
 import com.github.oogasawa.utility.sc.apt.AptSearcher;
 import com.github.oogasawa.utility.sc.paper.PaperInfo;
@@ -52,8 +54,9 @@ public class App {
         var cli = new CliCommands();
 
         cli.addCommand("apt:command", createAptCommandOptions(), "Generate apt install command line.");
-        cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
         cli.addCommand("apt:filter", createAptFilterOptions(), "Filter apt search results.");
+        cli.addCommand("apt:format", createAptFormatOptions(), "Format the information on packages to be installed.");
+        cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
         cli.addCommand("apt:list", createAptListOptions(), "List deb packages");
         cli.addCommand("apt:remove", createAptRemoveOptions(), "Batch uninstall with apt remove");
 
@@ -116,6 +119,29 @@ public class App {
 
             }
 
+
+
+            else if (cli.getCommand().equals("apt:format")) {
+                List<String> pkgList = new ArrayList<>();
+                
+                String infile = cmd.getOptionValue("infile");
+                logger.info("infile: " + infile);
+                
+                String pwd = System.getenv("PWD");
+                logger.info("Current working directory: " + pwd);
+                Path infilePath = Path.of(pwd, infile);
+
+                logger.info(infilePath.toString());
+                
+                try (BufferedReader is = new BufferedReader(new FileReader(infilePath.toFile()))) {
+                    AptFormatter.format(is);
+                } catch (IOException e) {
+                    logger.log(Level.SEVERE, "Error occured when reading from: " + infile, e);
+                }
+
+            }
+
+            
             
             else if (cli.getCommand().equals("apt:install")) {
                 String infile = cmd.getOptionValue("infile");
@@ -316,6 +342,25 @@ public class App {
                        .desc("A list of package names (comma delimited)")
                        .required(false)
                        .build());
+        
+        return opts;
+    }
+
+
+
+       
+    public static Options createAptFormatOptions() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("infile")
+                       .option("i")
+                       .longOpt("infile")
+                       .hasArg(true)
+                       .argName("infile")
+                       .desc("Input file about the package to be installed.")
+                       .required(false)
+                       .build());
+
         
         return opts;
     }
