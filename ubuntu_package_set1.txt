@@ -1,0 +1,1317 @@
+ 
+cadaver/jammy 0.23.3-2.1build1 amd64
+ 
+git/jammy-updates,now 1:2.34.1-1ubuntu1.10 amd64 [installed,automatic]
+ 
+lftp/jammy,now 4.9.2-1build1 amd64 [installed]
+ 
+net-tools/jammy,now 1.60+git20181103.0eebece-1ubuntu5 amd64 [installed,automatic]
+ 
+wget/jammy,now 1.21.2-2ubuntu1 amd64 [installed,automatic]
+ 
+xvfb/jammy-updates,jammy-security,now 2:21.1.4-2ubuntu1.7~22.04.2 amd64 [installed,automatic]
+ 
+emacs/jammy-updates,jammy-updates,now 1:27.1+1-3ubuntu5.1 all [installed]
+ 
+vim/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.13 amd64 [installed,automatic]
+ 
+imagemagick/jammy-apps-security,now 8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3+esm2 amd64 [installed,automatic]
+ 
+tree/jammy,now 2.0.2-1 amd64 [installed]
+ 
+build-essential/jammy,now 12.9ubuntu3 amd64 [installed]
+ 
+gfortran/jammy,now 4:11.2.0-1ubuntu1 amd64 [installed,automatic]
+ 
+gcc-doc/jammy 4:11.2.0-1ubuntu1 amd64
+ 
+flex/jammy 2.6.4-8build2 amd64
+ 
+bison/jammy 2:3.8.2+dfsg-1build1 amd64
+ 
+automake/jammy,jammy,now 1:1.16.5-1.3 all [installed,automatic]
+ 
+autoconf/jammy,jammy,now 2.71-2 all [installed,automatic]
+ 
+libtool/jammy,jammy,now 2.4.6-15build2 all [installed,automatic]
+ 
+autogen/jammy 1:5.18.16-4 amd64
+ 
+shtool/jammy,jammy 2.0.8-10 all
+  
+libarchive-dev/jammy 3.6.0-1ubuntu1 amd64
+ 
+cmake/jammy-updates 3.22.1-1ubuntu1.22.04.1 amd64
+ 
+clang/jammy 1:14.0-55~exp2 amd64
+ 
+r-cran-abind/jammy,jammy,now 1.4-5-2 all [installed,automatic]
+r-cran-acepack/jammy 1.4.1-2build3 amd64
+r-cran-actuar/jammy 3.2-1-1 amd64
+r-cran-ade4/jammy 1.7-18-1 amd64
+r-cran-adegenet/jammy 2.1.5-1 amd64
+r-cran-adegraphics/jammy,jammy 1.0-16-1 all
+r-cran-adephylo/jammy 1.1-11-4 amd64
+r-cran-aer/jammy,jammy 1.2-9-2build1 all
+r-cran-afex/jammy,jammy 1.0-1-1 all
+r-cran-airr/jammy,jammy 1.3.0-2 all
+r-cran-alakazam/jammy 1.2.0-1 amd64
+r-cran-amap/jammy 0.8-18-2build1 amd64
+r-cran-amelia/jammy 1.8.0-1 amd64
+r-cran-amore/jammy 0.2-16-2 amd64
+r-cran-animation/jammy,jammy 2.7+dfsg-1 all
+r-cran-apcluster/jammy 1.4.9-1 amd64
+r-cran-ape/jammy,now 5.6-1-1 amd64 [installed,automatic]
+r-cran-aplpack/jammy,jammy 1.3.5-1 all
+r-cran-argparse/jammy,jammy 2.1.3-1 all
+r-cran-argparser/jammy,jammy 0.7.1-1 all
+r-cran-arm/jammy,jammy 1.12-2-1 all
+r-cran-arsenal/jammy,jammy 3.6.3-1 all
+r-cran-askpass/jammy,now 1.1-2 amd64 [installed,automatic]
+r-cran-assertive.base/jammy,jammy 0.0-9-1 all
+r-cran-assertive.sets/jammy,jammy 0.0-3-3build1 all
+r-cran-assertthat/jammy,jammy,now 0.2.1-2build1 all [installed,automatic]
+r-cran-av/jammy 0.7.0+dfsg-1 amd64
+r-cran-aweek/jammy,jammy 1.0.2-1 all
+r-cran-backports/jammy,now 1.4.1-1 amd64 [installed,automatic]
+r-cran-base64enc/jammy,now 0.1-3-3 amd64 [installed,automatic]
+r-cran-base64url/jammy,now 1.4-2build1 amd64 [installed,automatic]
+r-cran-batchjobs/jammy,jammy,now 1.8-2build1 all [installed,automatic]
+r-cran-batchtools/jammy,now 0.9.15+dfsg-1 amd64 [installed,automatic]
+r-cran-bayesfactor/jammy 0.9.12-4.3+dfsg-1 amd64
+r-cran-bayesfm/jammy 0.1.5-1 amd64
+r-cran-bayesm/jammy 3.1-4+dfsg-1build2 amd64
+r-cran-bayesplot/jammy,jammy 1.8.1-1 all
+r-cran-bayestestr/jammy,jammy 0.11.5-1 all
+r-cran-bbmisc/jammy,now 1.11-4 amd64 [installed,automatic]
+r-cran-bbmle/jammy,jammy 1.0.24-3ubuntu1 all
+r-cran-bdgraph/jammy 2.64-1 amd64
+r-cran-bdsmatrix/jammy 1.3-4-1build1 amd64
+r-cran-beeswarm/jammy 0.4.0-1 amd64
+r-cran-bench/jammy,now 1.1.2-1 amd64 [installed,automatic]
+r-cran-benchmarkme/jammy,jammy 1.0.7-2 all
+r-cran-benchmarkmedata/jammy,jammy 1.0.4-2 all
+r-cran-bh/jammy,jammy,now 1.74.0-2 all [installed,automatic]
+r-cran-biasedurn/jammy,now 1.07-4 amd64 [installed,automatic]
+r-cran-bibtex/jammy 0.4.2.3-1 amd64
+r-cran-bigmemory.sri/jammy,jammy 0.1.3-3build1 all
+r-cran-bigmemory/jammy 4.5.36-1build2 amd64
+r-cran-bindr/jammy,jammy 0.1.1-3build1 all
+r-cran-bindrcpp/jammy 0.2.2-3 amd64
+r-cran-bio3d/jammy 2.4-2-1 amd64
+r-cran-biocmanager/jammy,jammy 1.30.16+dfsg-3 all
+r-cran-bios2cor/jammy,jammy 2.2-2 all
+r-cran-bit64/jammy,now 4.0.5-1 amd64 [installed,automatic]
+r-cran-bit/jammy,now 4.0.4+dfsg-1 amd64 [installed,automatic]
+r-cran-bitops/jammy,now 1.0-7-1 amd64 [installed,automatic]
+r-cran-biwt/jammy 1.0-2build1 amd64
+r-cran-blme/jammy,jammy 1.0-5-1 all
+r-cran-blob/jammy,jammy,now 1.2.2-1 all [installed,automatic]
+r-cran-blockmodeling/jammy 1.0.5-1 amd64
+r-cran-bms/jammy,jammy 0.3.4-6build1 all
+r-cran-bold/jammy,jammy 1.2.0-1 all
+r-cran-bookdown/jammy,jammy 0.21+dfsg-1 all
+r-cran-boolnet/jammy 2.1.5-3 amd64
+r-cran-boot/jammy,jammy,now 1.3-28-2 all [installed,automatic]
+r-cran-bradleyterry2/jammy,jammy 1.1-2-2build1 all
+r-cran-brew/jammy,jammy,now 1.0-7-1 all [installed,automatic]
+r-cran-brglm/jammy 0.7.2-1 amd64
+r-cran-bridgesampling/jammy,jammy 1.1-2-1 all
+r-cran-brio/jammy,now 1.1.3-1 amd64 [installed,automatic]
+r-cran-brms/jammy,jammy 2.16.3-1 all
+r-cran-brobdingnag/jammy,jammy 1.2-7-1 all
+r-cran-broom.mixed/jammy,jammy 0.2.7-1 all
+r-cran-broom/jammy,jammy 0.7.12+dfsg-1 all
+r-cran-ca/jammy,jammy 0.71.1-2build1 all
+r-cran-cachem/jammy,now 1.0.6-1 amd64 [installed,automatic]
+r-cran-caic4/jammy,jammy 1.0-1 all
+r-cran-cairo/jammy 1.5-14-1 amd64
+r-cran-calibrate/jammy,jammy 1.7.7-1 all
+r-cran-calibratr/jammy,jammy 0.1.2-2 all
+r-cran-callr/jammy,jammy,now 3.7.0-1 all [installed,automatic]
+r-cran-car/jammy,jammy 3.0-12-1 all
+r-cran-cardata/jammy,jammy 3.0.5-1 all
+r-cran-caret/jammy 6.0-90+dfsg-1 amd64
+r-cran-catools/jammy,now 1.18.2-1 amd64 [installed,automatic]
+r-cran-cba/jammy,now 0.2-21-2 amd64 [installed,automatic]
+r-cran-cellranger/jammy,jammy 1.1.0-3 all
+r-cran-cgdsr/jammy,jammy 1.3.0-2 all
+r-cran-checkmate/jammy,now 2.0.0-1build1 amd64 [installed,automatic]
+r-cran-chron/jammy,now 2.3-56-1 amd64 [installed,automatic]
+r-cran-circlize/jammy,jammy 0.4.14-1 all
+r-cran-circular/jammy 0.4-93-2 amd64
+r-cran-class/jammy,now 7.3-20-1 amd64 [installed,automatic]
+r-cran-classint/jammy 0.4-3-1build1 amd64
+r-cran-cli/jammy,now 3.2.0-1 amd64 [installed,automatic]
+r-cran-cliapp/jammy,jammy,now 0.1.1-1 all [installed,automatic]
+r-cran-clipr/jammy,jammy,now 0.8.0-1 all [installed,automatic]
+r-cran-clisymbols/jammy,jammy 1.2.0-2build1 all
+r-cran-clubsandwich/jammy,jammy 0.5.5-1 all
+r-cran-clue/jammy 0.3-60-1 amd64
+r-cran-cluster/jammy,now 2.1.2-2 amd64 [installed,automatic]
+r-cran-clustergeneration/jammy,jammy 1.3.7-1 all
+r-cran-cmprsk/jammy 2.2-11-1 amd64
+r-cran-cmstatr/jammy,jammy 0.9.1-1 all
+r-cran-coarsedatatools/jammy,jammy 0.6-6+dfsg-1 all
+r-cran-coda/jammy,jammy 0.19-4-1 all
+r-cran-codetools/jammy,jammy,now 0.2-18-1 all [installed,automatic]
+r-cran-coin/jammy 1.4-2-1 amd64
+r-cran-collapse/jammy 1.7.6-1 amd64
+r-cran-colorspace/jammy 2.0-2+dfsg-1 amd64
+r-cran-colourpicker/jammy,jammy 1.1.1+dfsg-1 all
+r-cran-combinat/jammy,jammy 0.0-8-7build1 all
+r-cran-commonmark/jammy,now 1.7-2 amd64 [installed,automatic]
+r-cran-conditionz/jammy,jammy 0.1.0-2 all
+r-cran-conquer/jammy 1.2.2-1 amd64
+r-cran-contfrac/jammy 1.1-12-2 amd64
+r-cran-conting/jammy,jammy 1.7-2build1 all
+r-cran-corpcor/jammy,jammy 1.6.10-1 all
+r-cran-corrplot/jammy,jammy 0.92-1 all
+r-cran-covid19us/jammy,jammy 0.1.7-1 all
+r-cran-covr/jammy,now 3.5.1+dfsg-2 amd64 [installed,automatic]
+r-cran-cowplot/jammy,jammy 1.1.1+dfsg-1 all
+r-cran-cpp11/jammy,jammy,now 0.4.2-1 all [installed,automatic]
+r-cran-crayon/jammy,jammy,now 1.5.0-1 all [installed,automatic]
+r-cran-credentials/jammy,jammy,now 1.3.2-1 all [installed,automatic]
+r-cran-crosstalk/jammy,jammy 1.2.0+dfsg-1 all
+r-cran-crul/jammy,jammy 1.2.0+dfsg-1 all
+r-cran-ctmcd/jammy 1.4.1-2 amd64
+r-cran-cubature/jammy 2.0.4.2-2 amd64
+r-cran-cubelyr/jammy,jammy 1.0.1-1 all
+r-cran-curl/jammy,now 4.3.2+dfsg-1 amd64 [installed,automatic]
+r-cran-cutpointr/jammy 1.1.1-2 amd64
+r-cran-cvst/jammy,jammy,now 0.2-2-3build1 all [installed,automatic]
+r-cran-d3network/jammy,jammy 0.5.2.1-3build1 all
+r-cran-data.table/jammy,now 1.14.2+dfsg-1 amd64 [installed,automatic]
+r-cran-datawizard/jammy,jammy 0.2.3-1 all
+r-cran-date/jammy 1.2.39-1build1 amd64
+r-cran-dbi/jammy,jammy,now 1.1.2-1 all [installed,automatic]
+r-cran-dbitest/jammy,jammy,now 1.7.2-1 all [installed,automatic]
+r-cran-dbplyr/jammy,jammy,now 2.1.1-1 all [installed,automatic]
+r-cran-dbscan/jammy 1.1-10+ds-1 amd64
+r-cran-ddalpha/jammy,now 1.3.11-1build2 amd64 [installed,automatic]
+r-cran-ddrtree/jammy 0.1.5-2 amd64
+r-cran-deal/jammy 1:1.2-39-2 amd64
+r-cran-decor/jammy,now 1.0.1-1 amd64 [installed,automatic]
+r-cran-deldir/jammy,now 1.0-6-1 amd64 [installed,automatic]
+r-cran-dendextend/jammy,jammy 1.15.2+dfsg-1 all
+r-cran-densityclust/jammy 0.3-2 amd64
+r-cran-deoptim/jammy 2.2-6-1 amd64
+r-cran-deoptimr/jammy,jammy,now 1.0-10-1 all [installed,automatic]
+r-cran-desc/jammy,jammy,now 1.4.0+dfsg-1 all [installed,automatic]
+r-cran-desolve/jammy 1.30-1 amd64
+r-cran-devtools/jammy,jammy,now 2.4.3-1 all [installed,automatic]
+r-cran-dfoptim/jammy,jammy 2020.10-1-1 all
+r-cran-diagnosismed/jammy,jammy 0.2.3-7build1 all
+r-cran-dichromat/jammy,jammy 1:2.0-0-3build1 all
+r-cran-diffobj/jammy,now 0.3.5-1 amd64 [installed,automatic]
+r-cran-digest/jammy,now 0.6.29-1 amd64 [installed,automatic]
+r-cran-dimred/jammy,now 0.2.4-1 amd64 [installed,automatic]
+r-cran-diptest/jammy 0.76-0-1 amd64
+r-cran-dirmult/jammy,jammy 0.1.3-4-2 all
+r-cran-discriminer/jammy,jammy 0.1-29-3build1 all
+r-cran-distory/jammy 1.4.4-1build1 amd64
+r-cran-distributional/jammy,jammy 0.3.0-1 all
+r-cran-docopt/jammy,jammy 0.7.1-2 all
+r-cran-domc/jammy,jammy,now 1.3.8-1 all [installed,automatic]
+r-cran-doparallel/jammy,jammy,now 1.0.17-1 all [installed,automatic]
+r-cran-dorng/jammy,jammy 1.8.2-2build1 all
+r-cran-dosefinding/jammy 1.0-2-1 amd64
+r-cran-dosnow/jammy,jammy 1.0.20-1 all
+r-cran-dotcall64/jammy 1.0-1-1 amd64
+r-cran-downlit/jammy,jammy 0.4.0-1 all
+r-cran-downloader/jammy,jammy 0.4-4build1 all
+r-cran-dplyr/jammy,now 1.0.8-2 amd64 [installed,automatic]
+r-cran-dqrng/jammy 0.3.0+dfsg-1 amd64
+r-cran-drr/jammy,jammy,now 0.0.4-2build1 all [installed,automatic]
+r-cran-dslabs/jammy,jammy 0.7.4-1 all
+r-cran-dt/jammy,jammy 0.17+dfsg-3 all
+r-cran-dtplyr/jammy,jammy 1.2.1-1 all
+r-cran-dygraphs/jammy,jammy 1.1.1.6+dfsg-2build1 all
+r-cran-dynamictreecut/jammy,jammy 1.63-1-3build1 all
+r-cran-dynlm/jammy,jammy 0.3.6-2build1 all
+r-cran-e1071/jammy,now 1.7-9-1 amd64 [installed,automatic]
+r-cran-eaf/jammy 2.3-1 amd64
+r-cran-earth/jammy 5.3.1-1 amd64
+r-cran-eco/jammy 4.0-1-4 amd64
+r-cran-ecodist/jammy 2.0.7-1 amd64
+r-cran-ecosolver/jammy 0.5.4-3 amd64
+r-cran-effects/jammy,jammy 4.2.1-1 all
+r-cran-effectsize/jammy,jammy 0.6.0.1-1 all
+r-cran-egg/jammy,jammy 0.4.5-3build1 all
+r-cran-ei/jammy,jammy 1.3-3-3build1 all
+r-cran-eipack/jammy 0.2-1-1build1 amd64
+r-cran-ellipse/jammy,jammy 0.4.2-1 all
+r-cran-ellipsis/jammy,now 0.3.2-2 amd64 [installed,automatic]
+r-cran-elliptic/jammy,jammy 1.4-0-2build1 all
+r-cran-emayili/jammy,jammy 0.7.0-2 all
+r-cran-emdbook/jammy,jammy 1.3.12+ds-2 all
+r-cran-emmeans/jammy,jammy 1.7.2-1 all
+r-cran-emoa/jammy 0.5-0.1-1build1 amd64
+r-cran-energy/jammy 1.7-9-1 amd64
+r-cran-epi/jammy 2.44-1 amd64
+r-cran-epibasix/jammy,jammy 1.5-2build1 all
+r-cran-epicalc/jammy,jammy 2.15.1.0-5build1 all
+r-cran-epiestim/jammy,jammy 2.2-4+dfsg-1 all
+r-cran-epir/jammy,jammy 2.0.41-1 all
+r-cran-epitools/jammy,jammy 1:0.5-10.1-2build1 all
+r-cran-erm/jammy 1.0-2-1 amd64
+r-cran-estimability/jammy,jammy 1.3-3build1 all
+r-cran-etm/jammy 1.1.1-1 amd64
+r-cran-evaluate/jammy,jammy,now 0.15-1 all [installed,automatic]
+r-cran-evd/jammy 2.3-3-3 amd64
+r-cran-exactranktests/jammy 0.8-34-1 amd64
+r-cran-expint/jammy 0.1-6-1build1 amd64
+r-cran-expm/jammy,now 0.999-6-1 amd64 [installed,automatic]
+r-cran-extradistr/jammy 1.9.1-1 amd64
+r-cran-factoextra/jammy,jammy 1.0.7-2 all
+r-cran-factominer/jammy,jammy 2.4-2 all
+r-cran-fail/jammy,jammy 1.3-4build1 all
+r-cran-fancova/jammy,jammy 0.6-1-2 all
+r-cran-fansi/jammy,now 1.0.2-1 amd64 [installed,automatic]
+r-cran-farver/jammy 2.1.0-1 amd64
+r-cran-fasianoptions/jammy 3042.82-1build2 amd64
+r-cran-fassets/jammy 3042.84-1build2 amd64
+r-cran-fastcluster/jammy 1.2.3-1build1 amd64
+r-cran-fastica/jammy,now 1.2-3-1 amd64 [installed,automatic]
+r-cran-fastmap/jammy,now 1.1.0-1 amd64 [installed,automatic]
+r-cran-fastmatch/jammy,now 1.1-3-1 amd64 [installed,automatic]
+r-cran-fauxpas/jammy,jammy 0.5.0+dfsg-2build1 all
+r-cran-fbasics/jammy 3042.89.1-1build1 amd64
+r-cran-fbonds/jammy,jammy 3042.78-4build1 all
+r-cran-fcopulae/jammy 3042.82.1-1build1 amd64
+r-cran-fdrtool/jammy 1.2.17-1 amd64
+r-cran-fexoticoptions/jammy,jammy 3042.80-3build1 all
+r-cran-fextremes/jammy,jammy 3042.82-3build1 all
+r-cran-ff/jammy 4.0.5+ds-1 amd64
+r-cran-ffield/jammy,jammy 0.1.0-3build1 all
+r-cran-fftw/jammy 1.0-6.1-1 amd64
+r-cran-fgarch/jammy 3042.83.2-1build1 amd64
+r-cran-fields/jammy 13.3-1 amd64
+r-cran-filehash/jammy,now 2.4-2-3 amd64 [installed,automatic]
+r-cran-filelock/jammy,now 1.0.2-2 amd64 [installed,automatic]
+r-cran-fimport/jammy,jammy 3042.85-3build1 all
+r-cran-findpython/jammy,jammy 1.0.7-1 all
+r-cran-fingerprint/jammy 3.5.7-2build1 amd64
+r-cran-fit.models/jammy,jammy 0.64-1 all
+r-cran-fitbitscraper/jammy,jammy 0.1.8-6build1 all
+r-cran-fitcoach/jammy,jammy 1.0-4build1 all
+r-cran-fitdistrplus/jammy,jammy 1.1-6-1 all
+r-cran-flashclust/jammy 1.01-2-3 amd64
+r-cran-flexmix/jammy,jammy 2.3-17-1 all
+r-cran-fmultivar/jammy,jammy 3042.80.1-2 all
+r-cran-fnn/jammy 1.1.3-2 amd64
+r-cran-fnonlinear/jammy 3042.79-1build2 amd64
+r-cran-fontbitstreamvera/jammy,jammy,now 0.1.1+dfsg-4build1 all [installed,automatic]
+r-cran-fontliberation/jammy,jammy,now 0.1.0+dfsg-4build1 all [installed,automatic]
+r-cran-fontquiver/jammy,jammy,now 0.2.1-3build1 all [installed,automatic]
+r-cran-foptions/jammy 3042.86-1build2 amd64
+r-cran-forcats/jammy,jammy,now 0.5.1-1 all [installed,automatic]
+r-cran-foreach/jammy,jammy,now 1.5.2-1 all [installed,automatic]
+r-cran-forecast/jammy 8.16-1 amd64
+r-cran-foreign/jammy,now 0.8.82-1 amd64 [installed,automatic]
+r-cran-formatr/jammy,jammy,now 1.11-1 all [installed,automatic]
+r-cran-formattable/jammy,jammy 0.2.1+dfsg-1 all
+r-cran-formula/jammy,jammy 1.2-4-1 all
+r-cran-fpc/jammy,jammy 2.2-9-1 all
+r-cran-fportfolio/jammy 3042.83.1-1build1 amd64
+r-cran-fracdiff/jammy 1.5-1-1build1 amd64
+r-cran-freetypeharfbuzz/jammy 0.2.6+dfsg-2 amd64
+r-cran-fregression/jammy 3042.82-1build2 amd64
+r-cran-fs/jammy,now 1.5.2+dfsg-1 amd64 [installed,automatic]
+r-cran-ftrading/jammy,jammy 3042.79-3build1 all
+r-cran-fts/jammy,now 0.9.9.2-2 amd64 [installed,automatic]
+r-cran-funitroots/jammy 3042.79-1build2 amd64
+r-cran-furrr/jammy,jammy,now 0.2.3-1 all [installed,automatic]
+r-cran-futile.logger/jammy,jammy,now 1.4.3-4build1 all [installed,automatic]
+r-cran-futile.options/jammy,jammy,now 1.0.1-3build1 all [installed,automatic]
+r-cran-future.apply/jammy,jammy,now 1.8.1-1 all [installed,automatic]
+r-cran-future.batchtools/jammy,jammy 0.10.0+dfsg-1 all
+r-cran-future/jammy,jammy,now 1.24.0+dfsg-1 all [installed,automatic]
+r-cran-g.data/jammy,jammy 2.4-4build1 all
+r-cran-gam/jammy,now 1.20-1 amd64 [installed,automatic]
+r-cran-gamm4/jammy,jammy 0.2-6-2 all
+r-cran-gargle/jammy,jammy 1.2.0-2 all
+r-cran-gb2/jammy,jammy 2.1-2 all
+r-cran-gbm/jammy 2.1.8-1 amd64
+r-cran-gbrd/jammy 0.4-11-2 amd64
+r-cran-gclus/jammy,jammy 1.3.2-2build1 all
+r-cran-gdata/jammy,jammy,now 2.18.0-3build1 all [installed,automatic]
+r-cran-gdtools/jammy 0.2.4-1 amd64
+r-cran-gee/jammy 4.13-20-2 amd64
+r-cran-geepack/jammy 1.3.3-1 amd64
+r-cran-genabel.data/jammy,jammy 1.0.0-4build1 all
+r-cran-genabel/jammy 1.8-0-5 amd64
+r-cran-generics/jammy,jammy,now 0.1.2-1 all [installed,automatic]
+r-cran-genetics/jammy,jammy 1.3.8.1.3-1 all
+r-cran-genie/jammy 1.0.5-2 amd64
+r-cran-genieclust/jammy 1.0.0-1 amd64
+r-cran-genoplotr/jammy,jammy 0.8.11+dfsg-2 all
+r-cran-geoknife/jammy,jammy 1.6.6-1 all
+r-cran-geometry/jammy,now 0.4.5-1build2 amd64 [installed,automatic]
+r-cran-geosphere/jammy 1.5-14-1 amd64
+r-cran-gert/jammy,now 1.5.0+dfsg-1 amd64 [installed,automatic]
+r-cran-getopt/jammy,jammy,now 1.20.3-3 all [installed,automatic]
+r-cran-getoptlong/jammy,jammy 1.0.5+dfsg-1 all
+r-cran-ggalluvial/jammy,jammy 0.12.3-1 all
+r-cran-ggally/jammy,jammy 2.1.2-1 all
+r-cran-gganimate/jammy,jammy 1.0.7-1 all
+r-cran-ggbeeswarm/jammy,jammy 0.6.0-3build1 all
+r-cran-ggdendro/jammy,jammy 0.1.22+dfsg-1 all
+r-cran-ggeffects/jammy,jammy 1.1.1-1 all
+r-cran-ggforce/jammy 0.3.3-1 amd64
+r-cran-ggfortify/jammy,jammy 0.4.14+dfsg-1 all
+r-cran-ggm/jammy,jammy 2.5-2build1 all
+r-cran-ggplot.multistats/jammy,jammy 1.0.0-2 all
+r-cran-ggplot2/jammy,jammy 3.3.5+dfsg-2 all
+r-cran-ggpubr/jammy,jammy 0.4.0-1 all
+r-cran-ggraph/jammy 2.0.5-1 amd64
+r-cran-ggrepel/jammy 0.9.1-1 amd64
+r-cran-ggridges/jammy,jammy 0.5.3-1 all
+r-cran-ggsci/jammy,jammy 2.9-3build1 all
+r-cran-ggseqlogo/jammy,jammy 0.1-2 all
+r-cran-ggsignif/jammy,jammy 0.6.3-1 all
+r-cran-ggtext/jammy,jammy 0.1.1-2 all
+r-cran-ggthemes/jammy,jammy 4.2.4-1 all
+r-cran-ggvis/jammy,jammy 0.4.7+dfsg-2 all
+r-cran-gh/jammy,jammy,now 1.3.0-1 all [installed,automatic]
+r-cran-git2r/jammy 0.29.0-1 amd64
+r-cran-gitcreds/jammy,jammy,now 0.1.1-2 all [installed,automatic]
+r-cran-glasso/jammy 1.11-1build1 amd64
+r-cran-glmmtmb/jammy 1.1.2.3-2 amd64
+r-cran-glmnet/jammy 4.1-3-1 amd64
+r-cran-globaloptions/jammy,jammy 0.1.2-1 all
+r-cran-globals/jammy,jammy,now 0.14.0-1 all [installed,automatic]
+r-cran-glue/jammy,now 1.6.1-1 amd64 [installed,automatic]
+r-cran-gmaps/jammy,jammy 0.2-5build1 all
+r-cran-gmm/jammy 1.6-6-1 amd64
+r-cran-gmodels/jammy,jammy 2.18.1-2build1 all
+r-cran-gmp/jammy 0.6-2.1-1 amd64
+r-cran-gnm/jammy 1.1-1-3 amd64
+r-cran-goftest/jammy 1.2-3-1 amd64
+r-cran-googledrive/jammy,jammy 2.0.0-2 all
+r-cran-googlesheets4/jammy,jammy 1.0.0-2 all
+r-cran-googlevis/jammy,jammy 0.6.11+dfsg-1 all
+r-cran-goplot/jammy,jammy 1.0.2-2 all
+r-cran-gower/jammy,now 1.0.0-1 amd64 [installed,automatic]
+r-cran-gparotation/jammy,jammy 2014.11-1-3build1 all
+r-cran-gplots/jammy,jammy,now 3.1.1-2 all [installed,automatic]
+r-cran-gprofiler2/jammy,jammy 0.2.1+dfsg-1 all
+r-cran-gprofiler/jammy,jammy 0.7.0-2build1 all
+r-cran-graphlayouts/jammy 0.8.0-1 amd64
+r-cran-gregmisc/jammy,jammy 2.1.5-4 all
+r-cran-gridbase/jammy,jammy 0.4-7-5build1 all
+r-cran-gridextra/jammy,jammy 2.3-3build1 all
+r-cran-gridgraphics/jammy,jammy 0.5-1-1 all
+r-cran-gridsvg/jammy,jammy 1.7-2-2build1 all
+r-cran-gridtext/jammy 0.1.4-1 amd64
+r-cran-grimport2/jammy,jammy 0.2-0-3build1 all
+r-cran-gsa/jammy,jammy 1.03.1-2build1 all
+r-cran-gsl/jammy 2.1-7.1-1build1 amd64
+r-cran-gss/jammy 2.2-3-2 amd64
+r-cran-gstat/jammy 2.0-8-1 amd64
+r-cran-gsubfn/jammy,jammy 0.7-2 all
+r-cran-gtable/jammy,jammy 0.3.0+dfsg-2build1 all
+r-cran-gtools/jammy,now 3.9.2-2 amd64 [installed,automatic]
+r-cran-guerry/jammy,jammy 1.7.4-1 all
+r-cran-gunifrac/jammy 1.4-1 amd64
+r-cran-gwidgets/jammy,jammy 0.0-54.2-2build1 all
+r-cran-gwidgetstcltk/jammy,jammy 0.0-55.1-3 all
+r-cran-haplo.stats/jammy 1.8.7-1 amd64
+r-cran-hash/jammy,jammy 2.2.6.1-3build1 all
+r-cran-haven/jammy 2.4.3-2 amd64
+r-cran-hdf5r/jammy 1.3.5+dfsg-1 amd64
+r-cran-heatmaply/jammy,jammy 1.3.0+dfsg-1 all
+r-cran-here/jammy,jammy 1.0.1-2 all
+r-cran-hexbin/jammy 1.28.2-1 amd64
+r-cran-highr/jammy,jammy,now 0.9+dfsg-1 all [installed,automatic]
+r-cran-hmisc/jammy 4.6-0-1 amd64
+r-cran-hms/jammy,jammy,now 1.1.1-1 all [installed,automatic]
+r-cran-hsaur3/jammy,jammy 1.0-12-1 all
+r-cran-htmltable/jammy,jammy 2.4.0-1 all
+r-cran-htmltools/jammy,now 0.5.2-1 amd64 [installed,automatic]
+r-cran-htmlwidgets/jammy,jammy,now 1.5.4+dfsg-1 all [installed,automatic]
+r-cran-httpcode/jammy,jammy 0.3.0-2build1 all
+r-cran-httpuv/jammy,now 1.6.5+dfsg-1 amd64 [installed,automatic]
+r-cran-httr/jammy,jammy,now 1.4.2-1 all [installed,automatic]
+r-cran-huge/jammy 1.3.5-1 amd64
+r-cran-hunspell/jammy 3.0.1+dfsg-3 amd64
+r-cran-hwriter/jammy,jammy,now 1.3.2-4build1 all [installed,automatic]
+r-cran-hypergeo/jammy,jammy 1.2-13-4build1 all
+r-cran-ica/jammy,jammy 1.0-2-3build1 all
+r-cran-ids/jammy,jammy 1.0.1-2 all
+r-cran-igraph/jammy,now 1.2.11-1 amd64 [installed,automatic]
+r-cran-incidence/jammy,jammy 1.7.3-1 all
+r-cran-ini/jammy,jammy,now 0.3.1-2build1 all [installed,automatic]
+r-cran-inline/jammy,jammy,now 0.3.19-2 all [installed,automatic]
+r-cran-insight/jammy,jammy 0.15.0-1 all
+r-cran-interp/jammy,now 1.0-33-1build2 amd64 [installed,automatic]
+r-cran-intervals/jammy 0.15.2-1build1 amd64
+r-cran-inum/jammy,jammy 1.0-4-1 all
+r-cran-ipred/jammy,now 0.9-12-1 amd64 [installed,automatic]
+r-cran-irace/jammy 3.4.1-1build1 amd64
+r-cran-irdisplay/jammy,jammy 1.1-1 all
+r-cran-irkernel/jammy,jammy 1.3-2 all
+r-cran-irlba/jammy 2.3.5-1 amd64
+r-cran-iso/jammy 0.0-18.1-1 amd64
+r-cran-isoband/jammy 0.2.5-1 amd64
+r-cran-isocodes/jammy,jammy 2022.01.10-1 all
+r-cran-isospecr/jammy 2.1.3-1 amd64
+r-cran-isoweek/jammy,jammy 0.6-2-3build1 all
+r-cran-iterators/jammy,jammy,now 1.0.14-1 all [installed,automatic]
+r-cran-itertools/jammy,jammy 0.1-3-3build1 all
+r-cran-janeaustenr/jammy,jammy 0.1.5-2 all
+r-cran-jomo/jammy 2.7-3-1 amd64
+r-cran-jpeg/jammy,now 0.1-9-1 amd64 [installed,automatic]
+r-cran-jquerylib/jammy,jammy 0.1.4+dfsg-3 all
+r-cran-jrc/jammy,jammy 0.5.1-1 all
+r-cran-jsonld/jammy,jammy 2.2+dfsg-1 all
+r-cran-jsonlite/jammy,now 1.7.3+dfsg-1 amd64 [installed,automatic]
+r-cran-kaos/jammy,jammy 0.1.2-2build1 all
+r-cran-kedd/jammy,jammy 1.0.3-2build1 all
+r-cran-kernelheaping/jammy,jammy 2.3.0-1 all
+r-cran-kernlab/jammy,now 0.9-29-1build2 amd64 [installed,automatic]
+r-cran-kernsmooth/jammy,now 2.23-20-1 amd64 [installed,automatic]
+r-cran-keyring/jammy 1.3.0-1 amd64
+r-cran-km.ci/jammy 0.5-2-2build1 amd64
+r-cran-kmi/jammy,jammy 0.5.5-2build1 all
+r-cran-kmsurv/jammy 0.1-5-2build1 amd64
+r-cran-knitr/jammy,jammy,now 1.37+dfsg-1 all [installed,automatic]
+r-cran-knn.covertree/jammy 1.0-2 amd64
+r-cran-kohonen/jammy 3.0.10+dfsg-2 amd64
+r-cran-ks/jammy 1.13.3-1 amd64
+r-cran-ksamples/jammy 1.2-9-2 amd64
+r-cran-kutils/jammy,jammy 1.70+dfsg-2build1 all
+r-cran-labdsv/jammy 2.0-1-1 amd64
+r-cran-labeling/jammy,jammy 0.4.2-1 all
+r-cran-laeken/jammy,jammy 0.5.2-1 all
+r-cran-lambda.r/jammy,jammy,now 1.2.4-2build1 all [installed,automatic]
+r-cran-lamw/jammy 2.1.1-1build2 amd64
+r-cran-lasso2/jammy 1.2-22-1 amd64
+r-cran-later/jammy,now 1.3.0+dfsg-1 amd64 [installed,automatic]
+r-cran-lattice/jammy,now 0.20-45-1 amd64 [installed,automatic]
+r-cran-latticeextra/jammy,jammy,now 0.6-29-3build1 all [installed,automatic]
+r-cran-lava/jammy,jammy,now 1.6.10+dfsg-1 all [installed,automatic]
+r-cran-lavaan/jammy,jammy 0.6.10-1 all
+r-cran-lavasearch2/jammy 1.5.6+dfsg-1 amd64
+r-cran-lazyeval/jammy,now 0.2.2-1build1 amd64 [installed,automatic]
+r-cran-lbfgsb3c/jammy 2020-3.2-2 amd64
+r-cran-leaps/jammy 3.1-1build1 amd64
+r-cran-learnbayes/jammy,jammy 2.15.1-4build1 all
+r-cran-leiden/jammy,jammy 0.3.9+dfsg-1 all
+r-cran-lexrankr/jammy 0.5.2-2 amd64
+r-cran-lhs/jammy 1.1.3-1 amd64
+r-cran-libcoin/jammy 1.0-9-1 amd64
+r-cran-lifecycle/jammy,jammy,now 1.0.1-1 all [installed,automatic]
+r-cran-linprog/jammy,now 0.9-2-2 amd64 [installed,automatic]
+r-cran-lisreltor/jammy,jammy 0.1.4-3build1 all
+r-cran-listenv/jammy,jammy,now 0.8.0+dfsg-1build1 all [installed,automatic]
+r-cran-littler/jammy,now 0.3.15-1 amd64 [installed,automatic]
+r-cran-lme4/jammy,now 1.1-28-1 amd64 [installed,automatic]
+r-cran-lmertest/jammy,jammy 3.1-3-1 all
+r-cran-lmtest/jammy 0.9.39-1 amd64
+r-cran-lobstr/jammy,now 1.1.1-2 amd64 [installed,automatic]
+r-cran-locfit/jammy,now 1.5-9.4-2build1 amd64 [installed,automatic]
+r-cran-logcondens/jammy,jammy 2.1.6-1 all
+r-cran-logger/jammy,jammy 0.2.2-1 all
+r-cran-logging/jammy,jammy 0.10-108-2build1 all
+r-cran-logspline/jammy 2.1.16-1build1 amd64
+r-cran-loo/jammy,jammy 2.4.1-1 all
+r-cran-lpsolve/jammy,now 5.6.15-1build1 amd64 [installed,automatic]
+r-cran-lsd/jammy,jammy 4.1-0-2 all
+r-cran-lsei/jammy 1.3-0-1 amd64
+r-cran-lsmeans/jammy,jammy 2.30-0-2build1 all
+r-cran-lubridate/jammy,now 1.8.0+dfsg-1 amd64 [installed,automatic]
+r-cran-luminescence/jammy 0.9.18-1 amd64
+r-cran-lwgeom/jammy 0.2-8-1build1 amd64
+r-cran-magic/jammy,jammy,now 1.6-0-1 all [installed,automatic]
+r-cran-magick/jammy 2.7.3+dfsg-2 amd64
+r-cran-magrittr/jammy,now 2.0.2-1 amd64 [installed,automatic]
+r-cran-maldiquant/jammy 1.21-1 amd64
+r-cran-maldiquantforeign/jammy,jammy 0.13-1 all
+r-cran-manipulatewidgets/jammy,jammy 0.11.1-3 all
+r-cran-maotai/jammy 0.2.4-1 amd64
+r-cran-mapdata/jammy 2.3.0-3 amd64
+r-cran-mapproj/jammy,now 1.2.8-1 amd64 [installed,automatic]
+r-cran-maps/jammy,now 3.4.0-1 amd64 [installed,automatic]
+r-cran-maptools/jammy 1:1.1-2+dfsg-1 amd64
+r-cran-maptree/jammy,jammy 1.4-7-4build1 all
+r-cran-markdown/jammy,now 1.1+dfsg-1build1 amd64 [installed,automatic]
+r-cran-markovchain/jammy 0.8.6-1build1 amd64
+r-cran-mass/jammy,now 7.3-55-1 amd64 [installed,automatic]
+r-cran-matching/jammy 4.9-11-1 amd64
+r-cran-matchit/jammy 4.3.3-1 amd64
+r-cran-mathjaxr/jammy,jammy 1.4-0-1 all
+r-cran-matlab/jammy,jammy 1.0.2-3build1 all
+r-cran-matrix/jammy,now 1.4-0-1 amd64 [installed,automatic]
+r-cran-matrixcalc/jammy,jammy 1.0.5-1 all
+r-cran-matrixmodels/jammy,jammy 0.5-0-1 all
+r-cran-matrixstats/jammy,now 0.61.0-1 amd64 [installed,automatic]
+r-cran-maxlik/jammy,jammy 1.5-2-1 all
+r-cran-maxstat/jammy 0.7-25-2build1 amd64
+r-cran-mclust/jammy 5.4.9-1 amd64
+r-cran-mclustcomp/jammy 0.3.3-1 amd64
+r-cran-mcmc/jammy 0.9-7-1build1 amd64
+r-cran-mcmcpack/jammy 1.6-0-1 amd64
+r-cran-mda/jammy 0.5-2-1 amd64
+r-cran-medadherence/jammy 1.03-6 amd64
+r-cran-mediana/jammy,jammy 1.0.8-3build1 all
+r-cran-memoise/jammy,jammy,now 2.0.1-1 all [installed,automatic]
+r-cran-mertools/jammy,jammy 0.5.2-1 all
+r-cran-metafor/jammy,jammy 3.0-2-1 all
+r-cran-metamix/jammy 0.3-2build1 amd64
+r-cran-metap/jammy,jammy 1.7-1 all
+r-cran-metrics/jammy,jammy 0.1.4-2build1 all
+r-cran-mets/jammy,now 1.2.9+dfsg-1 amd64 [installed,automatic]
+r-cran-mfilter/jammy,jammy 0.1.5-2build1 all
+r-cran-mgcv/jammy,now 1.8-39-1 amd64 [installed,automatic]
+r-cran-mi/jammy,jammy 1.0-8build1 all
+r-cran-mice/jammy 3.14.0-1 amd64
+r-cran-mime/jammy,now 0.12-1 amd64 [installed,automatic]
+r-cran-minerva/jammy 1.5.10-1 amd64
+r-cran-miniui/jammy,jammy 0.1.1.1-3build1 all
+r-cran-minpack.lm/jammy 1.2-1-5 amd64
+r-cran-minqa/jammy,now 1.2.4-1build4 amd64 [installed,automatic]
+r-cran-misc3d/jammy,jammy 0.9-1-1 all
+r-cran-misctools/jammy,jammy 0.6-26-2build1 all
+r-cran-mitml/jammy,jammy 0.4-3-1 all
+r-cran-mitools/jammy,jammy 2.4-2build1 all
+r-cran-mixsqp/jammy 0.3-43-2 amd64
+r-cran-mixtools/jammy 1.2.0-1build1 amd64
+r-cran-mlbench/jammy,now 2.1-3-1 amd64 [installed,automatic]
+r-cran-mlmetrics/jammy,jammy 1.1.1-3build1 all
+r-cran-mlmrev/jammy,jammy 1.0-8-2build1 all
+r-cran-mlr/jammy 2.19.0+dfsg-1 amd64
+r-cran-mnormt/jammy 2.0.2-1 amd64
+r-cran-mnp/jammy 3.1-2-1 amd64
+r-cran-mockery/jammy,jammy,now 0.4.3+dfsg-1 all [installed,automatic]
+r-cran-mockr/jammy,jammy,now 0.1-3build1 all [installed,automatic]
+r-cran-modeest/jammy,jammy 2.4.0-2 all
+r-cran-modeldata/jammy,jammy,now 0.1.1-1 all [installed,automatic]
+r-cran-modelmetrics/jammy 1.2.2.2-1build1 amd64
+r-cran-modelr/jammy,jammy 0.1.8-1build1 all
+r-cran-modeltools/jammy,jammy 0.2-23-2build1 all
+r-cran-mpoly/jammy,jammy 1.1.1-2 all
+r-cran-msm/jammy 1.6.9-1 amd64
+r-cran-multcomp/jammy,jammy 1.4-18-1 all
+r-cran-multcompview/jammy,jammy 0.1-8-2build1 all
+r-cran-multicool/jammy 0.1-12-1 amd64
+r-cran-multidimbio/jammy,jammy 1.2.2-2build1 all
+r-cran-multilevel/jammy,jammy 2.6-3build1 all
+r-cran-munsell/jammy,jammy 0.5.0-2build1 all
+r-cran-mutoss/jammy,jammy 0.1-12-3build1 all
+r-cran-mvnfast/jammy 0.2.7+dfsg-1 amd64
+r-cran-mvnormtest/jammy 0.1-9-1build3 amd64
+r-cran-mvtnorm/jammy,now 1.1-3-1 amd64 [installed,automatic]
+r-cran-nanotime/jammy 0.3.5-1 amd64
+r-cran-natserv/jammy,jammy 1.0.0+dfsg-1build1 all
+r-cran-ncdf4/jammy 1.19-1 amd64
+r-cran-ncdfgeom/jammy,jammy 1.1.1-1 all
+r-cran-ncmeta/jammy,jammy 0.3.0-1 all
+r-cran-network/jammy 1.17.1-1 amd64
+r-cran-nfactors/jammy,jammy 2.4.1-2build1 all
+r-cran-nleqslv/jammy 3.3.2-2 amd64
+r-cran-nlme/jammy,now 3.1.155-1 amd64 [installed,automatic]
+r-cran-nloptr/jammy,now 2.0.0-1 amd64 [installed,automatic]
+r-cran-nlp/jammy,jammy 0.2-1-1 all
+r-cran-nmf/jammy 0.23.0-1 amd64
+r-cran-nnet/jammy,now 7.3-17-1 amd64 [installed,automatic]
+r-cran-nnls/jammy 1.4-3build1 amd64
+r-cran-nortest/jammy,jammy 1.0-4-3 all
+r-cran-nozzle.r1/jammy,jammy 1.1-1+dfsg-4build1 all
+r-cran-npsurv/jammy,jammy 0.5-0-1 all
+r-cran-numderiv/jammy,jammy,now 2016.8-1.1-3 all [installed,automatic]
+r-cran-openmx/jammy 2.20.3+dfsg-1build1 amd64
+r-cran-openssl/jammy,now 1.4.6+dfsg-1ubuntu1 amd64 [installed,automatic]
+r-cran-openxlsx/jammy 4.2.5-1 amd64
+r-cran-optimalcutpoints/jammy,jammy 1.1-5-1 all
+r-cran-optimx/jammy,jammy 2021-10.12+dfsg-1 all
+r-cran-optparse/jammy,jammy 1.7.1-1 all
+r-cran-ordinal/jammy 2019.12-10-1build1 amd64
+r-cran-orthopolynom/jammy,jammy 1.0.5-2 all
+r-cran-packrat/jammy,jammy 0.7.0-1 all
+r-cran-palmerpenguins/jammy,jammy,now 0.1.0-2 all [installed,automatic]
+r-cran-pammtools/jammy,jammy 0.5.8-1 all
+r-cran-pan/jammy 1.6-2 amd64
+r-cran-pander/jammy 0.6.4+dfsg-1 amd64
+r-cran-parallelly/jammy,jammy,now 1.30.0-1 all [installed,automatic]
+r-cran-parallelmap/jammy,jammy 1.5.1-1 all
+r-cran-parameters/jammy,jammy 0.16.0-1 all
+r-cran-paramhelpers/jammy 1.14-1build1 amd64
+r-cran-parmigene/jammy 1.1.0-1 amd64
+r-cran-parsetools/jammy,jammy 0.1.3-3 all
+r-cran-partitions/jammy 1.10-4+ds-1 amd64
+r-cran-party/jammy 1.3-9-1 amd64
+r-cran-partykit/jammy 1.2-15-2 amd64
+r-cran-patchwork/jammy,jammy 1.1.1-1 all
+r-cran-pbapply/jammy,jammy 1.5-0-1 all
+r-cran-pbdzmq/jammy 0.3.7+dfsg-1 amd64
+r-cran-pbivnorm/jammy 0.6.0-4 amd64
+r-cran-pbkrtest/jammy,jammy 0.5.1-1 all
+r-cran-pbmcapply/jammy 1.5.0-2 amd64
+r-cran-pcapp/jammy 1.9-74-1 amd64
+r-cran-pcict/jammy 0.5-4.1-2 amd64
+r-cran-pdftools/jammy 3.1.0-1 amd64
+r-cran-pec/jammy 2021.10.11-2 amd64
+r-cran-performance/jammy,jammy 0.8.0-1 all
+r-cran-permute/jammy,jammy 0.9-7-1 all
+r-cran-phangorn/jammy,now 2.8.1-1 amd64 [installed,automatic]
+r-cran-pheatmap/jammy,jammy 1.0.12-2build1 all
+r-cran-phylobase/jammy 0.8.10-1build1 amd64
+r-cran-phytools/jammy,jammy 1.0-1-1 all
+r-cran-pillar/jammy,jammy,now 1.7.0+dfsg-1 all [installed,automatic]
+r-cran-pingr/jammy 2.0.1-2 amd64
+r-cran-pixmap/jammy,jammy 0.4-12-1 all
+r-cran-pkgbuild/jammy,jammy,now 1.3.1-1 all [installed,automatic]
+r-cran-pkgcond/jammy,jammy 0.1.1-1 all
+r-cran-pkgconfig/jammy,jammy,now 2.0.3-2build1 all [installed,automatic]
+r-cran-pkgkitten/jammy,jammy,now 0.2.2-2 all [installed,automatic]
+r-cran-pkgload/jammy,jammy,now 1.2.4-1 all [installed,automatic]
+r-cran-pkgmaker/jammy,jammy 0.32.2-1 all
+r-cran-pki/jammy 0.1-9-1ubuntu1 amd64
+r-cran-plm/jammy,jammy 2.6-0-1 all
+r-cran-plogr/jammy,jammy,now 0.2.0-3build1 all [installed,automatic]
+r-cran-plot3d/jammy,jammy 1.4-2 all
+r-cran-plotly/jammy,jammy 4.10.0+dfsg-1 all
+r-cran-plotmo/jammy,jammy 3.6.1-1 all
+r-cran-plotrix/jammy,jammy 3.8-2-1 all
+r-cran-pls/jammy,jammy,now 2.8-0-1 all [installed,automatic]
+r-cran-plumber/jammy,jammy 1.1.0+ds-1 all
+r-cran-plyr/jammy,now 1.8.6-2build1 amd64 [installed,automatic]
+r-cran-png/jammy,now 0.1-7-4 amd64 [installed,automatic]
+r-cran-poissonbinomial/jammy 1.2.4-1 amd64
+r-cran-polspline/jammy 1.1.19-1 amd64
+r-cran-polyclip/jammy,now 1.10-0-2 amd64 [installed,automatic]
+r-cran-polycor/jammy,jammy 0.8-0-1 all
+r-cran-polycub/jammy 0.8.0-2 amd64
+r-cran-polynom/jammy,jammy 1.4-0-3build1 all
+r-cran-popepi/jammy,jammy 0.4.9+dfsg-1 all
+r-cran-posterior/jammy,jammy 1.2.0-1 all
+r-cran-postlogic/jammy,jammy 0.1.0.1-3build1 all
+r-cran-powerlaw/jammy,jammy 0.70.6-2build1 all
+r-cran-prabclus/jammy,jammy 2.3-2-2build1 all
+r-cran-pracma/jammy,jammy 2.3.6-1 all
+r-cran-praise/jammy,jammy,now 1.0.0-4build1 all [installed,automatic]
+r-cran-prediction/jammy,jammy 0.3.14-2build1 all
+r-cran-prettycode/jammy,jammy,now 1.1.0-2build1 all [installed,automatic]
+r-cran-prettyr/jammy,jammy 2.2-3-2build1 all
+r-cran-prettyunits/jammy,jammy,now 1.1.1-2build1 all [installed,automatic]
+r-cran-princurve/jammy 2.1.6-1 amd64
+r-cran-proc/jammy 1.18.0-1 amd64
+r-cran-processx/jammy,now 3.5.2-2 amd64 [installed,automatic]
+r-cran-prodlim/jammy,now 2019.11.13-1build1 amd64 [installed,automatic]
+r-cran-profilemodel/jammy,jammy 0.6.1-1 all
+r-cran-profmem/jammy,jammy,now 0.6.0+dfsg-1 all [installed,automatic]
+r-cran-progress/jammy,jammy,now 1.2.2-2build1 all [installed,automatic]
+r-cran-progressr/jammy,jammy,now 0.10.0-1 all [installed,automatic]
+r-cran-projpred/jammy 2.0.2+dfsg-1 amd64
+r-cran-promises/jammy,now 1.2.0.1+dfsg-1 amd64 [installed,automatic]
+r-cran-propclust/jammy 1.4-6-1build1 amd64
+r-cran-prophet/jammy 1.0+dfsg-3 amd64
+r-cran-proto/jammy,jammy 1.0.0-3build1 all
+r-cran-proxy/jammy,now 0.4-26-1 amd64 [installed,automatic]
+r-cran-ps/jammy,now 1.6.0-1 amd64 [installed,automatic]
+r-cran-pscbs/jammy,jammy 0.66.0-2 all
+r-cran-pscl/jammy 1.5.5-1build1 amd64
+r-cran-psy/jammy,jammy 1.1-5build1 all
+r-cran-psych/jammy,jammy 2.1.9-2 all
+r-cran-psychometric/jammy 2.2-2 amd64
+r-cran-psychotools/jammy 0.7-0-1 amd64
+r-cran-psychotree/jammy,jammy 0.15-4-2 all
+r-cran-psychtools/jammy,jammy 2.1.12-1 all
+r-cran-psyphy/jammy,jammy 0.2-3-1 all
+r-cran-publish/jammy,jammy 2020.12.23-2 all
+r-cran-purrr/jammy,now 0.3.4-1build1 amd64 [installed,automatic]
+r-cran-purrrlyr/jammy 0.0.7-1 amd64
+r-cran-purrrogress/jammy,jammy 0.1.1-3build1 all
+r-cran-pvclust/jammy,jammy 2.2-0-2build1 all
+r-cran-pwr/jammy,jammy 1.3-0+dfsg-1build1 all
+r-cran-pwt8/jammy,jammy 8.1.1-5build1 all
+r-cran-pwt9/jammy,jammy 9.1-0-2build1 all
+r-cran-pwt/jammy,jammy 7.1.1-7build1 all
+r-cran-qap/jammy 0.1-1-2 amd64
+r-cran-qgraph/jammy 1.9.1-1 amd64
+r-cran-qlcmatrix/jammy,jammy 0.9.7-2 all
+r-cran-qpdf/jammy 1.1+dfsg-1build4 amd64
+r-cran-qqman/jammy,jammy 0.1.8+dfsg-1 all
+r-cran-qtl/jammy 1.50-1 amd64
+r-cran-quadprog/jammy,now 1.5-8-1build1 amd64 [installed,automatic]
+r-cran-quantmod/jammy,jammy,now 0.4.18-1 all [installed,automatic]
+r-cran-quantreg/jammy 5.88-1 amd64
+r-cran-qvcalc/jammy,jammy 1.0.2-2build1 all
+r-cran-r.cache/jammy,jammy 0.15.0-1 all
+r-cran-r.devices/jammy,jammy 2.17.0+ds-3 all
+r-cran-r.methodss3/jammy,jammy,now 1.8.1-1 all [installed,automatic]
+r-cran-r.oo/jammy,jammy,now 1.24.0-1 all [installed,automatic]
+r-cran-r.rsp/jammy,jammy 0.44.0+ds-2 all
+r-cran-r.utils/jammy,jammy,now 2.11.0-1 all [installed,automatic]
+r-cran-r2d2/jammy,jammy 1.0-0-3build1 all
+r-cran-r6/jammy,jammy,now 2.5.1-1 all [installed,automatic]
+r-cran-ragg/jammy,now 1.2.1-1 amd64 [installed,automatic]
+r-cran-randomfields/jammy 3.3.14-1 amd64
+r-cran-randomfieldsutils/jammy 1.1.0-1 amd64
+r-cran-randomforest/jammy 4.7-1-1 amd64
+r-cran-randomglm/jammy 1.02-1-1build1 amd64
+r-cran-ranger/jammy,now 0.13.1-1 amd64 [installed,automatic]
+r-cran-rann/jammy,now 2.6.1-1build2 amd64 [installed,automatic]
+r-cran-rappdirs/jammy,now 0.3.3-1 amd64 [installed,automatic]
+r-cran-raschsampler/jammy 0.8-8-3 amd64
+r-cran-raster/jammy 3.5-15-1 amd64
+r-cran-ratelimitr/jammy,jammy 0.4.1-2 all
+r-cran-rbibutils/jammy 2.2.7-2 amd64
+r-cran-rcarb/jammy,jammy 0.1.5-1 all
+r-cran-rcdk/jammy,jammy 3.6.0+dfsg-1 all
+r-cran-rcdklibs/jammy,jammy 2.3+dfsg-8 all
+r-cran-rcmdcheck/jammy,jammy,now 1.4.0-2 all [installed,automatic]
+r-cran-rcmdr/jammy,jammy 2.7-2-1 all
+r-cran-rcmdrmisc/jammy,jammy 2.7-2-1 all
+r-cran-rcolorbrewer/jammy,jammy,now 1.1-2-3 all [installed,automatic]
+r-cran-rcpp/jammy,now 1.0.8-1 amd64 [installed,automatic]
+r-cran-rcppannoy/jammy 0.0.19-1 amd64
+r-cran-rcpparmadillo/jammy,now 0.10.8.1.0-1 amd64 [installed,automatic]
+r-cran-rcppcctz/jammy 0.2.10-1 amd64
+r-cran-rcppdate/jammy,jammy 0.0.3-2 all
+r-cran-rcppdist/jammy 0.1.1-1 amd64
+r-cran-rcppeigen/jammy,now 0.3.3.9.1-1 amd64 [installed,automatic]
+r-cran-rcppgsl/jammy 0.3.10-1build1 amd64
+r-cran-rcpphnsw/jammy 0.3.0.9001+ds-1 amd64
+r-cran-rcppmlpack/jammy 1.0.10-7-2 amd64
+r-cran-rcppparallel/jammy 5.1.5+dfsg-1ubuntu1 amd64
+r-cran-rcppprogress/jammy,jammy,now 0.4.2-2build1 all [installed,automatic]
+r-cran-rcpproll/jammy,now 0.3.0-2 amd64 [installed,automatic]
+r-cran-rcpptoml/jammy 0.1.7-2 amd64
+r-cran-rcsdp/jammy 0.1.57.2-1 amd64
+r-cran-rcurl/jammy,now 1.98-1.6-1 amd64 [installed,automatic]
+r-cran-rdbnomics/jammy,jammy 0.6.4-1 all
+r-cran-rdflib/jammy,jammy 0.2.5+dfsg-1 all
+r-cran-rdpack/jammy,jammy 2.1.4-1 all
+r-cran-readbrukerflexdata/jammy,jammy 1.8.5-3build1 all
+r-cran-readmzxmldata/jammy,jammy 2.8.1-4build1 all
+r-cran-readr/jammy,now 2.1.2-1 amd64 [installed,automatic]
+r-cran-readstata13/jammy 0.10.0-2 amd64
+r-cran-readxl/jammy 1.3.1-2build2 amd64
+r-cran-recipes/jammy,jammy,now 0.1.17+dfsg-1 all [installed,automatic]
+r-cran-redland/jammy 1.0.17-16-1 amd64
+r-cran-registry/jammy,jammy 0.5-1-2build1 all
+r-cran-regsem/jammy 1.8.0+dfsg-1 amd64
+r-cran-relimp/jammy,jammy 1.0-5-4 all
+r-cran-relsurv/jammy 2.2-6-1 amd64
+r-cran-rematch2/jammy,jammy,now 2.1.2-2build1 all [installed,automatic]
+r-cran-rematch/jammy,jammy 1.0.1-3 all
+r-cran-remotes/jammy,jammy,now 2.4.2-1 all [installed,automatic]
+r-cran-rentrez/jammy,jammy 1.2.3+dfsg-1 all
+r-cran-repr/jammy,jammy 1.1.4-1 all
+r-cran-reprex/jammy,jammy 2.0.1-1 all
+r-cran-reshape2/jammy 1.4.4-2build1 amd64
+r-cran-reshape/jammy,jammy 0.8.8-2build1 all
+r-cran-restfulr/jammy,now 0.0.13-2 amd64 [installed,automatic]
+r-cran-reticulate/jammy 1.24+dfsg-1 amd64
+r-cran-rex/jammy,jammy,now 1.2.1-1 all [installed,automatic]
+r-cran-rgdal/jammy 1.5-28+dfsg-1 amd64
+r-cran-rgenoud/jammy 5.8-3.0-2 amd64
+r-cran-rgl/jammy 0.108.3-1 amd64
+r-cran-rglpk/jammy 0.6-4-1build1 amd64
+r-cran-rglwidget/jammy,jammy 0.2.1-4build1 all
+r-cran-rgooglemaps/jammy,jammy 1.4.5.3-2 all
+r-cran-rhandsontable/jammy,jammy 0.3.7+dfsg-1 all
+r-cran-rinside/jammy 0.2.16-1build1 amd64
+r-cran-rio/jammy,jammy 0.5.29-1 all
+r-cran-riskregression/jammy 2021.10.10+ds-2 amd64
+r-cran-ritis/jammy,jammy 1.0.0-1 all
+r-cran-rjags/jammy 1:4-12-1 amd64
+r-cran-rjava/jammy 1.0-6-1 amd64
+r-cran-rjson/jammy,now 0.2.21-1 amd64 [installed,automatic]
+r-cran-rlang/jammy,now 1.0.1-1 amd64 [installed,automatic]
+r-cran-rle/jammy 0.9.2-2 amd64
+r-cran-rlinsolve/jammy 0.3.2-1 amd64
+r-cran-rlist/jammy,jammy 0.4.6.2-1 all
+r-cran-rlrsim/jammy 3.1-6-1build1 amd64
+r-cran-rlumshiny/jammy,jammy 0.2.2-2build1 all
+r-cran-rmarkdown/jammy,jammy 2.6+dfsg-1 all
+r-cran-rmpfr/jammy 0.8-7-0.1 amd64
+r-cran-rmpi/jammy,now 0.6-9.2-2 amd64 [installed,automatic]
+r-cran-rms/jammy 6.2-0-1build1 amd64
+r-cran-rmutil/jammy 1.1.8-1 amd64
+r-cran-rmysql/jammy,now 0.10.23-1 amd64 [installed,automatic]
+r-cran-rnaturalearthdata/jammy,jammy 0.1.0-2 all
+r-cran-rncl/jammy 0.8.4-1build1 amd64
+r-cran-rneos/jammy,jammy 0.4-0-3 all
+r-cran-rnetcdf/jammy 2.5-2-1 amd64
+r-cran-rnexml/jammy,jammy 2.4.6+ds-1 all
+r-cran-rngtools/jammy,jammy 1.5.2-1 all
+r-cran-rniftilib/jammy 0.0-35.r79-6 amd64
+r-cran-robumeta/jammy,jammy 2.0-3build1 all
+r-cran-robust/jammy 0.7-0-1 amd64
+r-cran-robustbase/jammy,now 0.93-9-1 amd64 [installed,automatic]
+r-cran-robustrankaggreg/jammy,jammy 1.1-3build1 all
+r-cran-rockchalk/jammy,jammy 1.8.151+dfsg-1 all
+r-cran-rocr/jammy,jammy 1.0-11-2build1 all
+r-cran-rodbc/jammy 1.3-19-1 amd64
+r-cran-rook-examples/jammy,jammy 1.1-1+dfsg-3 all
+r-cran-rook/jammy 1.1-1+dfsg-3 amd64
+r-cran-rose/jammy,jammy 0.0-4-2 all
+r-cran-rotl/jammy,jammy 3.0.12-1 all
+r-cran-roxygen2/jammy,now 7.1.2-1 amd64 [installed,automatic]
+r-cran-rpact/jammy 3.2.1-1 amd64
+r-cran-rpart/jammy,now 4.1.16-1 amd64 [installed,automatic]
+r-cran-rpf/jammy 1.0.11+dfsg-1 amd64
+r-cran-rpostgresql/jammy,now 0.7-3+dfsg-1 amd64 [installed,automatic]
+r-cran-rprojroot/jammy,jammy,now 2.0.2-1 all [installed,automatic]
+r-cran-rprotobuf/jammy 0.4.18-1 amd64
+r-cran-rquantlib/jammy 0.4.15-1 amd64
+r-cran-rrcov/jammy 1.6-2-1 amd64
+r-cran-rredlist/jammy,jammy 0.7.0-1 all
+r-cran-rsample/jammy,jammy,now 0.1.1-1 all [installed,automatic]
+r-cran-rsclient/jammy 0.7-6-1build1 amd64
+r-cran-rsconnect/jammy,jammy 0.8.25-1 all
+r-cran-rsdmx/jammy,jammy 1:0.6+dfsg-1 all
+r-cran-rserve/jammy 1.8-10-1 amd64
+r-cran-rslurm/jammy,jammy 0.6.1+dfsg-1 all
+r-cran-rsolnp/jammy,jammy 1.16+dfsg-4build1 all
+r-cran-rspectra/jammy,now 0.16-0-1build2 amd64 [installed,automatic]
+r-cran-rsqlite/jammy,now 2.2.9-1 amd64 [installed,automatic]
+r-cran-rstan/jammy 2.21.3-1 amd64
+r-cran-rstanarm/jammy 2.21.1-1 amd64
+r-cran-rstantools/jammy,jammy 2.1.1-1build1 all
+r-cran-rstatix/jammy,jammy 0.7.0-1 all
+r-cran-rstudioapi/jammy,jammy,now 0.13-1 all [installed,automatic]
+r-cran-rsvd/jammy,jammy 1.0.5-1 all
+r-cran-rsvg/jammy 2.2.0-1 amd64
+r-cran-rsymphony/jammy 0.1-33-1 amd64
+r-cran-rtdists/jammy 0.11-5-1 amd64
+r-cran-rtsne/jammy 0.15-2build1 amd64
+r-cran-rtweet/jammy,jammy 0.7.0-2 all
+r-cran-runit/jammy,jammy,now 0.4.32-3 all [installed,automatic]
+r-cran-rversions/jammy,jammy,now 2.1.1-1 all [installed,automatic]
+r-cran-rvest/jammy,jammy,now 1.0.2-2 all [installed,automatic]
+r-cran-rwave/jammy 2.6-0-1 amd64
+r-cran-rwiener/jammy 1.3-3-1build1 amd64
+r-cran-s2/jammy 1.0.7-3build1 amd64
+r-cran-sampling/jammy 2.9-2 amd64
+r-cran-samr/jammy 3.0-2 amd64
+r-cran-sandwich/jammy,jammy 3.0-1-2 all
+r-cran-sass/jammy,now 0.4.0+dfsg-1 amd64 [installed,automatic]
+r-cran-satellite/jammy 1.0.4-2 amd64
+r-cran-scales/jammy,jammy 1.1.1-1build1 all
+r-cran-scatterd3/jammy,jammy 1.0.0+dfsg-1 all
+r-cran-scattermore/jammy 0.8-1 amd64
+r-cran-scatterplot3d/jammy,jammy 0.3-41-3build1 all
+r-cran-sctransform/jammy 0.3.3-1 amd64
+r-cran-sdmtools/jammy 1.1-221.2-1build1 amd64
+r-cran-segmented/jammy,jammy 1.4-0-1 all
+r-cran-selectr/jammy,jammy,now 0.4-2-2build1 all [installed,automatic]
+r-cran-sem/jammy 3.1.13-1 amd64
+r-cran-semplot/jammy,jammy 1.1.4-1 all
+r-cran-semtools/jammy,jammy 0.5.5-1 all
+r-cran-sendmailr/jammy,jammy,now 1.2-1-5build1 all [installed,automatic]
+r-cran-seqinr/jammy 4.2-8-1 amd64
+r-cran-seriation/jammy 1.3.2-1 amd64
+r-cran-seroincidence/jammy,jammy 2.0.0-2build1 all
+r-cran-sessioninfo/jammy,jammy,now 1.2.2-1 all [installed,automatic]
+r-cran-setrng/jammy,jammy,now 2013.9-1-3 all [installed,automatic]
+r-cran-sets/jammy 1.0.21+ds-1 amd64
+r-cran-seurat/jammy 4.1.0-1 amd64
+r-cran-seuratobject/jammy 4.0.4-1 amd64
+r-cran-sf/jammy 1.0-6+dfsg-1 amd64
+r-cran-sfsmisc/jammy,jammy,now 1.1-12-1 all [installed,automatic]
+r-cran-shades/jammy,jammy 1.4.0-2 all
+r-cran-shape/jammy,jammy 1.4.6-1 all
+r-cran-shapes/jammy,jammy 1.2.6-2 all
+r-cran-shazam/jammy,jammy 1.1.0-1 all
+r-cran-shiny/jammy,jammy 1.5.0+dfsg-2 all
+r-cran-shinybs/jammy,jammy 0.61-4 all
+r-cran-shinycssloaders/jammy,jammy 1.0.0-1 all
+r-cran-shinydashboard/jammy,jammy 0.7.2-1 all
+r-cran-shinyfiles/jammy,jammy 0.9.1-1 all
+r-cran-shinyjs/jammy,jammy 2.1.0-1 all
+r-cran-shinystan/jammy,jammy 2.5.0-4 all
+r-cran-shinythemes/jammy,jammy 1.2.0+dfsg-1 all
+r-cran-simplermarkdown/jammy,jammy 0.0.4-1 all
+r-cran-sitmo/jammy 2.0.2-1 amd64
+r-cran-sjlabelled/jammy,jammy 1.1.8-1 all
+r-cran-sjmisc/jammy,jammy 2.8.9-1 all
+r-cran-sjplot/jammy,jammy 2.8.10-1 all
+r-cran-sjstats/jammy,jammy 0.18.1-1 all
+r-cran-slam/jammy 0.1-50-1 amd64
+r-cran-slider/jammy,now 0.2.2-1 amd64 [installed,automatic]
+r-cran-sm/jammy 2.2-5.7-1 amd64
+r-cran-smcfcs/jammy,jammy 1.6.0-2 all
+r-cran-smoother/jammy,jammy 1.1-2 all
+r-cran-sn/jammy,jammy 2.0.1-1 all
+r-cran-sna/jammy 2.6-1 amd64
+r-cran-snakecase/jammy,jammy 0.11.0-2build1 all
+r-cran-snow/jammy,jammy,now 1:0.4.4-2 all [installed,automatic]
+r-cran-snowballc/jammy 0.7.0-1build1 amd64
+r-cran-snowfall/jammy,jammy 1.84-6.1-3 all
+r-cran-sodium/jammy,now 1.2.0-1 amd64 [installed,automatic]
+r-cran-solrium/jammy,jammy 1.2.0+dfsg-1 all
+r-cran-sourcetools/jammy 0.1.7-3 amd64
+r-cran-sp/jammy 1:1.4-6-1 amd64
+r-cran-spacetime/jammy,jammy 1.2-6+dfsg-1 all
+r-cran-spam/jammy 2.8-0-1 amd64
+r-cran-sparql/jammy,jammy 1.16-2 all
+r-cran-sparr/jammy,jammy 2.2-15-2 all
+r-cran-sparsem/jammy 1.81-1 amd64
+r-cran-sparsesvd/jammy 0.2-2 amd64
+r-cran-spatial/jammy,now 7.3-15-1 amd64 [installed,automatic]
+r-cran-spatialreg/jammy 1.2-1+dfsg-1 amd64
+r-cran-spatstat.core/jammy 2.3-2-1 amd64
+r-cran-spatstat.data/jammy,jammy 2.1-2-1 all
+r-cran-spatstat.geom/jammy 2.3-2-1 amd64
+r-cran-spatstat.linnet/jammy 2.3-1-1 amd64
+r-cran-spatstat.random/jammy 2.1-0-2 amd64
+r-cran-spatstat.sparse/jammy 2.1-0-1 amd64
+r-cran-spatstat.utils/jammy 2.3-0-1 amd64
+r-cran-spatstat/jammy 2.3-0-1 amd64
+r-cran-spc/jammy 1:0.6.5-1 amd64
+r-cran-spdata/jammy,jammy 2.0.1-1 all
+r-cran-spdep/jammy 1.2-2+dfsg-1 amd64
+r-cran-spelling/jammy,jammy 2.2-2 all
+r-cran-splines2/jammy 0.4.5-1 amd64
+r-cran-spp/jammy 1.16.0-2 amd64
+r-cran-sqldf/jammy,jammy 0.4-11-2 all
+r-cran-squarem/jammy,jammy,now 2021.1-1 all [installed,automatic]
+r-cran-stable/jammy 1.1.4-2 amd64
+r-cran-stabledist/jammy,jammy 0.7-1-3 all
+r-cran-stablelearner/jammy,jammy 0.1-3+ds-2 all
+r-cran-stanheaders/jammy 2.21.0-7-1build1 amd64
+r-cran-stars/jammy,jammy 0.5-5-2 all
+r-cran-startupmsg/jammy,jammy 0.9.6-2 all
+r-cran-statcheck/jammy,jammy 1.3.0-2 all
+r-cran-statip/jammy 0.2.3-2 amd64
+r-cran-statmod/jammy,now 1.4.36-1 amd64 [installed,automatic]
+r-cran-statnet.common/jammy 4.5.0-1 amd64
+r-cran-stringdist/jammy 0.9.8-1 amd64
+r-cran-stringi/jammy,now 1.7.6-1build1 amd64 [installed,automatic]
+r-cran-stringr/jammy,jammy,now 1.4.0-2build1 all [installed,automatic]
+r-cran-strucchange/jammy 1.5-2-1+1build1 amd64
+r-cran-suppdists/jammy 1.1-9.7-1 amd64
+r-cran-surveillance/jammy 1.19.1-1 amd64
+r-cran-survey/jammy,jammy 4.1-1-1 all
+r-cran-survival/jammy,now 3.2-13-1 amd64 [installed,automatic]
+r-cran-survminer/jammy,jammy 0.4.9+dfsg-1 all
+r-cran-survmisc/jammy,jammy 0.5.5-3 all
+r-cran-susier/jammy,jammy 0.11.92-1 all
+r-cran-svglite/jammy,now 2.1.0-1 amd64 [installed,automatic]
+r-cran-svmisc/jammy,jammy 1.2.3-1 all
+r-cran-svunit/jammy,jammy 1.0.6-2 all
+r-cran-swagger/jammy,jammy 3.33.1-1 all
+r-cran-sys/jammy,now 3.4-1 amd64 [installed,automatic]
+r-cran-systemfit/jammy,jammy 1.1-24-2 all
+r-cran-systemfonts/jammy,now 1.0.4-1 amd64 [installed,automatic]
+r-cran-taxize/jammy,jammy 0.9.99-1 all
+r-cran-tcltk2/jammy,jammy 1.2-11-3 all
+r-cran-tcr/jammy 2.3.2+ds-1 amd64
+r-cran-teachingdemos/jammy,jammy 2.12-2 all
+r-cran-tensor/jammy,jammy 1.5-4 all
+r-cran-tensora/jammy 0.36.2-2 amd64
+r-cran-terra/jammy 1.5-21-2 amd64
+r-cran-testextra/jammy,jammy 0.1.0.1-3 all
+r-cran-testit/jammy,jammy,now 0.13-1 all [installed,automatic]
+r-cran-testthat/jammy,now 3.1.2-1 amd64 [installed,automatic]
+r-cran-textshaping/jammy,now 0.3.6-1 amd64 [installed,automatic]
+r-cran-tfisher/jammy,jammy 0.2.0-3 all
+r-cran-tfmpvalue/jammy 0.0.8-2 amd64
+r-cran-tgp/jammy 2.4-17-1 amd64
+r-cran-th.data/jammy,jammy,now 1.1-0-1 all [installed,automatic]
+r-cran-thematic/jammy,jammy 0.1.2.1-2 all
+r-cran-themis/jammy,jammy 0.1.4-2 all
+r-cran-threejs/jammy,jammy 0.3.3+dfsg-2build1 all
+r-cran-tibble/jammy,now 3.1.6+dfsg-1 amd64 [installed,automatic]
+r-cran-tidygraph/jammy 1.2.0-1build1 amd64
+r-cran-tidyr/jammy,now 1.2.0-1 amd64 [installed,automatic]
+r-cran-tidyselect/jammy,now 1.1.2+dfsg-1 amd64 [installed,automatic]
+r-cran-tidytext/jammy,jammy 0.3.2-1 all
+r-cran-tidyverse/jammy,jammy 1.3.1-1 all
+r-cran-tiff/jammy 0.1-11-1 amd64
+r-cran-tigger/jammy,jammy 1.0.0-1 all
+r-cran-tikzdevice/jammy,now 0.12.3.1-2 amd64 [installed,automatic]
+r-cran-timedate/jammy,now 3043.102-1build2 amd64 [installed,automatic]
+r-cran-timereg/jammy,now 2.0.1-1 amd64 [installed,automatic]
+r-cran-timeseries/jammy,jammy,now 3062.100-2build1 all [installed,automatic]
+r-cran-tinytest/jammy,jammy,now 1.3.1-1 all [installed,automatic]
+r-cran-tinytex/jammy,jammy,now 0.37-1 all [installed,automatic]
+r-cran-tkrplot/jammy 0.0.26-1 amd64
+r-cran-tm/jammy 0.7-8-1 amd64
+r-cran-tmb/jammy 1.7.22-2 amd64
+r-cran-tmvnsim/jammy 1.0-2-1 amd64
+r-cran-tmvtnorm/jammy 1.4-10-4 amd64
+r-cran-tokenizers/jammy 0.2.1-3 amd64
+r-cran-transformr/jammy 0.1.3-1 amd64
+r-cran-treescape/jammy 1.10.18+dfsg-2build1 amd64
+r-cran-treespace/jammy 1.1.4.1+dfsg-1 amd64
+r-cran-triebeard/jammy 0.3.0-4 amd64
+r-cran-trimcluster/jammy,jammy 0.1-5-2 all
+r-cran-truncdist/jammy,jammy 1.0-2-4build1 all
+r-cran-truncnorm/jammy 1.0-8-3 amd64
+r-cran-tseries/jammy,now 0.10-49-1 amd64 [installed,automatic]
+r-cran-tsne/jammy,jammy 0.1-3-3 all
+r-cran-tsp/jammy 1.2-0-1 amd64
+r-cran-ttr/jammy,now 0.24.3-1 amd64 [installed,automatic]
+r-cran-tufte/jammy,jammy 0.11-1 all
+r-cran-tweenr/jammy 1.0.2-1 amd64
+r-cran-tzdb/jammy,now 0.2.0-1 amd64 [installed,automatic]
+r-cran-ucminf/jammy 1.1-4-3 amd64
+r-cran-udunits2/jammy 0.13.2-1 amd64
+r-cran-unbalanced/jammy,jammy 2.0-2 all
+r-cran-uniqtag/jammy,jammy 1.0-2 all
+r-cran-unitizer/jammy,jammy 1.4.17-1 all
+r-cran-units/jammy,now 0.8-0+dfsg-1 amd64 [installed,automatic]
+r-cran-upsetr/jammy,jammy 1.4.0+dfsg-2 all
+r-cran-urca/jammy 1.3-0-3build1 amd64
+r-cran-urltools/jammy 1.7.3+dfsg-2 amd64
+r-cran-uroot/jammy,jammy 2.1-2-1 all
+r-cran-usethis/jammy,jammy,now 2.1.5-1 all [installed,automatic]
+r-cran-utf8/jammy,now 1.2.2-1 amd64 [installed,automatic]
+r-cran-uuid/jammy 1.0-3-1 amd64
+r-cran-uwot/jammy 0.1.11-1 amd64
+r-cran-v8/jammy 4.1.0+dfsg-1 amd64
+r-cran-vcd/jammy,jammy 1:1.4-9-1 all
+r-cran-vcdextra/jammy,jammy 0.7-6-1 all
+r-cran-vcr/jammy 1.0.2+dfsg-1 amd64
+r-cran-vctrs/jammy,now 0.3.8-2 amd64 [installed,automatic]
+r-cran-vdiffr/jammy,now 1.0.2-1 amd64 [installed,automatic]
+r-cran-vegan/jammy 2.5-7+dfsg-2 amd64
+r-cran-venndiagram/jammy,jammy 1.7.1-1 all
+r-cran-vgam/jammy 1.1-6-1 amd64
+r-cran-vim/jammy 6.1.1+dfsg-1 amd64
+r-cran-vioplot/jammy,jammy 0.3.7-1 all
+r-cran-vipor/jammy,jammy 0.4.5-3 all
+r-cran-viridis/jammy,jammy 0.6.2-1 all
+r-cran-viridislite/jammy,jammy 0.4.0-2 all
+r-cran-vroom/jammy,now 1.5.7-1 amd64 [installed,automatic]
+r-cran-waldo/jammy,jammy,now 0.3.1-1 all [installed,automatic]
+r-cran-warp/jammy,now 0.2.0-1 amd64 [installed,automatic]
+r-cran-waveslim/jammy 1.8.2-1build1 amd64
+r-cran-wavethresh/jammy 4.6.8-3 amd64
+r-cran-wdi/jammy,jammy 2.7.5-1 all
+r-cran-webfakes/jammy,now 1.1.3-2 amd64 [installed,automatic]
+r-cran-webgestaltr/jammy 0.4.4-1 amd64
+r-cran-webmockr/jammy,jammy 0.8.0-1 all
+r-cran-webshot/jammy,jammy 0.5.2-2build1 all
+r-cran-webutils/jammy,now 1.1-1build1 amd64 [installed,automatic]
+r-cran-wgcna/jammy 1.70-3-1 amd64
+r-cran-whatif/jammy,jammy 1.5-10-1 all
+r-cran-whisker/jammy,jammy,now 0.4-2 all [installed,automatic]
+r-cran-whoami/jammy,jammy 1.3.0-2 all
+r-cran-wikidataqueryservicer/jammy,jammy 1.0.0-2 all
+r-cran-wikidatar/jammy,jammy 2.3.3-1 all
+r-cran-wikipedir/jammy,jammy 1.5.0-3build1 all
+r-cran-wikitaxa/jammy,jammy 0.4.0+dfsg-1 all
+r-cran-withr/jammy,jammy,now 2.4.3-2 all [installed,automatic]
+r-cran-wk/jammy 0.6.0-1 amd64
+r-cran-wkutils/jammy 0.1.1-1 amd64
+r-cran-wordcloud/jammy 2.6-2 amd64
+r-cran-worrms/jammy,jammy 0.4.2+dfsg-1 all
+r-cran-xfun/jammy,now 0.29-1 amd64 [installed,automatic]
+r-cran-xml2/jammy,now 1.3.3-1 amd64 [installed,automatic]
+r-cran-xml/jammy,now 3.99-0.9-1 amd64 [installed,automatic]
+r-cran-xopen/jammy,jammy,now 1.0.0-2build1 all [installed,automatic]
+r-cran-xslt/jammy 1.4.3-1 amd64
+r-cran-xtable/jammy,jammy 1:1.8-4-2 all
+r-cran-xts/jammy,now 0.12.1-1 amd64 [installed,automatic]
+r-cran-yaml/jammy,now 2.3.5-1 amd64 [installed,automatic]
+r-cran-zeallot/jammy,jammy 0.1.0-3 all
+r-cran-zelig/jammy,jammy 5.1.7-1 all
+r-cran-zeligchoice/jammy,jammy 0.9-6-3 all
+r-cran-zeligei/jammy,jammy 0.1-2-3 all
+r-cran-zeligverse/jammy,jammy 0.1.1-3 all
+r-cran-zip/jammy,now 2.2.0-2 amd64 [installed,automatic]
+r-cran-zoo/jammy,now 1.8-9-1 amd64 [installed,automatic]
+ 
+r-bioc-affxparser/jammy 1.66.0-1 amd64
+r-bioc-affy/jammy 1.72.0-1 amd64
+r-bioc-affyio/jammy 1.64.0-1 amd64
+r-bioc-all/jammy,jammy,now 1.36.0-1 all [installed,automatic]
+r-bioc-altcdfenvs/jammy,jammy 1:2.56.0-1 all
+r-bioc-annotate/jammy,jammy 1.72.0+dfsg-1 all
+r-bioc-annotationdbi/jammy,jammy,now 1.56.2-1 all [installed,automatic]
+r-bioc-annotationfilter/jammy,jammy 1.18.0+dfsg-1 all
+r-bioc-annotationhub/jammy,jammy 3.2.1+dfsg-1 all
+r-bioc-aroma.light/jammy,jammy 3.24.0-1 all
+r-bioc-arrayexpress/jammy,jammy 1.54.0-1 all
+r-bioc-ballgown/jammy,jammy 2.26.0+dfsg-1 all
+r-bioc-basilisk.utils/jammy,jammy 1.6.0+ds-1 all
+r-bioc-beachmat/jammy 2.10.0+ds-1 amd64
+r-bioc-biobase/jammy,now 2.54.0-1 amd64 [installed,automatic]
+r-bioc-bioccheck/jammy,jammy 1.30.0+dfsg-1 all
+r-bioc-biocfilecache/jammy,jammy,now 2.2.1+dfsg-1 all [installed,automatic]
+r-bioc-biocgenerics/jammy,jammy,now 0.40.0-1 all [installed,automatic]
+r-bioc-biocio/jammy,jammy,now 1.4.0+dfsg-1 all [installed,automatic]
+r-bioc-biocneighbors/jammy 1.12.0+ds-1 amd64
+r-bioc-biocparallel/jammy,now 1.28.3-1 amd64 [installed,automatic]
+r-bioc-biocsingular/jammy 1.10.0+ds-1 amd64
+r-bioc-biocstyle/jammy,jammy 2.22.0+dfsg-1 all
+r-bioc-biocversion/jammy,jammy 3.14.0-1 all
+r-bioc-biocviews/jammy,jammy 1.62.1-1 all
+r-bioc-biomart/jammy,jammy,now 2.50.3+dfsg-1 all [installed,automatic]
+r-bioc-biomformat/jammy,jammy 1.22.0+dfsg-1 all
+r-bioc-biostrings/jammy,now 2.62.0-1 amd64 [installed,automatic]
+r-bioc-biovizbase/jammy 1.42.0-1 amd64
+r-bioc-bitseq/jammy 1.38.0+dfsg-1 amd64
+r-bioc-bladderbatch/jammy,jammy 1.32.0-1 all
+r-bioc-bluster/jammy 1.4.0+dfsg-1 amd64
+r-bioc-bsgenome/jammy,jammy 1.62.0-1 all
+r-bioc-chemminer/jammy 3.46.0+dfsg-1 amd64
+r-bioc-cner/jammy 1.30.0+dfsg-1 amd64
+r-bioc-complexheatmap/jammy,jammy 2.10.0+dfsg-1 all
+r-bioc-consensusclusterplus/jammy,jammy 1.58.0-1 all
+r-bioc-ctc/jammy,jammy 1.68.0-1 all
+r-bioc-cummerbund/jammy,jammy 2.36.0-1 all
+r-bioc-dada2/jammy 1.22.0+dfsg-1build2 amd64
+r-bioc-degnorm/jammy 1.4.0+ds-1 amd64
+r-bioc-degreport/jammy,jammy 1.30.0+dfsg-1 all
+r-bioc-delayedarray/jammy,now 0.20.0+dfsg-1 amd64 [installed,automatic]
+r-bioc-delayedmatrixstats/jammy,jammy 1.16.0+ds-1 all
+r-bioc-demixt/jammy 1.10.0-1 amd64
+r-bioc-deseq2/jammy 1.34.0+dfsg-1 amd64
+r-bioc-deseq/jammy 1.39.0-7 amd64
+r-bioc-destiny/jammy 3.8.1-1 amd64
+r-bioc-dexseq/jammy,jammy 1.40.0+dfsg-1 all
+r-bioc-dir.expiry/jammy,jammy 1.2.0+ds-1 all
+r-bioc-dirichletmultinomial/jammy 1.36.0-1build1 amd64
+r-bioc-dnacopy/jammy 1.68.0-1 amd64
+r-bioc-drimseq/jammy,jammy 1.22.0-2 all
+r-bioc-dropletutils/jammy 1.14.2+ds-1 amd64
+r-bioc-dupradar/jammy,jammy 1.24.0+ds-1 all
+r-bioc-ebseq/jammy,jammy 1.34.0-1 all
+r-bioc-edaseq/jammy,jammy 2.28.0+dfsg-1 all
+r-bioc-edger/jammy,now 3.36.0+dfsg-1 amd64 [installed,automatic]
+r-bioc-eir/jammy 1.34.0+ds-1 amd64
+r-bioc-ensembldb/jammy,jammy 2.18.3+dfsg-1 all
+r-bioc-experimenthub/jammy,jammy 2.2.1+ds-1 all
+r-bioc-fishpond/jammy 2.0.1+ds-2 amd64
+r-bioc-fmcsr/jammy 1.36.0+dfsg-1 amd64
+r-bioc-genefilter/jammy 1.76.0-1 amd64
+r-bioc-genelendatabase/jammy,jammy 1.30.0-1 all
+r-bioc-geneplotter/jammy,jammy 1.72.0-1 all
+r-bioc-genomeinfodb/jammy,jammy,now 1.30.1-1 all [installed,automatic]
+r-bioc-genomeinfodbdata/jammy,jammy,now 1.2.7-1 all [installed,automatic]
+r-bioc-genomicalignments/jammy,now 1.30.0-1 amd64 [installed,automatic]
+r-bioc-genomicfeatures/jammy,jammy,now 1.46.4+dfsg-1 all [installed,automatic]
+r-bioc-genomicfiles/jammy,jammy 1.30.0-1 all
+r-bioc-genomicranges/jammy,now 1.46.1+dfsg-1 amd64 [installed,automatic]
+r-bioc-geoquery/jammy,jammy 2.62.2+dfsg-1 all
+r-bioc-ggbio/jammy,jammy 1.42.0-1 all
+r-bioc-glmgampoi/jammy 1.6.0+dfsg-1 amd64
+r-bioc-go.db/jammy,jammy,now 3.14.0-1 all [installed,automatic]
+r-bioc-gosemsim/jammy 2.20.0-1 amd64
+r-bioc-goseq/jammy,jammy 1.46.0-1 all
+r-bioc-graph/jammy 1.72.0-1 amd64
+r-bioc-grohmm/jammy 1.28.0-1 amd64
+r-bioc-gseabase/jammy,jammy 1.56.0+ds-1 all
+r-bioc-gsva/jammy 1.42.0+ds-1 amd64
+r-bioc-gviz/jammy,jammy 1.38.3+dfsg-1 all
+r-bioc-hdf5array/jammy 1.22.1-1 amd64
+r-bioc-hilbertvis/jammy 1.52.0-1 amd64
+r-bioc-hsmmsinglecell/jammy,jammy 1.14.0-1 all
+r-bioc-htsfilter/jammy,jammy 1.34.0+dfsg-1 all
+r-bioc-hypergraph/jammy,jammy 1.66.0-1 all
+r-bioc-ihw/jammy,jammy 1.22.0+dfsg-1 all
+r-bioc-impute/jammy 1.68.0-1 amd64
+r-bioc-interactivedisplaybase/jammy,jammy 1.32.0+dfsg-1 all
+r-bioc-ioniser/jammy,jammy 2.18.0+dfsg-1 all
+r-bioc-iranges/jammy,now 2.28.0-1 amd64 [installed,automatic]
+r-bioc-isoformswitchanalyzer/jammy 1.16.0+ds-1 amd64
+r-bioc-keggrest/jammy,jammy,now 1.34.0+dfsg-1 all [installed,automatic]
+r-bioc-limma/jammy,now 3.50.0+dfsg-1 amd64 [installed,automatic]
+r-bioc-lpsymphony/jammy 1.22.0+dfsg-1 amd64
+r-bioc-makecdfenv/jammy 1.70.0-1 amd64
+r-bioc-matrixgenerics/jammy,jammy,now 1.6.0-1 all [installed,automatic]
+r-bioc-mergeomics/jammy,jammy 1.22.0-1 all
+r-bioc-metagenomeseq/jammy,jammy 1.36.0-1 all
+r-bioc-metapod/jammy 1.2.0+dfsg-1 amd64
+r-bioc-mofa/jammy,jammy 1.6.1+dfsg-5 all
+r-bioc-monocle/jammy 2.22.0-1 amd64
+r-bioc-multiassayexperiment/jammy,jammy 1.20.0+dfsg-1 all
+r-bioc-multtest/jammy 2.50.0-1 amd64
+r-bioc-mutationalpatterns/jammy,jammy 3.4.0+dfsg-1 all
+r-bioc-nanostringqcpro/jammy,jammy 1.26.0-1 all
+r-bioc-netsam/jammy,jammy 1.30.0-3 all
+r-bioc-noiseq/jammy,jammy 2.38.0-1 all
+r-bioc-oligo/jammy 1.58.0+ds-1 amd64
+r-bioc-oligoclasses/jammy,jammy 1.56.0-1 all
+r-bioc-org.hs.eg.db/jammy,jammy,now 3.14.0-1 all [installed,automatic]
+r-bioc-organismdbi/jammy,jammy 1.36.0-1 all
+r-bioc-pcamethods/jammy 1.86.0-1 amd64
+r-bioc-phyloseq/jammy,jammy 1.38.0+dfsg-1 all
+r-bioc-preprocesscore/jammy 1.56.0+ds-1 amd64
+r-bioc-progeny/jammy,jammy 1.16.0+ds-2 all
+r-bioc-protgenerics/jammy,jammy 1.26.0-1 all
+r-bioc-purecn/jammy,jammy 2.0.1+dfsg-1 all
+r-bioc-pwmenrich/jammy,jammy 4.30.0-1 all
+r-bioc-qtlizer/jammy,jammy 1.8.0+dfsg-1 all
+r-bioc-qusage/jammy,jammy 2.28.0-1 all
+r-bioc-qvalue/jammy,jammy 2.26.0-1 all
+r-bioc-rbgl/jammy 1.70.0+dfsg-1 amd64
+r-bioc-rcpi/jammy,jammy 1.30.0+ds-1 all
+r-bioc-residualmatrix/jammy,jammy 1.4.0+dfsg-1 all
+r-bioc-rgsepd/jammy,jammy 1.26.0-1 all
+r-bioc-rhdf5/jammy 2.38.0+dfsg-2 amd64
+r-bioc-rhdf5filters/jammy 1.6.0+dfsg-1 amd64
+r-bioc-rhdf5lib/jammy 1.16.0+dfsg-1 amd64
+r-bioc-rhtslib/jammy,now 1.26.0+dfsg-1 amd64 [installed,automatic]
+r-bioc-rots/jammy 1.22.0-1 amd64
+r-bioc-rsamtools/jammy,now 2.10.0-1 amd64 [installed,automatic]
+r-bioc-rsubread/jammy 2.8.1-1 amd64
+r-bioc-rtracklayer/jammy,now 1.54.0-1 amd64 [installed,automatic]
+r-bioc-rwikipathways/jammy,jammy 1.14.0+dfsg-1 all
+r-bioc-s4vectors/jammy,now 0.32.3-1 amd64 [installed,automatic]
+r-bioc-savr/jammy,jammy 1.32.0-1 all
+r-bioc-scaledmatrix/jammy,jammy 1.2.0+dfsg-1 all
+r-bioc-scater/jammy,jammy 1.22.0+ds-1 all
+r-bioc-scran/jammy 1.22.1+dfsg-1 amd64
+r-bioc-scrnaseq/jammy,jammy 2.8.0+ds-1 all
+r-bioc-scuttle/jammy 1.4.0+dfsg-3 amd64
+r-bioc-seqlogo/jammy,jammy 1.60.0+dfsg-1 all
+r-bioc-shortread/jammy,now 1.52.0-1 amd64 [installed,automatic]
+r-bioc-singlecellexperiment/jammy,jammy 1.16.0+ds-1 all
+r-bioc-singler/jammy 1.8.1+ds-2 amd64
+r-bioc-snpstats/jammy 1.44.0+dfsg-1 amd64
+r-bioc-sparsematrixstats/jammy 1.6.0+dfsg-1 amd64
+r-bioc-stringdb/jammy,jammy 2.6.1-1 all
+r-bioc-structuralvariantannotation/jammy,jammy 1.10.1+ds-1 all
+r-bioc-summarizedexperiment/jammy,jammy,now 1.24.0+dfsg-1 all [installed,automatic]
+r-bioc-sva/jammy 3.42.0-1 amd64
+r-bioc-tcgabiolinks/jammy,jammy 2.22.4+dfsg-1 all
+r-bioc-tcgabiolinksgui.data/jammy,jammy 1.14.0+dfsg-1 all
+r-bioc-tfbstools/jammy 1.32.0+dfsg-1 amd64
+r-bioc-titancna/jammy 1.32.0-1 amd64
+r-bioc-tximeta/jammy,jammy 1.12.4+dfsg-2 all
+r-bioc-tximport/jammy,jammy 1.22.0+dfsg-1 all
+r-bioc-tximportdata/jammy,jammy 1.22.0+ds-1 all
+r-bioc-variantannotation/jammy 1.40.0-1 amd64
+r-bioc-wrench/jammy,jammy 1.12.0+dfsg-1 all
+r-bioc-xvector/jammy,now 0.34.0-1 amd64 [installed,automatic]
+r-bioc-zlibbioc/jammy,jammy,now 1.40.0+dfsg-1 all [installed,automatic]
+
+python2/jammy,now 2.7.18-3 amd64 [installed]
+
+python3/jammy-updates,jammy-security,now 3.10.6-1~22.04 amd64 [installed]
+ 
+python3-pip/jammy-updates,jammy-updates,jammy-security,jammy-security,now 22.0.2+dfsg-1ubuntu0.3 all [installed,automatic]
+ 
+python-is-python3/jammy,jammy,now 3.9.2-2 all [installed]
+
+virtualenv/jammy,jammy 20.13.0+ds-2 all
+
+libffi-dev/jammy,now 3.4.2-4 amd64 [installed,automatic]
+ 
+libssl-dev/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.12 amd64 [installed,automatic]
+ 
+zlib1g-dev/jammy-updates,jammy-security,now 1:1.2.11.dfsg-2ubuntu9.2 amd64 [installed]
+ 
+liblzma-dev/jammy,now 5.2.5-2ubuntu1 amd64 [installed,automatic]
+ 
+libbz2-dev/jammy,now 1.0.8-5build1 amd64 [installed,automatic]
+ 
+libreadline-dev/jammy,now 8.1.2-1 amd64 [installed,automatic]
+ 
+libsqlite3-dev/jammy-updates,jammy-security 3.37.2-2ubuntu0.1 amd64
+ 
+libopencv-dev/jammy 4.5.4+dfsg-9ubuntu4 amd64
+ 
+tk-dev/jammy 8.6.11+1build2 amd64
+ 
+texlive-full/jammy,jammy,now 2021.20220204-1 all [installed]
+texlive-lang-all/jammy,jammy,now 2021.20220204-1 all [installed]

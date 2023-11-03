@@ -1,0 +1,3386 @@
+
+# Software Packages in "jammy", Subsection science
+
+abacas (1.3.1-9) [universe]
+    close gaps in genomic alignments from short reads
+abacas-examples (1.3.1-9) [universe]
+    sample data for abacas to close gaps in genomic alignments
+abinit (9.6.2-1build1) [universe]
+    package for electronic structure calculations
+abinit-data (9.6.2-1build1) [universe]
+    package for electronic structure calculations (Data files)
+abyss (2.3.1-1) [multiverse]
+    de novo, parallel, sequence assembler for short reads
+acedb-other (4.9.39+dfsg.02-7) [universe]
+    retrieval of DNA or protein sequences
+acedb-other-belvu (4.9.39+dfsg.02-7) [universe]
+    transitional package for belvu
+acedb-other-belvu
+    virtual package provided by belvu
+acedb-other-dotter (4.9.39+dfsg.02-7) [universe]
+    transitional package for dotter
+acedb-other-dotter
+    virtual package provided by dotter
+aces3 (3.0.8-8) [universe]
+    Advanced Concepts in Electronic Structure III
+aces3-data (3.0.8-8) [universe]
+    Advanced Concepts in Electronic Structure III
+achilles (2-10) [universe]
+    Artificial life and evolution simulator
+adapterremoval (2.3.2-1ubuntu1) [universe]
+    rapid adapter trimming, identification, and read merging of gene sequences
+adapterremoval-examples (2.3.2-1ubuntu1) [universe]
+    rapid adapter trimming, identification, and read merging (example data)
+# adms (2.3.7-1) [universe]
+#    Automatic device model synthesizer for Verilog-AMS
+adun-core (0.81-14build2) [universe]
+    Molecular Simulator
+# adun.app (0.81-14build2) [universe]
+#     Molecular Simulator for GNUstep (GUI)
+aegean (0.16.0+dfsg-2) [universe]
+    integrated genome analysis toolkit
+# aeskulap (0.2.2-beta2+git20190406.ef77f01-3build2) [universe]
+#    medical image viewer and DICOM network client
+aevol (5.0+ds-3) [universe]
+    digital genetics model to run Evolution Experiments in silico
+aghermann (1.1.2-3build3) [universe]
+    Sleep-research experiment manager
+# aladin (11.024+dfsg2-1) [universe]
+#     Interactive sky atlas for astronomical images and datasets
+alfa (2.1-1) [universe]
+    Automated Line Fitting Algorithm
+algotutor (0.8.6-4) [universe]
+    program for observing the intermediate steps of algorithm
+alien-hunter (1.7-8) [universe]
+    Interpolated Variable Order Motifs to identify horizontally acquired DNA
+allelecount (4.3.0-1.1) [universe]
+    NGS copy number algorithms
+altree (1.3.2-1build2) [universe]
+    program to perform phylogeny-based association and localization analysis
+altree-examples (1.3.2-1build2) [universe]
+    example files for ALTree
+amap-align (2.2+git20080214.600fc29+dfsg-2) [universe]
+    Protein multiple alignment by sequence annealing
+ampliconnoise (1.29-10build1) [universe]
+    removal of noise from 454 sequenced PCR amplicons
+andi (0.14-2) [universe]
+    Efficient Estimation of Evolutionary Distances
+anfo (0.98-9) [universe]
+    Short Read Aligner/Mapper from MPG
+# aoflagger (3.1.0-2build3) [universe]
+#     Find RFI in radio astronomical observations
+apbs (3.0.0+dfsg1-3build2) [universe]
+    Adaptive Poisson Boltzmann Solver
+apbs-data (3.0.0+dfsg1-3build2) [universe]
+    data files for APBS (Adaptive Poisson Boltzmann Solver)
+# apertium-af-nl (0.3.0-2) [universe]
+#     Transitional dummy package for apertium-afr-nld
+# apertium-afr-nld (0.3.0-2) [universe]
+#     Apertium translation data for the Afrikaans-Dutch pair
+# apertium-anaphora (1.0.2-1) [universe]
+#     Anaphora resolution module for Apertium
+# apertium-apy (0.11.7-2) [universe]
+#     Apertium APY service
+# apertium-arg-cat (0.2.0-2) [universe]
+#     Apertium translation data for the Aragonese-Catalan pair
+# apertium-bel-rus (0.2.1-1) [universe]
+#     Apertium translation data for the Belarusian-Russian pair
+# apertium-br-fr (0.5.1-1) [universe]
+#     Apertium linguistic data to translate between Breton and French
+# apertium-ca-it (0.2.1-3) [universe]
+#     Transitional dummy package for apertium-cat-ita
+# apertium-cat-ita (0.2.1-3) [universe]
+#     Apertium translation data for the Catalan-Italian pair
+# apertium-cat-srd (1.1.0-1) [universe]
+#     Apertium translation data for the Catalan-Sardinian pair
+# apertium-crh-tur (0.3.0-1) [universe]
+#     Apertium translation data for the Crimean Tatar-Turkish pair
+# apertium-cy-en (0.1.1~r57554-8) [universe]
+#     Apertium translation data for the Welsh-English pair
+# apertium-dan-nor (1.4.1-2) [universe]
+#     Apertium translation data for the Danish-Norwegian pair
+# apertium-dev (3.7.2-2build2) [universe]
+#     Development tools and library for Apertium
+# apertium-en-gl (0.5.2~r57551-3) [universe]
+#     Apertium translation data for the English-Galician pair
+# apertium-eng-cat (1.0.1-4) [universe]
+#     Apertium translation data for the English-Catalan pair
+# apertium-eo-en (1.0.0~r63833-3) [universe]
+#     Apertium linguistic data to translate between Esperanto and English
+# apertium-eo-fr (0.9.1-1) [universe]
+#     Apertium translation data for the Esperanto-French pair
+# apertium-es-ast (1.1.0~r51165-3) [universe]
+#     Apertium translation data for the Spanish-Asturian pair
+# apertium-es-it (0.2.1-2) [universe]
+#     Transitional dummy package for apertium-spa-ita
+# apertium-eu-en (0.3.1~r56205-3) [universe]
+#     Apertium translation data for the Basque-English pair
+# apertium-eval-translator (1.2.1-2) [universe]
+#     Evaluate machine translation output against reference
+# apertium-fra-cat (1.9.0-1) [universe]
+#     Apertium translation data for the French-Catalan pair
+# apertium-fra-frp (1.0.0-2) [universe]
+#     Apertium translation data for the French-Arpitan pair
+# apertium-get (1.0.0-2) [universe]
+#     Helper for Apertium and Giellatekno languages and pairs
+# apertium-hbs-eng (0.5.1-1) [universe]
+#     Apertium translation data for the Serbo-Croatian - English pair
+# apertium-hbs-mkd (0.1.0~r76450-4) [universe]
+#     Apertium translation data for the Serbo-Croatian-Macedonian pair
+# apertium-hbs-slv (0.5.1-1) [universe]
+#     Apertium translation data for the Serbo-Croatian-Slovenian pair
+# apertium-hin (0.1.0~r59158-2.1) [universe]
+#     Apertium single language data for Hindi
+# apertium-id-ms (0.1.2-3) [universe]
+#     Transitional dummy package for apertium-ind-zlm
+# apertium-ind-zlm (0.1.2-3) [universe]
+#     Apertium translation data for the Indonesian-Malay pair
+# apertium-is-sv (0.1.0~r76450-3) [universe]
+#     Apertium translation data for the Icelandic-Swedish pair
+# apertium-isl (0.1.0~r65494-2.1) [universe]
+#     Apertium single language data for Icelandic
+# apertium-isl-eng (0.1.0~r66083-3) [universe]
+#     Apertium translation data for the Icelandic-English pair
+# apertium-ita (0.10.0~r82237-2.1) [universe]
+#     Apertium single language data for Italian
+# apertium-kaz-tat (0.2.1-1) [universe]
+#     Apertium translation data for the Kazakh-Tatar pair
+# apertium-lex-tools (0.2.7-1build1) [universe]
+#     Constraint-based lexical selection module
+# apertium-mk-bg (0.2.0~r49489-3) [universe]
+#     Apertium translation data for the Macedonian-Bulgarian pair
+# apertium-mk-en (0.1.1~r57554-3) [universe]
+#     Apertium translation data for the Macedonian-English pair
+# apertium-mlt-ara (0.2.0~r62623-2.1) [universe]
+#     Apertium translation data for the Maltese-Arabic pair
+# apertium-nno-nob (1.3.0-2) [universe]
+#     Apertium translation data for the Norwegian Nynorsk-Norwegian Bokmål pair
+# apertium-oci-fra (0.3.0-3) [universe]
+#     Apertium translation data for the Occitan-French pair
+# apertium-pol-szl (0.2.1-2) [universe]
+#     Apertium translation data for the Polish-Silesian pair
+# apertium-por-cat (0.10.0-1) [universe]
+#     Apertium translation data for the Portuguese-Catalan pair
+# apertium-recursive (1.0.1-1) [universe]
+#     Apertium recursive structural transfer module
+# apertium-rus-ukr (0.2.1-2) [universe]
+#     Apertium translation data for the Russian-Ukrainian pair
+# apertium-separable (0.3.6-2) [universe]
+#     Reordering separable/discontiguous multiwords
+# apertium-sme-nob (0.6.1+ds.1-2) [universe]
+#     Apertium translation data for the Northern Sami-Norwegian Bokmål pair
+# apertium-spa (1.1.0~r79716-2.1) [universe]
+#     Apertium single language data for Spanish
+# apertium-spa-arg (0.5.0-1) [universe]
+#     Apertium translation data for the Spanish-Aragonese pair
+# apertium-spa-cat (2.2.0-2) [universe]
+#     Apertium translation data for the Spanish-Catalan pair
+# apertium-spa-ita (0.2.1-2) [universe]
+#     Apertium translation data for the Spanish-Italian pair
+# apertium-srd-ita (1.1.0-1) [universe]
+#     Apertium translation data for the Sardinian-Italian pair
+# apertium-swe-dan (0.8.1-2) [universe]
+#     Apertium translation data for the Swedish-Danish pair
+# apertium-swe-nor (0.3.1-1) [universe]
+#     Apertium translation data for the Swedish-Norwegian pair
+# apertium-urd (0.1.0~r61311-2.1) [universe]
+#     Apertium single language data for Urdu
+# apertium-urd-hin (0.1.0~r64379-3) [universe]
+#     Apertium translation data for the Urdu-Hindi pair
+# aragorn (1.2.38-4) [universe]
+#     tRNA and tmRNA detection in nucleotide sequences
+# arb (6.0.6-5) [multiverse]
+#     phylogenetic sequence analysis suite - main program
+# arb-common (6.0.6-5) [multiverse]
+#     phylogenetic sequence analysis suite - common files
+arden (1.0-5) [universe]
+    specificity control for read alignments using an artificial reference
+ariba (2.14.6+ds-3build1) [universe]
+    Antibiotic Resistance Identification By Assembly
+art-nextgen-simulation-tools (20160605+dfsg-4build2) [universe]
+    simulation tools to generate synthetic next-generation sequencing reads
+art-nextgen-simulation-tools-profiles (20160605+dfsg-4build2) [universe]
+    profiles for art simulation tools
+artemis (18.1.0+dfsg-6) [universe]
+    genome browser and annotation tool
+artfastqgenerator (0.0.20150519-4) [universe]
+    outputs artificial FASTQ files derived from a reference genome
+artfastqgenerator-examples (0.0.20150519-4) [universe]
+    outputs artificial FASTQ files derived from a reference genome (examples)
+asdftool (2.9.2-1) [universe]
+    Command line tool to manipulate ASDF scientific data files
+ase (3.22.1-1ubuntu1) [universe]
+    Atomic Simulation Environment
+assembly-stats (1.0.1+ds-5) [universe]
+    get assembly statistics from FASTA and FASTQ files
+assemblytics (1.2.1+dfsg-1) [universe]
+    detect and analyze structural variants from a genome assembly
+# astap (2022.03.01-3) [universe]
+#     astrometric (plate) solver, stacking of images, photometry and FITS viewer
+# astap-cli (2022.03.01-1) [universe]
+#     astrometric (plate) solver, command line version
+# astro-tasks (3.0) [universe]
+#     Debian Astronomy Pure Blend (tasksel tasks)
+# astromatic (1.2) [universe]
+#     Astronomical pipeline software collection
+# astrometry-data-2mass (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader
+# astrometry-data-2mass-00 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (2'-2.8')
+# astrometry-data-2mass-01 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (2.8'-4')
+# astrometry-data-2mass-02 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (4'-5.6')
+# astrometry-data-2mass-03 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (5.6'-8')
+# astrometry-data-2mass-04 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (8'-11')
+# astrometry-data-2mass-05 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (11'-16')
+# astrometry-data-2mass-06 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (16'-22')
+# astrometry-data-2mass-07 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (22'-30')
+# astrometry-data-2mass-08-19 (1.1) [multiverse]
+#     Astrometry.net 2MASS index files downloader (30'-2000')
+# astrometry-data-tycho2 (2-4) [universe]
+#     Astrometry.net Tycho-2 index files
+# astrometry-data-tycho2-07 (2-4) [universe]
+#     Astrometry.net Tycho-2 index files (22'-30')
+# astrometry-data-tycho2-07-bigendian (2-4) [universe]
+#     Astrometry.net Tycho-2 big endian index files (22'-30')
+# astrometry-data-tycho2-07-littleendian (2-4) [universe]
+#     Astrometry.net Tycho-2 little endian index files (22'-30')
+# astrometry-data-tycho2-08 (2-4) [universe]
+#     Astrometry.net Tycho-2 index files (30'-44')
+# astrometry-data-tycho2-08-bigendian (2-4) [universe]
+#     Astrometry.net Tycho-2 big endian index files (30'-44')
+# astrometry-data-tycho2-08-littleendian (2-4) [universe]
+#     Astrometry.net Tycho-2 little endian index files (30'-44')
+# astrometry-data-tycho2-09 (2-4) [universe]
+#     Astrometry.net Tycho-2 index files (44'-60')
+# astrometry-data-tycho2-09-bigendian (2-4) [universe]
+#     Astrometry.net Tycho-2 big endian index files (44'-60')
+# astrometry-data-tycho2-09-littleendian (2-4) [universe]
+#     Astrometry.net Tycho-2 little endian index files (44'-60')
+# astrometry-data-tycho2-10-19 (2-4) [universe]
+#     Astrometry.net Tycho-2 index files (60'-2000')
+# astrometry-data-tycho2-10-19-bigendian (2-4) [universe]
+#     Astrometry.net Tycho-2 big endian index files (60'-2000')
+# astrometry-data-tycho2-10-19-littleendian (2-4) [universe]
+#     Astrometry.net Tycho-2 little endian index files (60'-2000')
+# astrometry.net (0.89+dfsg-1) [universe]
+#     Astrometry plate solver
+# astronomical-almanac (5.6-7) [universe]
+#     astronomical almanac - calculate planet and star positions
+atac (0~20150903+r2013-8build2) [universe]
+    genome assembly-to-assembly comparison
+ataqv (1.3.0+ds-1) [universe]
+    ATAC-seq QC and visualization
+atropos (1.1.29+dfsg-1ubuntu1) [universe]
+    NGS read trimming tool that is specific, sensitive, and speedy
+augur (14.0.0-1) [universe]
+    pipeline components for real-time virus analysis
+augustus (3.4.0+dfsg2-3build1) [universe]
+    gene prediction in eukaryotic genomes
+augustus-data (3.4.0+dfsg2-3build1) [universe]
+    data files for AUGUSTUS
+autodock (4.2.6-9) [universe]
+    analysis of ligand binding to protein structure
+autodock-getdata (4.2.6-9) [universe]
+    instructions for getData to collect compounds
+autodock-test (4.2.6-9) [universe]
+    test files for AutoDock
+autodock-vina (1.2.3-2) [universe]
+    docking of small molecules to proteins
+autogrid (4.2.6-9) [universe]
+    pre-calculate binding of ligands to their receptor
+autogrid-test (4.2.6-9) [universe]
+    test files for AutoGrid
+avce00 (2.0.0-8) [universe]
+    Conversion of ESRI Arcinfo Vector Coverage in E00 format
+avogadro (1.95.1-2) [universe]
+    Molecular Graphics and Modelling System
+avogadro-utils (1.95.1-8) [universe]
+    Molecular Graphics and Modelling System (library)
+axe-demultiplexer (0.3.3+dfsg-3build1) [universe]
+    Trie-based DNA sequencing read demultiplexer
+bagel (1.2.2-3ubuntu1) [universe]
+    Computational Chemistry Package
+baitfisher (1.2.7+git20211020.de26d5c+dfsg-1) [universe]
+    software package for designing hybrid enrichment probes
+bali-phy (3.6.1+dfsg-1) [universe]
+    Bayesian Inference of Alignment and Phylogeny
+ballview (1.5.0+git20180813.37fc53c-10build1) [universe]
+    free molecular modeling and molecular graphics tool
+bamclipper (1.0.0-2) [universe]
+    Remove gene-specific primer sequences from SAM/BAM alignments
+bamkit (0.0.1+git20170413.ccd079d-3) [universe]
+    tools for common BAM file manipulations
+bamtools (2.5.1+dfsg-10build1) [universe]
+    toolkit for manipulating BAM (genome alignment) files
+bandage (0.9.0-1) [universe]
+    Bioinformatics Application for Navigating De novo Assembly Graphs Easily
+bandage-examples (0.9.0-1) [universe]
+    Bioinformatics Application for Navigating De novo Assembly Graphs Easily (data)
+barrnap (0.9+dfsg-2) [universe]
+    rapid ribosomal RNA prediction
+bart (0.7.00-2) [universe]
+    tools for computational magnetic resonance imaging
+bart
+    virtual package provided by bart-cuda
+bart-cuda (0.7.00-5) [multiverse]
+    tools for computational magnetic resonance imaging
+bart-view (0.1.00-6) [universe]
+    viewer for multi-dimensional complex-valued data
+bbmap (38.95+dfsg-1) [universe]
+    BBTools genomic aligner and other tools for short sequences
+bbmap-jni (38.95+dfsg-1) [universe]
+    short read aligner and other bioinformatic tools - JNI library
+bcalm (2.2.3-2) [universe]
+    de Bruijn compaction in low memory
+bcftools (1.13-1) [universe]
+    genomic variant calling and manipulation of VCF/BCF files
+beads (1.1.20-3) [universe]
+    2-DE electrophoresis gel image spot detection
+beagle (220208-1) [universe]
+    Genotype calling, genotype phasing and imputation of ungenotyped markers
+beast-mcmc (1.10.4+dfsg-3) [multiverse]
+    Bayesian MCMC phylogenetic inference
+beast2-mcmc (2.6.6+dfsg-2) [universe]
+    Bayesian MCMC phylogenetic inference
+bedops (2.4.40+dfsg-1) [universe]
+    high-performance genomic feature operations
+bedtools (2.30.0+dfsg-2) [universe]
+    suite of utilities for comparing genomic features
+bedtools-test (2.30.0+dfsg-2) [universe]
+    test data for the bedtools package
+belvu (4.44.1+dfsg-7build1) [universe]
+    multiple sequence alignment viewer and phylogenetic tool
+berkeley-express (1.5.3+dfsg-2) [universe]
+    Streaming quantification for high-throughput sequencing
+bio-eagle (2.4.1-3build1) [universe]
+    Haplotype phasing within a genotyped cohort or using a phased reference panel
+bio-eagle-examples (2.4.1-3build1) [universe]
+    Examples for bio-eagle
+bio-rainbow (2.0.4+dfsg-2) [universe]
+    clustering and assembling short reads for bioinformatics
+bio-vcf (0.9.5-3) [universe]
+    domain specific language (DSL) for processing the VCF format
+bioawk (1.0-4) [universe]
+    extension of awk for biological sequence analysis
+biobambam2 (2.0.183+ds-1) [universe]
+    tools for early stage alignment file processing
+biogenesis (0.8-3.1) [universe]
+    artificial life program that simulates evolution of organisms
+bioperl (1.7.8-1) [universe]
+    Perl tools for computational molecular biology
+bioperl-run (1.7.3-8) [universe]
+    BioPerl wrappers: scripts
+biosig-tools (2.3.3-1build2) [universe]
+    format conversion tools for biomedical data formats
+biosquid (1.9g+cvs20050121-12) [universe]
+    utilities for biological sequence analysis
+biosyntax (1.0.0b-2) [universe]
+    Syntax Highlighting for Computational Biology (metapackage)
+biosyntax-common (1.0.0b-2) [universe]
+    Syntax Highlighting for Computational Biology (common files)
+biosyntax-example (1.0.0b-2) [universe]
+    Syntax Highlighting for Computational Biology (example)
+biosyntax-gedit (1.0.0b-2) [universe]
+    Syntax Highlighting for Computational Biology (gedit)
+biosyntax-less (1.0.0b-2) [universe]
+    Syntax Highlighting for Computational Biology (less)
+biosyntax-vim (1.0.0b-2) [universe]
+    Syntax Highlighting for Computational Biology (vim)
+bitseq (0.7.5+dfsg-6) [universe]
+    Bayesian Inference of Transcripts from Sequencing Data
+bitwise (0.43-1) [universe]
+    Interactive bitwise operation in ncurses
+bkchem (0.14.0~pre4+git20211228-1) [universe]
+    Chemical structures editor
+blasr (5.3.5+dfsg-3build1) [universe]
+    mapping single-molecule sequencing reads
+blimps-utils (3.9+ds-1) [multiverse]
+    blocks database improved searcher
+blinken (4:21.12.3-0ubuntu1) [universe]
+    KDE version of the Simon electronic memory game
+blixem (4.44.1+dfsg-7build1) [universe]
+    interactive browser of sequence alignments
+bmt (0.6-1.1) [universe]
+    software analysis benchmarking toolkit
+bodr (10-2) [universe]
+    Blue Obelisk Data Repository
+bolt-lmm (2.3.6+dfsg-1) [universe]
+    Efficient large cohorts genome-wide Bayesian mixed-model association testing
+bolt-lmm-example (2.3.6+dfsg-1) [universe]
+    Examples for bolt-lmm
+boolector (1.5.118.6b56be4.121013-1.1) [universe]
+    SMT solver for bit-vectors and arrays
+bornagain (1.19.0-3build2) [universe]
+    Simulate and fit X-ray and neutron GISAS -- binary
+bowtie (1.3.1-1) [universe]
+    Ultrafast memory-efficient short read aligner
+bowtie-examples (1.3.1-1) [universe]
+    Examples for bowtie, the ultrafast memory-efficient short read aligner
+bowtie2 (2.4.4-1) [universe]
+    ultrafast memory-efficient short read aligner
+bowtie2-examples (2.4.4-1) [universe]
+    Examples for bowtie2
+boxshade (3.3.1-14) [universe]
+    Pretty-printing of multiple sequence alignments
+bppphyview (0.6.1-3) [universe]
+    Bio++ Phylogenetic Viewer
+bppsuite (2.4.1-4) [universe]
+    Bio++ program suite
+bppsuite-examples (2.4.1-4) [universe]
+    Examples for Bio++ program suite
+brain2mesh-demos (0.7.9-2) [universe]
+    sample files and demo scripts for Brain2Mesh
+brig (0.95+dfsg-3) [universe]
+    BLAST Ring Image Generator
+busco (5.2.2-2) [universe]
+    benchmarking sets of universal single-copy orthologs
+bustools (0.41.0+dfsg-1) [universe]
+    program for manipulating BUS files for single cell RNA-Seq datasets
+bwa (0.7.17-6) [universe]
+    Burrows-Wheeler Aligner
+c2x (2.40+ds-1) [universe]
+    converter between DFT electronic structure codes formats
+cafeobj (1.6.0-2) [universe]
+    new generation algebraic specification and programming language
+cafeobj-mode (1.6.0-2) [universe]
+    Emacs major mode for editing CafeOBJ source code
+calculix-ccx (2.17-3) [universe]
+    Three-Dimensional Structural Finite Element Program
+calculix-cgx (2.17+dfsg-2) [universe]
+    Calculix cgx is a 3-dimensional pre- and post-processor for fem
+# callisto (1.1.0-2build1) [universe]
+#     Daemon for e-Callisto hardware
+camitk-actionstatemachine (5.0.2-3) [universe]
+    pipeline replay application for the CamiTK library
+camitk-config (5.0.2-3) [universe]
+    Computer Assisted Medical Intervention Tool Kit - config
+camitk-imp (5.0.2-3) [universe]
+    workbench application for the CamiTK library
+canu (2.0+dfsg-2) [universe]
+    single molecule sequence assembler for genomes
+casacore-data-igrf (12-1) [universe]
+    International Geomagnetic Reference Field data for casacore
+casacore-data-jpl-de200 (2007.07.05+ds.1-1) [universe]
+    Jet Propulsion Laboratory Development Ephemeris DE200 for casacore
+casacore-data-jpl-de405 (2007.07.05+ds.1-1) [universe]
+    Jet Propulsion Laboratory Development Ephemeris DE405 for casacore
+casacore-data-lines (0+git2016.11.26-2) [universe]
+    Table of spectral line frequencies for casacore
+casacore-data-observatories (0+git2018.12.08-2) [universe]
+    Table of radio observatory coordinates for casacore
+casacore-data-sources (2-2) [universe]
+    Table of ICRF reference source coordinates for casacore
+casacore-data-tai-utc (1.3) [universe]
+    Difference table between TAI and UTC for casacore
+casacore-tools (3.4.0-2build1) [universe]
+    Tools built with CASA
+cassbeam (1.1-3) [universe]
+    Cassegrain antenna modelling
+cassiopee (1.0.9-3build1) [universe]
+    index and search tool in genomic sequences
+cat-bat (5.2.3-1) [universe]
+    taxonomic classification of contigs and metagenome-assembled genomes (MAGs)
+catfishq (1.3.0+ds-1) [universe]
+    concatenates fastq files
+cba (0.3.6-5build1) [universe]
+    Continuous Beam Analysis
+cbflib-bin (0.9.6+dfsg1-3build1) [universe]
+    utilities to manipulate CBF files
+cbmc (5.12-5) [universe]
+    bounded model checker for C and C++ programs
+cclib (1.6.2-2) [universe]
+    Parsers and algorithms for computational chemistry
+cclib-data (1.6.2-2) [multiverse]
+    Parsers and algorithms for computational chemistry (data files)
+cct (1:1.0.3-1) [universe]
+    visually comparing bacterial, plasmid, chloroplast, or mitochondrial sequences
+cct-examples (1:1.0.3-1) [universe]
+    example data for testing the package cct
+cd-hit (4.8.1-4) [universe]
+    suite of programs designed to quickly group sequences
+cdbfasta (1.00+git20181005.014498c+dfsg-4build1) [universe]
+    Constant DataBase indexing and retrieval tools for multi-FASTA files
+centrifuge (1.0.3-10) [universe]
+    rapid and memory-efficient system for classification of DNA sequences
+cg3 (1.3.2-1build2) [universe]
+    Tools for using the 3rd edition of Constraint Grammar (CG-3)
+cg3-dev (1.3.2-1build2) [universe]
+    Metapackage providing both CG-3 CLI dev tools and dev library
+cgns-convert (3.4.0-3) [universe]
+    CFD General Notation System - Conversion tools
+cgview (0.0.20100111-7) [universe]
+    Circular Genome Viewer
+changeo (1.2.0-1) [universe]
+    Repertoire clonal assignment toolkit (Python 3)
+checkit-tiff (0.4.2-1) [universe]
+    conformance checker for baseline TIFFs
+# chemical-structures (2.2.dfsg.0-19) [universe]
+#     web service providing molecular structures in open formats
+# chemical-structures-data (2.2.dfsg.0-19) [universe]
+#     set of molecular structures in open formats
+chemps2 (1.8.11-1build1) [universe]
+    Executable to call libchemps2-3 from the command line
+chemtool (1.6.14-6) [universe]
+    chemical structures drawing program
+chimeraslayer (20101212+dfsg1-5) [universe]
+    detects likely chimeras in PCR amplified DNA
+chip-seq (1.5.5-3) [universe]
+    tools performing common ChIP-Seq data analysis tasks
+chip-seq-data (1.5.5-3) [universe]
+    tools performing common ChIP-Seq data analysis tasks (data)
+chromhmm (1.23+dfsg-1) [universe]
+    Chromatin state discovery and characterization
+chromimpute (1.0.3+dfsg-3) [universe]
+    Large-scale systematic epigenome imputation
+cif-linguist (0.4.2-3build1) [universe]
+    transform CIF data among CIF formats and dialects
+cif-tools (1.0.1b-1) [universe]
+    Suite of tools to manipulate, validate and query mmCIF files
+circlator (1.5.6-6) [universe]
+    circularize genome assemblies
+circos (0.69.9+dfsg-2) [universe]
+    plotter for visualizing data
+circos-tools (0.23-1) [universe]
+    plotter for visualizing data - helper utilities
+ckon (0.7.1-4build1) [universe]
+    automatic build tool for ROOT data analysis software
+clearcut (1.0.9+git20211013.b799afe-1) [universe]
+    extremely efficient phylogenetic tree reconstruction
+clonalframe (1.2-11build1) [universe]
+    inference of bacterial microevolution using multilocus sequence data
+clonalframeml (1.12-2) [universe]
+    Efficient Inference of Recombination in Whole Bacterial Genomes
+clonalorigin (1.0-6build1) [universe]
+    inference of homologous recombination in bacteria using whole genome sequences
+clustalo (1.2.4-7) [universe]
+    General-purpose multiple sequence alignment program for proteins
+clustalw (2.1+lgpl-7) [universe]
+    global multiple nucleotide or peptide sequence alignment
+clustalx (2.1+lgpl-9) [multiverse]
+    Multiple alignment of nucleic acid and protein sequences (graphical interface)
+cluster3 (1.59+ds-3build1) [multiverse]
+    Reimplementation of the Eisen-clustering software
+cmor-tables (3.3-1.1) [universe]
+    MIP tables for the Climate Model Output Rewriter library
+cmtk (3.3.1p2+dfsg-1build1) [universe]
+    Computational Morphometry Toolkit
+cnvkit (0.9.9-2) [universe]
+    Copy number variant detection from targeted DNA sequencing
+cod-tools (3.4.0+dfsg-1build2) [universe]
+    tools for manipulating CIF format files
+code-saturne (6.0.2-2build1) [universe]
+    General purpose Computational Fluid Dynamics (CFD) software
+code-saturne-bin (6.0.2-2build1) [universe]
+    General purpose Computational Fluid Dynamics (CFD) software - binaries
+code-saturne-data (6.0.2-2build1) [universe]
+    General purpose Computational Fluid Dynamics (CFD) software - data
+code-saturne-include (6.0.2-2build1) [universe]
+    General purpose Computational Fluid Dynamics (CFD) software - includes
+codonw (1.4.4-6) [universe]
+    Correspondence Analysis of Codon Usage
+coinor-cbc (2.10.7+ds1-1) [universe]
+    Coin-or branch-and-cut mixed integer programming solver
+coinor-clp (1.17.5+repack1-1) [universe]
+    Coin-or linear programming solver
+coinor-csdp (6.2.0-4) [universe]
+    Software package for semidefinite programming (binaries)
+coinor-libcbc3 (2.10.7+ds1-1) [universe]
+    Coin-or branch-and-cut mixed integer programming solver (shared libraries)
+coinor-libcgl1 (0.60.3+repack1-3) [universe]
+    COIN-OR Cut Generation Library
+coinor-libclp1 (1.17.5+repack1-1) [universe]
+    Coin-or linear programming solver (shared libraries)
+coinor-libcoinutils3v5 (2.11.4+repack1-2) [universe]
+    Coin-or collection of utility classes (binaries and libraries)
+coinor-libosi1v5 (0.108.6+repack1-2) [universe]
+    COIN-OR Open Solver Interface
+coinor-libsymphony3 (5.6.17+dfsg-1) [universe]
+    COIN-OR solver for mixed-integer linear programs (shared libraries)
+coinor-libvol1 (1.5.4-4) [universe]
+    Coin-or linear programming solver (libraries)
+coinor-symphony (5.6.17+dfsg-1) [universe]
+    COIN-OR solver for mixed-integer linear programs
+colmap (3.7-2) [universe]
+    Structure-from-Motion and Multi-View Stereo
+comet-ms (2019015+cleaned1-3) [universe]
+    Tandem mass spectrometry (MS/MS) search engine
+concavity (0.1+dfsg.1-5) [universe]
+    predictor of protein ligand binding sites from structure and conservation
+conda-package-handling (1.7.3-2build1) [universe]
+    create and extract conda packages of various formats
+connectome-workbench (1.5.0-2) [universe]
+    brain visualization, analysis and discovery tool
+conservation-code (20110309.0-8) [universe]
+    protein sequence conservation scoring tool
+covtobed (1.3.5+dfsg-1) [universe]
+    convert the coverage track from a BAM file into a BED file
+covtobed-examples (1.3.5+dfsg-1) [universe]
+    example data and scripts for mindthegap
+cp2k (9.1-2) [universe]
+    Ab Initio Molecular Dynamics
+cp2k-data (9.1-2) [universe]
+    Ab Initio Molecular Dynamics (data files)
+# cpl-plugin-amber (4.4.1+dfsg-1) [universe]
+#     ESO data reduction pipeline for the AMBER instrument
+# cpl-plugin-amber-calib (4.4.1+dfsg-1) [universe]
+#     ESO data reduction pipeline calibration data downloader for AMBER
+# cpl-plugin-fors (5.5.7+dfsg-2build1) [universe]
+#     ESO data reduction pipeline for the FORS1/2 instruments
+# cpl-plugin-fors-calib (5.5.7+dfsg-2build1) [universe]
+#     ESO data reduction pipeline calibration data downloader for FORS2
+# cpl-plugin-giraf (2.16.8+dfsg-1) [universe]
+#     ESO data reduction pipeline for the GIRAFFE instrument
+# cpl-plugin-giraf-calib (2.16.8+dfsg-1) [universe]
+#     ESO data reduction pipeline calibration data downloader for GIRAFFE
+# cpl-plugin-hawki (2.4.9+dfsg-1build1) [universe]
+#     ESO data reduction pipeline for the HAWK-I instrument
+# cpl-plugin-hawki-calib (2.4.9+dfsg-1build1) [universe]
+#     ESO data reduction pipeline calibration data downloader for HAWK-I
+# cpl-plugin-muse (2.8.5+dfsg-1) [universe]
+#     ESO data reduction pipeline for the MUSE instrument
+# cpl-plugin-muse-calib (2.8.5+dfsg-1) [universe]
+#     ESO data reduction pipeline calibration data downloader for MUSE
+# cpl-plugin-naco (4.4.10+dfsg-2build1) [universe]
+#     ESO data reduction pipeline for the NaCo instrument
+# cpl-plugin-naco-calib (4.4.10+dfsg-2build1) [universe]
+#     ESO data reduction pipeline NaCo calibration data downloader
+# cpl-plugin-uves (6.1.6+dfsg-1build1) [universe]
+#     ESO data reduction pipeline for the UVES instrument
+# cpl-plugin-uves-calib (6.1.6+dfsg-1build1) [universe]
+#     ESO data reduction pipeline calibration data downloader for UVES
+# cpl-plugin-vimos (4.1.6+dfsg-2build1) [universe]
+#     ESO data reduction pipeline for the VIMOS instrument
+# cpl-plugin-vimos-calib (4.1.6+dfsg-2build1) [universe]
+#     ESO data reduction pipeline calibration data downloader for VIMOS
+# cpl-plugin-visir (4.3.11+dfsg-1) [universe]
+#     ESO data reduction pipeline for the VISIR instrument
+# cpl-plugin-visir-calib (4.3.11+dfsg-1) [universe]
+#     ESO data reduction pipeline calibration data downloader for VISIR
+# cpl-plugin-xshoo (3.5.3+dfsg-1build1) [universe]
+#     ESO data reduction pipeline for the XSHOOTER instrument
+# cpl-plugin-xshoo-calib (3.5.3+dfsg-1build1) [universe]
+#     ESO data reduction pipeline calibration data downloader for XSHOOTER
+cpuinfo (0.0~git20220131.85e931e-1) [universe]
+    CPU INFOrmation library (binary utilities)
+crac (2.5.2+dfsg-5) [universe]
+    integrated RNA-Seq read analysis
+critterding (1.0-beta12.1-1.3build1) [universe]
+    Evolving Artificial Life
+ctdconverter (2.1-4) [universe]
+    Convert CTD files into Galaxy tool and CWL CommandLineTool files
+ctsim (6.0.2-5) [universe]
+    Computed tomography simulator
+ctsim-help (6.0.2-5) [universe]
+    Online help file for CTSim
+cufflinks (2.2.1+dfsg.1-9) [multiverse]
+    Transcript assembly, differential expression and regulation for RNA-Seq
+cutadapt (3.5-1build1) [universe]
+    Clean biological sequences from high-throughput sequencing reads
+cutesv (1.0.13-1) [universe]
+    comprehensive discovery of structural variations of genomic sequences
+cwl-upgrader (1.2.2-1) [universe]
+    Common Workflow Language standalone document upgrader
+cwlformat (2021.01.05-1) [universe]
+    code formatter for Common Workflow Language
+cwltool (3.1.20220224085855-1) [universe]
+    Common Workflow Language reference implementation
+daligner (1.0+git20200727.ed40ce5-3) [universe]
+    local alignment discovery between long nucleotide sequencing reads
+damapper (0.0+git20210330.ab45103-1) [universe]
+    long read to reference genome mapping tool
+darknet (0.0.0+git20180914.61c9d02e-2build4) [universe]
+    Open Source Neural Networks in C
+dascrubber (1.1-4) [universe]
+    alignment-based scrubbing pipeline for DNA sequencing reads
+datalad (0.15.5-1) [universe]
+    data files management and distribution platform
+datalad-container (1.1.2-1) [universe]
+    DataLad extension for working with containerized environments
+dawg (1.2-4) [universe]
+    simulate the evolution of recombinant DNA sequences
+dazzdb (1.0+git20201103.8d98c37-1.1) [universe]
+    manage nucleotide sequencing read data
+dcm2niix (1.0.20211006-1build1) [universe]
+    next generation DICOM to NIfTI converter
+dcmtk (3.6.6-5) [universe]
+    OFFIS DICOM toolkit command line utilities
+# debian-astro-logo (3.0) [universe]
+#     Debian Astronomy Pure Blends Logo
+deepnano (0.0+git20170813.e8a621e-3.1build1) [universe]
+    alternative basecaller for MinION reads of genomic sequences
+deepnano-data (0.0+git20170813.e8a621e-3.1build1) [universe]
+    alternative basecaller for MinION reads of genomic sequences (data)
+delly (0.9.1-1) [universe]
+    Structural variant discovery by read analysis
+density-fitness (1.0.3-1) [universe]
+    Calculates per-residue electron density scores
+dextractor (1.0-5) [universe]
+    (d)extractor and compression command library
+dh-r (20210218ubuntu1) [universe]
+    Debian helper tools for packaging R libraries
+dialign (2.2.1-11) [universe]
+    Segment-based multiple sequence alignment
+dialign-tx (1.0.2-14) [universe]
+    Segment-based multiple sequence alignment
+dialign-tx-data (1.0.2-14) [universe]
+    Segment-based multiple sequence alignment (data files)
+diamond-aligner (2.0.14-1) [universe]
+    accelerated BLAST compatible local sequence aligner
+dicomnifti (2.33.1-3) [universe]
+    converts DICOM files into the NIfTI format
+dicompyler (0.4.2.0+git20200106.2643e0e-1) [universe]
+    radiation therapy research platform
+dimbl (0.15-2.1build2) [universe]
+    Distributed Memory Based Learner
+discosnp (1:2.6.2-1) [universe]
+    discovering Single Nucleotide Polymorphism from raw set(s) of reads
+disulfinder (1.2.11-12) [universe]
+    cysteines disulfide bonding state and connectivity predictor
+disulfinder-data (1.2.11-12) [universe]
+    data files for predictor of disulfide bonds in proteins
+dlmodelbox (1.1.1-1) [universe]
+    Swiss Army Knife of Deep Learning Models
+dmrgpp (6.02-2) [universe]
+    Density matrix renormalization group algorithm
+dnaclust (3-7build2) [universe]
+    tool for clustering millions of short DNA sequences
+dnapi (1.1-3) [universe]
+    adapter prediction for small RNA sequencing - utils
+doris (5.0.3~beta+dfsg-16) [multiverse]
+    Delft object-oriented radar interferometric software
+dotter (4.44.1+dfsg-7build1) [universe]
+    detailed comparison of two genomic sequences
+dozzaqueux (3.51-2.1) [universe]
+    simulator for chemical mixtures
+dozzaqueux-data (3.51-2.1) [universe]
+    databases for chemical mixtures
+dpuser (4.1+dfsg-1build1) [universe]
+    Interactive language for handling numbers, strings, and matrices
+drawxtl (5.5-5build1) [universe]
+    crystal structure viewer
+drop-seq-testdata (2.5.1+dfsg-2) [universe]
+    analyzing Drop-seq data (testdata)
+drop-seq-tools (2.5.1+dfsg-2) [universe]
+    analyzing Drop-seq data
+drs4eb (5.0.6+git20211217+ds-1) [universe]
+    DRS4 Evaluation Board software
+drslib (0.3.1.p3-2) [universe]
+    Command-line tools for the Data Reference Syntax library
+dsdp (5.8-9.4build1) [universe]
+    Software for Semidefinite Programming
+dssp (4.0.4-1) [universe]
+    protein secondary structure assignment based on 3D structure
+dwgsim (0.1.13-1) [universe]
+    short sequencing read simulator
+dx (1:4.4.4-15) [universe]
+    OpenDX (IBM Visualization Data Explorer) - main package
+dxf2gcode (20170925-4) [universe]
+    prepares drawings of parts for automatic machine tools
+dxsamples (4.4.0-5) [universe]
+    Sample programs for the OpenDX Data Explorer
+dyssol (1.0.2+ds2-1) [universe]
+    Tool for dynamic flowsheet simulation. Command line tool
+dyssol-data (1.0.2+ds2-1) [universe]
+    Tool for dynamic flowsheet simulation. Data files
+# dyssol-gui (1.0.2+ds2-1) [universe]
+#     Tool for dynamic flowsheet simulation. GUI
+e-mem (1.0.1-5) [universe]
+    Efficient computation of Maximal Exact Matches for very large genomes
+e00compr (1.0.1-6) [universe]
+    Program to read/write Arcinfo compressed E00 files
+ea-utils (1.1.2+dfsg-9build1) [universe]
+    command-line tools for processing biological sequencing data
+easychem (0.6-9) [universe]
+    Draw high-quality molecules and 2D chemical formulas
+ecaccess (4.0.1-1.1) [universe]
+    clients to access ECMWF facilities
+ecflow-client (5.8.1-1ubuntu1) [universe]
+    Client tools for Meteorological workflow
+# ecflow-server (5.8.1-1ubuntu1) [universe]
+#     Meteorological workflow controller - server
+ecopcr (1.0.1+dfsg-4) [universe]
+    estimate PCR barcode primers quality
+edfbrowser (1.91+dfsg-1) [universe]
+    viewer for biosignal storage files such as bdf and edf
+edlib-aligner (1.2.7-3build1) [universe]
+    edlib sequence alignment tool using edit distance
+edtsurf (0.2009-10) [universe]
+    triangulated mesh surfaces for protein structures
+eigensoft (7.2.1+dfsg-3build1) [universe]
+    reduction of population bias for genetic analyses
+elastix (5.0.1-1) [universe]
+    toolbox for rigid and nonrigid registration of images
+elk-lapw (7.2.42-2) [universe]
+    All-Electron Density-Functional Electronic Structure Code
+elki (0.7.1-10.1) [universe]
+    Data mining algorithm development framework
+elki-dev (0.7.1-10.1) [universe]
+    Data mining algorithm development framework - development files
+elph (1.0.1-5) [universe]
+    DNA/protein sequence motif finder
+embassy-domainatrix (0.1.660-4) [universe]
+    Extra EMBOSS commands to handle domain classification file
+embassy-domalign (0.1.660-4) [universe]
+    Extra EMBOSS commands for protein domain alignment
+embassy-domsearch (1:0.1.660-3) [universe]
+    Extra EMBOSS commands to search for protein domains
+emboss (6.6.0+dfsg-11ubuntu1) [universe]
+    European molecular biology open software suite
+emboss-data (6.6.0+dfsg-11ubuntu1) [universe]
+    data files for the EMBOSS package
+emboss-explorer (2.2.0-11) [universe]
+    web-based GUI to EMBOSS
+emmax (0~beta.20100307-1) [universe]
+    genetic mapping considering population structure
+engauge-digitizer (12.1+ds.1-1) [universe]
+    interactively extracts numbers from bitmap graphs or maps
+ent (1.2debian-3) [universe]
+    pseudorandom number sequence test program
+ergo (3.8-1build1) [universe]
+    Quantum chemistry program for large-scale calculations
+ergo-data (3.8-1build1) [universe]
+    Quantum chemistry program for large-scale calculations - data package
+eso-midas (21.02pl1.0-1) [universe]
+    European Southern Observatory Munich Image Data Analysis System
+eso-midas-testdata (21.02pl1.0-1) [universe]
+    Test data files for ESO-MIDAS
+eso-pipelines (1.3) [universe]
+    ESO VLT Instrument pipeline collection
+esorex (3.13.5+ds-2) [universe]
+    Execution Tool for European Southern Observatory pipelines
+estscan (3.0.3-6) [universe]
+    ORF-independent detector of coding DNA sequences
+esys-particle (2.3.5+dfsg2-4ubuntu1) [universe]
+    Software for particle-based numerical modelling (MPI version)
+etsf-io (1.0.4-5) [universe]
+    Binary tools to check, merge and read ETSF files
+examl (3.0.22-3) [universe]
+    Exascale Maximum Likelihood (ExaML) code for phylogenetic inference
+exonerate (2.4.0-5) [universe]
+    generic tool for pairwise sequence comparison
+# expeyes (4.8.8+repack-2) [universe]
+#     hardware & software framework for developing science experiments
+# expeyes-clib (4.8.8+repack-2) [universe]
+#     hardware & software framework for developing science experiments
+eye (22.0203.1955~ds-1build1) [universe]
+    semantic web reasoning engine
+eyes17 (4.8.8+repack-2) [universe]
+    hardware & software framework for developing science experiments
+fast5 (0.6.5-6build1) [universe]
+    utilities for manipulating Oxford Nanopore Fast5 files
+fasta3 (36.3.8h.2020-02-11-4) [multiverse]
+    tools for searching collections of biological sequences
+fasta3-doc (36.3.8h.2020-02-11-4) [multiverse]
+    user guide for FASTA tools
+fastahack (1.0.0+dfsg-9) [universe]
+    utility for indexing and sequence extraction from FASTA files
+fastani (1.33-2build1) [universe]
+    Fast alignment-free computation of whole-genome Average Nucleotide Identity
+fastaq (3.17.0-4) [universe]
+    FASTA and FASTQ file manipulation tools
+fastdnaml (1.2.2-15) [universe]
+    Tool for construction of phylogenetic trees of DNA sequences
+fastlink (4.1P-fix100+dfsg-4) [universe]
+    faster version of pedigree programs of Linkage
+fastlink-doc (4.1P-fix100+dfsg-4) [universe]
+    Some papers about fastlink
+fastml (3.11-3) [universe]
+    maximum likelihood ancestral amino-acid sequence reconstruction
+fastp (0.20.1+dfsg-1) [universe]
+    Ultra-fast all-in-one FASTQ preprocessor
+fastq-pair (1.0-2) [universe]
+    Rewrites paired end fastq so all reads have a mate to separate out singletons
+fastqc (0.11.9+dfsg-5) [universe]
+    quality control for high throughput sequence data
+fastqtl (2.184+dfsg-8build1) [universe]
+    Quantitative Trait Loci (QTL) mapper in cis for molecular phenotypes
+fasttext (0.9.2-3build3) [universe]
+    Efficient learning of word representations and sentence classification library
+fasttree (2.1.11-2) [universe]
+    phylogenetic trees from alignments of nucleotide or protein sequences
+fcc (2.8-1build3) [universe]
+    Script to compile C/C++ programs and link to Fortran libraries
+feedgnuplot (1.60-1) [universe]
+    Pipe-oriented frontend to Gnuplot
+ffindex (0.9.9.9-5) [universe]
+    simple index/database for huge amounts of small files
+figtree (1.4.4-5) [universe]
+    graphical phylogenetic tree viewer
+filtlong (0.2.1-1) [universe]
+    quality filtering tool for long reads of genome sequences
+filtlong-data (0.2.1-1) [universe]
+    quality filtering tool for long reads of genome sequences (testdata)
+firm-phoenix-ware (4.7.5+repack-1) [universe]
+    firmware necessary for boxes issued by project PHOENIX
+fitgcp (0.0.20150429-4) [universe]
+    fitting genome coverage distributions with mixture models
+fitscut (1.4.4-5build1) [universe]
+    Extract cutouts from FITS image format files
+# fitsh (0.9.4-1) [universe]
+#     Software package for astronomical image processing
+fitspng (1.4-1build2) [universe]
+    FITS to PNG converter
+fitsverify (4.20-4) [universe]
+    FITS File Format-Verification Tool
+fityk (1.3.1-7) [universe]
+    general-purpose nonlinear curve fitting and data analysis
+flash (1.2.11-2) [universe]
+    Fast Length Adjustment of SHort reads
+flexbar (1:3.5.0-4ubuntu1) [universe]
+    flexible barcode and adapter removal for sequencing platforms
+flextra (5.0-15) [universe]
+    Trajectory model for tracing air transport phenomena
+fml-asm (0.1+git20190320.b499514-1) [universe]
+    tool for assembling Illumina short reads in small regions
+foma (1:0.10.0-1) [universe]
+    Tools for constructing various finite-state automata
+foma-bin (1:0.10.0-1) [universe]
+    Transitional package for foma
+form (4.2.1+git20200217-1) [universe]
+    Symbolic manipulation system
+fractalnow (0.8.2-4build1) [universe]
+    Fast, advanced fractal generator
+free42-nologo (3.0.10+ds-1) [universe]
+    Free42 is a re-implementation of the HP-42S calculator
+freebayes (1.3.6-1) [universe]
+    Bayesian haplotype-based polymorphism discovery and genotyping
+freecad (0.19.2+dfsg1-3ubuntu1) [universe]
+    Extensible Open Source CAx program
+freecad-common (0.19.2+dfsg1-3ubuntu1) [universe]
+    Extensible Open Source CAx program - common files
+freecad-python3 (0.19.2+dfsg1-3ubuntu1) [universe]
+    Extensible Open Source CAx program - Python 3 binaries
+freecontact (1.0.21-12) [universe]
+    fast protein contact predictor
+frog (0.20-2build2) [universe]
+    tagger and parser for natural languages (runtime)
+frogdata (0.18-2) [universe]
+    Data files for Frog
+fsa (1.15.9+dfsg-6) [universe]
+    Fast Statistical Alignment of protein, RNA or DNA sequences
+fsm-lite (1.0-7) [universe]
+    frequency-based string mining (lite)
+ftools-fv (5.5.2+dfsg-1) [universe]
+    Tool for viewing and editing FITS format files
+ftools-pow (5.5.2+dfsg-1) [universe]
+    Curve plotting and image display interface tool
+funtools (1.4.8-1) [universe]
+    Minimal buy-in FITS utility package
+fxt-tools (0.3.13-1) [universe]
+    Multithreaded tracing library
+g3data (1:1.5.3-3build1) [universe]
+    extract data from scanned graphs
+gabedit (2.5.1+ds-1) [universe]
+    graphical user interface to Ab Initio packages
+# galileo (0.5.1-8) [universe]
+#     Utility to securely synchronize a Fitbit device with the Fitbit web service
+# galileo-daemon (0.5.1-8) [universe]
+#     Utility to securely synchronize a Fitbit device - daemon
+gamgi (0.17.3-3) [universe]
+    General Atomistic Modelling Graphic Interface (GAMGI)
+gamgi-data (0.17.3-3) [universe]
+    General Atomistic Modelling Graphic Interface (data)
+garli (2.1-7) [universe]
+    phylogenetic analysis of molecular sequence data using maximum-likelihood
+garli-examples (2.1-7) [universe]
+    phylogenetic analysis of molecular sequence data (examples)
+garli-mpi (2.1-7) [universe]
+    phylogenetic analysis of molecular sequence data using maximum-likelihood (MPI)
+garlic (1.6-3) [universe]
+    visualization program for biomolecules
+gasic (0.0.r19-7) [universe]
+    genome abundance similarity correction
+gasic-examples (0.0.r19-7) [universe]
+    genome abundance similarity correction (example data)
+gatb-core (1.4.2+dfsg-8) [universe]
+    Genome Analysis Toolbox with de-Bruijn graph
+gatb-core-testdata (1.4.2+dfsg-8) [universe]
+    Genome Analysis Toolbox with de-Bruijn graph (test data)
+gausssum (3.0.2-2) [universe]
+    parse and display Gaussian, GAMESS, and etc's output
+# gazebo (11.10.2+dfsg-1) [universe]
+#     Open Source Robotics Simulator - Binaries
+# gazebo-common (11.10.2+dfsg-1) [universe]
+#     Open Source Robotics Simulator - Shared files
+# gazebo-plugin-base (11.10.2+dfsg-1) [universe]
+#     Open Source Robotics Simulator - base plug-ins
+gbrowse (2.56+dfsg-10build1) [universe]
+    GMOD Generic Genome Browser
+gbrowse-calign (2.56+dfsg-10build1) [universe]
+    CAlign helper
+gbrowse-data (2.56+dfsg-10build1) [universe]
+    Sample data to use GBrowse
+gbutils (6.0-1build2) [universe]
+    utilities for command line econometrics
+# gchempaint (0.14.17-6.1) [universe]
+#     2D chemical structures editor for the GNOME2 desktop
+gcrystal (0.14.17-6.1) [universe]
+    lightweight crystal structures visualizer
+# gcu-bin (0.14.17-6.1) [universe]
+#     GNOME chemistry utils (helper applications)
+# gcx (1.3-1.1build2) [universe]
+#     astronomical image processing and photometry gtk+ application
+gdal-bin (3.4.1+dfsg-1build4) [universe]
+    Geospatial Data Abstraction Library - Utility programs
+gdal-data (3.4.1+dfsg-1build4) [universe]
+    Geospatial Data Abstraction Library - Data files
+gdis (0.90-6build1) [universe]
+    molecular and crystal model viewer
+gdis-data (0.90-6build1) [universe]
+    molecular and crystal model viewer (data files)
+# gdl-astrolib (2021.12.26+dfsg-1) [universe]
+#     Low-level astronomy software for GDL
+# gdl-coyote (2019.08.19-1) [universe]
+#     GDL library from D. Fannings IDL courses
+# gdl-mpfit (1.85+2017.01.03-4) [universe]
+#     Robust non-linear least squares curve fitting for GDL
+gdpc (2.2.5-15) [universe]
+    visualiser of molecular dynamic simulations
+gdpc-examples (2.2.5-15) [universe]
+    example files for the gdpc program
+gelemental (2.0.1-1) [universe]
+    Periodic Table viewer
+gemma (0.98.5+dfsg-1build1) [universe]
+    Genome-wide Efficient Mixed Model Association
+gemmi (0.5.3+ds-2) [universe]
+    library for structural biology - executable
+genometester (4.0+git20200511.91cecb5+dfsg-1) [universe]
+    toolkit for performing set operations on k-mer lists
+genomethreader (1.7.3+dfsg-6) [universe]
+    software tool to compute gene structure predictions
+genometools (1.6.2+ds-2) [universe]
+    versatile genome analysis toolkit
+genometools-common (1.6.2+ds-2) [universe]
+    shared data files for GenomeTools
+gentle (1.9+cvs20100605+dfsg1-9) [multiverse]
+    suite to plan genetic cloning
+geographiclib-tools (1.52-1) [universe]
+    C++ library to solve some geodesic problems -- tools
+geotiff-bin (1.7.0-2build1) [universe]
+    GeoTIFF (geografic enabled TIFF) library -- tools
+getdata (0.2-4) [universe]
+    management of external databases
+gff2aplot (2.0-14) [universe]
+    pair-wise alignment-plots for genomic sequences in PostScript
+gff2ps (0.98l-6) [universe]
+    produces PostScript graphical output from GFF-files
+gffread (0.12.7-2build1) [universe]
+    GFF/GTF format conversions, region filtering, FASTA sequence extraction
+gfsview (20121130+dfsg-7) [universe]
+    graphical viewer for Gerris simulation files
+gfsview-batch (20121130+dfsg-7) [universe]
+    batch-version of viewer for Gerris simulation files
+gftl-dev (1.3.0+is-really-1.2.7-1) [universe]
+    Containers and iterators for Fortran
+gftl-shared-dev (1.0.7-2) [universe]
+    Common gFTL containers of Fortran intrinsic types
+ggd-utils (1.0.0+ds-1) [universe]
+    programs for use in ggd
+ghkl (5.0.0.2875-1) [universe]
+    diffractometer computation control application
+ghmm (0.9~rc3-4) [universe]
+    General Hidden-Markov-Model library - tools
+# ginga (3.3.0-1) [universe]
+#     Astronomical image viewer
+gjh-asl-json (0.0+git20210628.867c5da-1) [universe]
+    gjh solver, like solver from AMPL Library
+glam2 (1064-9) [universe]
+    gapped protein motifs from unaligned sequences
+glueviz (1.0.1+dfsg-2) [universe]
+    Linked data visualization
+gmap (2021-12-17+ds-1) [universe]
+    spliced and SNP-tolerant alignment for mRNA and short reads
+gmt (6.3.0+dfsg-2build1) [universe]
+    Generic Mapping Tools
+gmt-common (6.3.0+dfsg-2build1) [universe]
+    Generic Mapping Tools - Architecture-independent files
+gmt-dcw (2.1.0-1) [universe]
+    Digital Chart of the World (DCW) for GMT
+gmt-gshhg (2.3.7-5) [universe]
+    Global Self-consistent Hierarchical High-resolution Geography (GSHHG)
+gmt-gshhg-full (2.3.7-5) [universe]
+    Full resolution coastlines for the Generic Mapping Tools
+gmt-gshhg-high (2.3.7-5) [universe]
+    High resolution coastlines for the Generic Mapping Tools
+gmt-gshhg-low (2.3.7-5) [universe]
+    Low resolution coastlines for the Generic Mapping Tools
+gnuastro (0.16.1-1build1) [universe]
+    GNU Astronomy Utilities programs
+goby-java (3.3.1+dfsg2-7) [universe]
+    next-generation sequencing data and results analysis tool
+golang-github-brentp-gsort-dev (0.1.4-3) [universe]
+    library package for gsort
+golang-github-gogetdata-ggd-utils-dev (1.0.0+ds-1) [universe]
+    library for use in ggd
+gpaw (22.1.0-1build1) [universe]
+    DFT and beyond within the projector-augmented wave method
+gpaw-data (0.9.20000-2) [universe]
+    gpaw datasets/setups
+gperiodic (3.0.3-1) [universe]
+    periodic table application
+gpx (2.6.8-1) [universe]
+    Gcode to x3g conversion post processor
+grabix (0.1.7-3) [universe]
+    wee tool for random access into BGZF files
+grads (3:2.2.1-4build1) [universe]
+    Grid Analysis and Display System for earth science data
+graphlan (1.1.3-4) [universe]
+    circular representations of taxonomic and phylogenetic trees
+# grass (7.8.7-1) [universe]
+#     Geographic Resources Analysis Support System (GRASS GIS)
+# grass-core (7.8.7-1) [universe]
+#     GRASS GIS core components
+# grass-doc (7.8.7-1) [universe]
+#     GRASS GIS user documentation
+# grass-gui (7.8.7-1) [universe]
+#     GRASS GIS graphical user interfaces
+gravit (0.5.1+dfsg-5) [universe]
+    visually stunning gravity simulator
+gravit-data (0.5.1+dfsg-5) [universe]
+    data files for Gravit
+gri (2.12.27-1build1) [universe] [ports]
+    a language for scientific illustration
+grinder (0.5.4-6) [universe]
+    Versatile omics shotgun and amplicon sequencing read simulator
+gromacs (2021.4-2) [universe]
+    Molecular dynamics simulator, with building and analysis tools
+gromacs-data (2021.4-2) [universe]
+    GROMACS molecular dynamics sim, data and documentation
+gromacs-mpi (2021.4-2) [universe]
+    Molecular dynamics sim, binaries for MPI parallelization
+gsort (0.1.4-3) [universe]
+    sort genomic data
+gubbins (2.4.1-5) [universe]
+    phylogenetic analysis of genome sequences
+gvb (1.4-1.1) [universe]
+    visual simulator of 1 and 2-dimensional vibrations
+gwama (2.2.2+dfsg-5) [universe]
+    Genome-Wide Association Meta Analysis
+gwyddion (2.60-2) [universe]
+    Scanning Probe Microscopy visualization and analysis tool
+gwyddion-common (2.60-2) [universe]
+    architecture-independent files for Gwyddion SPM analysis tool
+gyoto (1.4.4-7build1) [universe]
+    General relativistic geodesic integration and ray-tracing
+gyoto-bin (1.4.4-7build1) [universe]
+    General relativistic ray-tracing command-line interface
+h5utils (1.13.1-4build1) [universe]
+    HDF5 files visualization tools
+harminv (1.4.1-3) [universe]
+    extraction of complex frequencies and amplitudes from time series
+harvest-tools (1.3-7build1) [universe]
+    archiving and postprocessing for reference-compressed genomic multi-alignments
+hdf-compass (0.7~b8-3) [universe]
+    viewer for HDF5 and related formats
+hdf5-helpers (1.10.7+repack-4ubuntu2) [universe]
+    HDF5 - Helper tools
+hdf5-tools (1.10.7+repack-4ubuntu2) [universe]
+    HDF5 - Runtime tools
+herisvm (0.9.0-2) [universe]
+    machine learning tools for classification algorithms
+heudiconv (0.10.0-1) [universe]
+    DICOM converter with support for structure heuristics
+hfst (3.15.4-2) [universe]
+    Helsinki Finite-State Transducer Technology
+hfst-ospell (0.5.2-1build3)
+    Spell checker library and tool based on HFST
+hhsuite (3.3.0+ds-6) [universe]
+    sensitive protein sequence searching based on HMM-HMM alignment
+hhsuite-data (3.3.0+ds-6) [universe]
+    sensitive protein sequence searching based on HMM-HMM alignment (data)
+hilive (2.0a-3build3) [universe]
+    realtime alignment of Illumina reads
+hinge (0.5.0-7) [universe]
+    long read genome assembler based on hinging
+hisat2 (2.2.1-3) [universe]
+    graph-based alignment of short nucleotide reads to many genomes
+hmmer (3.3.2+dfsg-1) [universe]
+    profile hidden Markov models for protein sequence analysis
+hmmer2 (2.3.2+dfsg-7) [universe]
+    profile hidden Markov models for protein sequence analysis
+hodie (1.5.0-1) [universe]
+    prints the date in Latin
+#horae (071~svn537+ds1-1) [multiverse]
+#    interactive graphical processing and analysis of EXAFS data
+hpcc (1.5.0-2.1) [universe]
+    HPC Challenge benchmark
+hyphy-common (2.5.36+dfsg-1) [universe]
+    Hypothesis testing using Phylogenies (common files)
+hyphy-mpi (2.5.36+dfsg-1) [universe]
+    Hypothesis testing using Phylogenies (MPI version)
+hyphy-pt (2.5.36+dfsg-1) [universe]
+    Hypothesis testing using Phylogenies (pthreads version)
+idba (1.1.3-7) [universe]
+    iterative De Bruijn Graph short read assemblers
+idba-extra (1.1.3-7) [universe]
+    iterative De Bruijn Graph short read assemblers (extra tools)
+idseq-bench (0.0~git20210602.27fb6dc-1) [universe]
+    Benchmark generator for the IDseq Portal
+ifeffit (2:1.2.11d-12) [multiverse]
+    Interactive XAFS analysis program
+igdiscover (0.11-3) [universe]
+    analyzes antibody repertoires to find new V genes
+# ignition-common-cli (4.5.0+ds-1) [universe]
+#     Collection of useful code used by robotics apps - CLI tools
+# ignition-launch-cli (5.0.0+ds-0ubuntu1) [universe]
+#     Ignition Robotics Launch Library - Launch cli
+# ignition-transport-cli (11.0.0+ds-3) [universe]
+#     Ignition Robotics transport Library - CLI tools
+igor (1.4.0+dfsg-3build1) [universe]
+    infers V(D)J recombination processes from sequencing data
+igv (2.12.0+dfsg-1) [multiverse]
+    Integrative Genomics Viewer
+iitii (0.0+git20191030.85209e0-2) [universe]
+    Implicit Interval Tree with Interpolation Index
+illustrate (0.0+git20200923.217db48-2) [universe]
+    cartoonish representations of large biological molecules
+imagej (1.53o-1) [universe]
+    Image processing program with a focus on microscopy images
+imview (1.1.9h-3) [universe]
+    Image viewing and analysis application
+indelible (1.03-5) [universe]
+    powerful and flexible simulator of biological evolution
+# indi-aagcloudwatcher-ng (1.6+20220128183230-1) [universe]
+#     INDI driver for the AAG Cloud Watcher
+# indi-aok (1.1+20220129131520-1) [universe]
+#     INDI driver for AOK Skywalker
+# indi-apogee (1.9+20220129131520-1) [universe]
+#     INDI driver for Apogee CCDs and Filter Wheels
+# indi-armadillo-platypus (1.0+20220128183230-1) [universe]
+#     INDI driver for Lunatico Astronomia Armadillo and Platypus
+# indi-asi (2.0-3) [multiverse]
+#     INDI Driver for ZWO Optics ASI cameras
+# indi-astrolink4 (0.1+20220128183230-1) [universe]
+#     INDI driver for Astrolink 4.0 devices
+# indi-astromechfoc (0.2+20220128183230-1) [universe]
+#     INDI driver for Astromechanics Canon Lens Controller
+# indi-avalon (1.12+20220128183230-1) [universe]
+#     INDI driver for Avalon Instruments mounts
+# indi-beefocus (0.1+20220128183230-1) [universe]
+#     INDI driver for Bee Focus
+# indi-bresserexos2 (1.0+20220129131520-1) [universe]
+#     INDI driver for Exos II GoTo Telescope Mount
+# indi-dreamfocuser (2.1+20220129131520-1) [universe]
+#     INDI driver for DeamFocuser focuser
+# indi-dsi (0.4+20220129131520-1) [universe]
+#     INDI driver for Meade DSI Pro I/II/III
+# indi-eqmod (1.0+20220129131520-1) [universe]
+#     INDI EQMod Driver
+# indi-ffmv (0.3+20220129131520-1) [universe]
+#     INDI driver for Point Grey Firefly MV cameras
+# indi-fishcamp (1.1-1) [multiverse]
+#     INDI driver for Fishcamp Engineering CCD
+# indi-fli (1.5-2) [universe]
+#     INDI driver for FLI CCD & Focuser
+# indi-gige (0.1+20220129131520-1) [universe]
+#     INDI driver for GigE machine vision cameras
+# indi-gphoto (3.0+20220129131520-1) [universe]
+#     INDI driver for GPhoto (DSLR) Cameras
+# indi-gpsd (0.5+20220129131520-1) [universe]
+#     INDI driver for gpsd GPS daemon
+# indi-gpsnmea (0.2+20220129131520-1) [universe]
+#     INDI driver for GPS NMEA streams
+# indi-limesdr (1.4+20220129131520-1) [universe]
+#     INDI driver for LimeSDR (LMS7) Receiver
+# indi-maxdomeii (1.3-2) [universe]
+#     INDI driver for MaxDome II dome control system
+# indi-mgen (0.1+20220129131520-1) [universe]
+#     INDI driver for Lacerta MGen Autoguider
+# indi-mi (1.8-1) [multiverse]
+#     INDI driver for cameras made by Moravian Instruments
+# indi-nexdome (1.5+20220129131520-1) [universe]
+#     INDI driver for NexDome
+# indi-nightscape (1.0.6+20220129131520-1) [universe]
+#     INDI driver for Celestron Nightscape 8300
+# indi-orion-ssg3 (0.1+20220129131520-1) [universe]
+#     INDI Driver for Orion StarShoot G3 and G4 cameras
+# indi-playerone (0.4+20220129131520-1) [multiverse]
+#     INDI driver for cameras made by Playerone
+# indi-rtklib (1.0+20220129131520-1) [universe]
+#     INDI driver for precise positioning with RTKLIB
+# indi-shelyak (1.0+20220129131520-1) [universe]
+#     INDI driver for Shelyak and Alpy Spectrograph
+# indi-spectracyber (1.3+20220129131520-1) [universe]
+#     INDI driver for hydrogen line spectrometer
+# indi-starbook (0.8+20220129131520-1) [universe]
+#     INDI driver for Vixen Starbook telescope controllers
+# indi-starbook-ten (0.1-2) [universe]
+#     INDI driver for Vixen Starbook Ten telescope controllers
+# indi-sx (1.15+20220129131520-1) [universe]
+#     INDI driver for Starlight Xpress CCD and Filter Wheel
+# indi-talon6 (2.0+20220129131520-1) [universe]
+#     INDI driver for Talon6 Roll Off Roof
+# indi-webcam (1.0+20220129131520-1) [universe]
+#     INDI Driver for web cameras
+indigo-utils (1.2.3-3.1) [universe]
+    Organic Chemistry Toolkit Utilities
+infernal (1.1.4-1) [universe]
+    inference of RNA secondary structural alignments
+inhomog (0.1.9.2-1build2) [universe]
+    kinematical backreaction and average scale factor evolution
+inkscape-speleo (1.8-4) [universe]
+    Inkscape plugin to help draw surveys
+inkscape-survex-export (2.0-1) [universe]
+    Inkscape plugin to digitise printed surveys
+insilicoseq (1.5.4-2) [universe]
+    sequencing simulator producing realistic Illumina reads
+ipig (0.0.r5-4) [universe]
+    integrating PSMs into genome browser visualisations
+iqtree (2.0.7+dfsg-1) [universe]
+    efficient phylogenetic software by maximum likelihood
+iraf (2.17-1) [universe]
+    Image Reduction and Analysis Facility
+iraf-dev (2.17-1) [universe]
+    Image Reduction and Analysis Facility (development files)
+iraf-fitsutil (2018.07.06-4build1) [universe]
+    FITS utilities for IRAF
+iraf-mscred (5.05+2018.07.09-1build3) [universe]
+    CCD mosaic reduction package for IRAF
+iraf-noao (2.17-1) [universe]
+    IRAF NOAO data reduction package
+iraf-noao-dev (2.17-1) [universe]
+    IRAF NOAO data reduction package (development files)
+iraf-rvsao (2.8.4-1) [universe]
+    IRAF package to obtain radial velocities from spectra
+iraf-sptable (1.0~pre20180612-2build1) [universe]
+    IRAF package for Tabular Spectra
+iraf-wcstools (3.9.6-1) [universe]
+    Handle the WCS of a FITS image (IRAF package)
+ismrmrd-schema (1.4.2.1-6) [universe]
+    schema for ISMRMRD
+ismrmrd-tools (1.4.2.1-6) [universe]
+    command-line tools for ISMRMRD
+iso2mesh-demos (1.9.6+ds-7) [universe]
+    sample files and demo scripts for Iso2Mesh toolbox
+iso2mesh-tools (1.9.6+ds-7) [universe]
+    3D mesh generation and repairing utilities
+iva (1.0.11+ds-1) [universe]
+    iterative virus sequence assembler
+ivar (1.3.1+dfsg-4) [universe]
+    functions broadly useful for viral amplicon-based sequencing
+jaligner (1.0+dfsg-8) [universe]
+    Smith-Waterman algorithm with Gotoh's improvement
+jalview (2.11.1.4+dfsg-3) [universe]
+    multiple alignment editor
+jblas (1.2.4-3) [universe]
+    fast linear algebra library for Java
+jellyfish (2.3.0-12ubuntu2) [universe]
+    count k-mers in DNA sequences
+jellyfish-examples (2.3.0-12ubuntu2) [universe]
+    count k-mers in DNA sequences (examples for testing)
+jellyfish1 (1.1.11-6) [universe]
+    count k-mers in DNA sequences
+jemboss (6.6.0+dfsg-11ubuntu1) [universe]
+    graphical user interface to EMBOSS
+jmodeltest (2.1.10+dfsg-11) [universe]
+    HPC selection of models of nucleotide substitution
+jmol (14.32.3+dfsg1-1) [universe]
+    Molecular Viewer
+jnifti-demos (0.6-2) [universe]
+    sample files and demo scripts for JNIfTI toolbox
+jsamp (1.3.7-1) [universe]
+    Java Simple Application Messaging Protocol tool for VO
+jube (2.4.2-1) [universe]
+    JUBE Benchmarking Environment
+jupyter-notebook (6.4.8-1ubuntu0.1) [universe] [security]
+    Jupyter interactive notebook
+kalign (1:3.3.1-1) [universe]
+    Global and progressive multiple sequence alignment
+kallisto (0.46.2+dfsg-3) [universe]
+    near-optimal RNA-Seq quantification
+kallisto-examples (0.46.2+dfsg-3) [universe]
+    near-optimal RNA-Seq quantification (example data)
+kalzium (4:21.12.3-0ubuntu1) [universe]
+    periodic table and chemistry tools
+kalzium-data (4:21.12.3-0ubuntu1) [universe]
+    data files for Kalzium
+kaptive (2.0.0-1) [universe]
+    obtain information about K and O types for Klebsiella genome assemblies
+kaptive-data (2.0.0-1) [universe]
+    reference data for kaptive for Klebsiella genome assemblies
+kaptive-example (2.0.0-1) [universe]
+    example data for kaptive for Klebsiella genome assemblies
+khmer-common (2.1.2+dfsg-10) [universe]
+    common files for the khmer project tools
+kineticstools (0.6.1+git20210811.276ca9c+dfsg-1build1) [universe]
+    detection of DNA modifications
+kineticstools-data (0.6.1+git20210811.276ca9c+dfsg-1build1) [universe]
+    detection of DNA modifications -- data files
+king-probe (02.21-1) [universe]
+    Evaluate and visualize protein interatomic packing
+kissplice (2.5.5+dfsg-1) [universe]
+    Detection of various kinds of polymorphisms in RNA-seq data
+kleborate (2.2.0-1) [universe]
+    tool to screen Klebsiella genome assemblies
+kleborate-examples (2.2.0-1) [universe]
+    tool to screen Klebsiella genome assemblies (example data)
+klustakwik (3.0.2+ds-2) [universe]
+    automatic sorting of the samples (spikes) into clusters
+kma (1.3.28-1) [universe]
+    mapping genomic sequences to raw reads directly against redundant databases
+kmc (3.2.1+dfsg-1) [universe]
+    count kmers in genomic sequences
+kmer (0~20150903+r2013-8build2) [universe]
+    suite of tools for DNA sequence analysis
+kmer-examples (0~20150903+r2013-8build2) [universe]
+    sample data for kmer suite of tools for DNA sequence analysis
+kmerresistance (2.2.0-3ubuntu1) [universe]
+    correlates mapped genes with the predicted species of WGS samples
+konclude (0.7.0+1138~dfsg-1) [universe]
+    tableau-based description logic reasoner for the semantic web
+kraken (1.1.1-3) [universe]
+    assigning taxonomic labels to short DNA sequences
+kraken2 (2.1.2-1) [universe]
+    taxonomic classification system using exact k-mer matches
+kst (2.0.8-5build1) [universe]
+    scientific data plotting tool
+kstars (5:3.5.7-1) [universe]
+    desktop planetarium, observation planning and telescope control
+kstars-data (5:3.5.7-1) [universe]
+    data files for KStars desktop planetarium
+kstars-data-extra-tycho2 (1.1r1-9.1) [universe]
+    Tycho-2 star catalog for KStars
+lagan (2.0-6) [universe]
+    highly parametrizable pairwise global genome sequence aligner
+lamarc (2.1.10.1+dfsg-6) [universe]
+    Likelihood Analysis with Metropolis Algorithm using Random Coalescence
+lambda-align (1.0.3-6) [universe]
+    Local Aligner for Massive Biological DatA
+lambda-align2 (2.0.0-9) [universe]
+    Local Aligner for Massive Biological DatA - v2
+lammps (20220106.git7586adbb6a+ds1-2) [universe]
+    Molecular Dynamics Simulator
+last-align (1260-1) [universe]
+    genome-scale comparison of biological sequences
+lastz (1.04.15-2) [universe]
+    pairwise aligning DNA sequences
+lastz-examples (1.04.15-2) [universe]
+    pairwise aligning DNA sequences (examples and test scripts)
+leaff (0~20150903+r2013-8build2) [universe]
+    biological sequence library utilities and applications
+lefse (1.1.2-1) [universe]
+    determine features of organisms, clades, taxonomic units, genes
+libadios-bin (1.13.1-30build2) [universe]
+    ADIOS Adaptable IO system for simulations - binaries
+libadios-examples (1.13.1-30build2) [universe]
+    Examples for the ADIOS Adaptable IO system
+# libarb (6.0.6-5) [multiverse]
+#     phylogenetic sequence analysis suite - libraries
+libatlas-ecmwf-utils (0.27.0-1) [universe]
+    Numerical weather prediction and climate modelling library - utilities
+libball1.5-data (1.5.0+git20180813.37fc53c-10build1) [universe]
+    Biochemical Algorithms Library (data files)
+libbio-db-hts-perl (3.01-3build2) [universe]
+    Perl interface to the HTS library
+libbio-tools-phylo-paml-perl (1.7.3-3) [universe]
+    Bioperl interface to the PAML suite
+libbio-tools-run-alignment-clustalw-perl (1.7.4-2) [universe]
+    Bioperl interface to Clustal W
+libbio-tools-run-alignment-tcoffee-perl (1.7.4-2) [universe]
+    Bioperl interface to T-Coffee
+libbiojava-java (1:1.7.1-9) [universe]
+    Java API to biological data and applications (default version)
+libbiojava-java-demos (1:1.7.1-9) [universe]
+    Example programs for BioJava
+libbiojava1.7-java (1:1.7.1-9) [universe]
+    Java API to biological data and applications (version 1.7)
+libcassie1v5 (1.0.9-3build1) [universe]
+    library implementating search algorithms
+libcg3-1 (1.3.2-1build2) [universe]
+    Runtime for CG-3
+libclhep2.1v5 (2.1.4.1+dfsg-1build1) [universe]
+    CLHEP: A Class Library for High Energy Physics
+libdbcsr-dev (2.1.0-1) [universe] [ports]
+    Distributed Block Compressed Sparse Row matrix library
+libdivsufsort3 (2.0.1-5) [universe]
+    fast suffix array construction
+libdlpack-dev (0.6-1) [universe]
+    Open In Memory Tensor Structure
+libdyssol1.0 (1.0.2+ds2-1) [universe]
+    Tool for dynamic flowsheet simulation. Shared libraries
+libeccodes-data (2.24.2-1) [universe]
+    GRIB and BUFR enecoding/encoding software library - data
+libeckit-utils (1.18.7-1) [universe]
+    C++ toolkit for ECMWF tools and applications - development files
+libej0 (4.8.8+repack-2) [universe]
+    hardware & software framework for developing science experiments
+libfaiss-dev (1.7.2-5) [universe]
+    efficient similarity search and clustering of dense vectors
+libfckit-utils (0.9.5-1) [universe]
+    Library Fortran toolkit for interoperating Fortran with C/C++
+libgenometools0 (1.6.2+ds-2) [universe]
+    versatile genome analysis library
+libgfsgl0 (20121130+dfsg-7) [universe]
+    graphical viewer for Gerris simulation files. Shared library
+libgiac0 (1.7.0.39+dfsg2-1build2) [universe]
+    Computer Algebra System C++ library
+libgoby-io-java (3.3.1+dfsg2-7) [universe]
+    IO API for goby
+libhdf5-jni (1.10.7+repack-4ubuntu2) [universe]
+    native library used by libhdf5-java
+libideep-dev (0.0~git20210319.8307da3-2) [universe]
+    Intel's mkldnn/dnnl wrapper for pytorch
+libinchi-bin (1.03+dfsg-4) [universe]
+    International Chemical Identifier (InChI) algorithm (executable)
+libjgrapht-java (1.5.1-3) [universe]
+    Java library of graph theory data structures and algorithms
+libjgrapht-java
+    virtual package provided by libjgrapht0.8-java
+liblammps-dev (20220106.git7586adbb6a+ds1-2) [universe]
+    Molecular Dynamics Simulator (dev files)
+liblammps0 (20220106.git7586adbb6a+ds1-2) [universe]
+    Molecular Dynamics Simulator (shared library)
+liblemon-utils (1.3.1+dfsg-5) [universe]
+    Library for Efficient Modeling and Optimization in Networks (utilities)
+libliggghts3 (3.8.0+repack1-9build1) [universe]
+    Open Source DEM Particle Simulation Software. Shared library
+liblinear-tools (2.3.0+dfsg-5) [universe]
+    Standalone applications for LIBLINEAR
+liblorene-debian1 (0.0.0~cvs20161116+dfsg-1ubuntu9) [universe]
+    liblorene shared library
+liblorene-export-debian0 (0.0.0~cvs20161116+dfsg-1ubuntu9) [universe]
+    liblorene_export shared library
+liblorenef77-debian1 (0.0.0~cvs20161116+dfsg-1ubuntu9) [universe]
+    liblorenef77 shared library
+libmcpl-dev (1.3.2-3) [universe]
+    Monte Carlo Particle Lists - development files
+libmcpl1 (1.3.2-3) [universe]
+    Monte Carlo Particle Lists - library
+libmstoolkit-tools (82-7) [universe]
+    libraries for manipulating mass spectrometry data - tools
+libncarg-bin (6.6.2-10build2) [universe]
+    NCAR command-language library - development tools
+libncarg-data (6.6.2-10build2) [universe]
+    NCAR command-language library - Data
+libngram-tools (1.3.2-3build1) [universe]
+    OpenGRM n-gram Language Modeling toolkit
+libocas-tools (0.97+dfsg-6) [universe]
+    Standalone applications implementing the OCAS solver
+libonnx-dev (1.7.0+dfsg-3ubuntu2) [universe]
+    Open Neural Network Exchange (ONNX) (dev)
+libonnx-testdata (1.7.0+dfsg-3ubuntu2) [universe]
+    Open Neural Network Exchange (ONNX) (test data)
+libonnx1 (1.7.0+dfsg-3ubuntu2) [universe]
+    Open Neural Network Exchange (ONNX) (libs)
+libonnxifi (1.7.0+dfsg-3ubuntu2) [universe]
+    Open Neural Network Exchange (ONNX) (ONNXIFI)
+libopenfoam (1912.200626-1) [universe]
+    Open source toolbox for Computational Fluid Dynamics (CFD) - libraries
+libopm-simulators-bin (2021.10-4ubuntu1) [universe]
+    Parallel porous media / reservoir simulators -- applications
+libopm-upscaling-bin (2021.10-4) [universe]
+    Porous media upscaling tools -- applications
+liboscar4-java (5.1.2+dfsg-1) [universe]
+    automated annotation of chemistry in scientific articles
+libphitsmcpl1 (1.3.2-3) [universe]
+    Monte Carlo Particle Lists - PHITS library
+libpluto-jpl-eph-dev (0.0~git20180228-1.1build1) [universe]
+    development files to interact with JPL ephemeres data
+libpluto-lunar-dev (0.0~git20180825.e34c1d1-1build1) [universe]
+    development files for astronomical Lunar library
+libpwiz-tools (3.0.18342-4build1) [universe]
+    ProteoWizard command line tools
+# libqgis-customwidgets (3.22.4+dfsg-3build1) [universe]
+#     QGIS custom widgets for Qt Designer
+librasterlite2-1 (1.1.0~beta1-2build1) [universe]
+    library for huge raster coverages using a SpatiaLite DBMS
+librsl1 (1.43-1.2build1) [universe]
+    TRMM Radar Software Library
+libsilo-bin (4.11-2build1) [universe]
+    Utilities to manipulate libsilo files
+libsqlite3-mod-virtualpg (2.0.1-1) [universe]
+    Loadable dynamic extension to both SQLite and SpatiaLite
+libsquizz (0.99d+dfsg-3) [universe]
+    Conversion libs used by squizz genetic sequence converter
+libssm-bin (1.4.0-2) [universe]
+    macromolecular superposition library - binaries
+libssu-tools (0.10.0-3build1) [universe]
+    high-performance phylogenetic diversity calculations (binaries)
+libsswmcpl1 (1.3.2-3) [universe]
+    Monte Carlo Particle Lists - SSW library
+libstxxl1v5 (1.4.1-3build1) [universe]
+    C++ Standard Template Library for extra large datasets
+libtorch-test (1.8.1-4) [universe]
+    Tensors and Dynamic neural networks in Python (Test Binaries)
+libuhd4.1.0-dpdk-tests (4.1.0.5-3) [universe]
+    universal hardware driver for Ettus Research products - DPDK tests
+libvcflib-tools (1.0.3+dfsg-1) [universe]
+    C++ library for parsing and manipulating VCF files (tools)
+libvdjtools-java (1.2.1+git20190311-6) [multiverse]
+    Java library of vdjtools
+libwannier90-dev (3.1.0+ds-7) [universe]
+    Maximally Localized Wannier Functions - development library
+libxy-bin (1.6-1) [universe]
+    xylib - utilities
+libyade (2022.01a-7) [universe]
+    Platform for discrete element modeling. Libraries
+liggghts (3.8.0+repack1-9build1) [universe]
+    Open Source DEM Particle Simulation Software.
+lighter (1.1.2-6) [universe]
+    fast and memory-efficient sequencing error corrector
+litl-tools (0.1.9-12build1) [universe]
+    Lightweight Trace Library - tools
+logol (1.7.9+dfsg-1build1) [universe]
+    Pattern matching tool using Logol language
+logol-bin (1.7.9+dfsg-1build1) [universe]
+    Pattern matching tool using Logol language
+loki (2.4.7.4-10) [universe]
+    MCMC linkage analysis on general pedigrees
+loki-doc (2.4.7.4-10) [universe]
+    MCMC linkage analysis on general pedigrees (PS manual)
+looptools (2.8-1build3) [universe]
+    Integral Evaluator of One-loop Feynman Diagram
+lorene (0.0.0~cvs20161116+dfsg-1ubuntu9) [universe]
+    framework for numerical relativity
+lorene-codes-src (0.0.0~cvs20161116+dfsg-1ubuntu9) [universe]
+    source files of LORENE-based codes
+ltrsift (1.0.2-9build1) [universe]
+    postprocessing and classification of LTR retrotransposons
+lttoolbox-dev (3.5.4-1build1) [universe]
+    Development tools and library for lttoolbox
+lucy (1.20-3) [universe]
+    DNA sequence quality and vector trimming tool
+lumpy-sv (0.3.1+dfsg-6) [universe]
+    general probabilistic framework for structural variant discovery
+lumpy-sv-examples (0.3.1+dfsg-6) [universe]
+    general probabilistic framework for structural variant discovery (data)
+lutefisk (1.0.7+dfsg-7) [universe]
+    de novo interpretation of peptide CID spectra
+lxi-tools (2.1-1) [universe]
+    LAN eXtensions for Instrumentation (LXI) software interface
+macs (2.2.7.1-5ubuntu1) [universe]
+    Model-based Analysis of ChIP-Seq on short reads sequencers
+macsyfinder (2.0~rc4-2) [universe]
+    detection of macromolecular systems in protein datasets
+maffilter (1.3.1+dfsg-3) [universe]
+    process genome alignment in the Multiple Alignment Format
+maffilter-examples (1.3.1+dfsg-3) [universe]
+    process genome alignment in the Multiple Alignment Format (example data)
+mafft (7.490-1) [universe]
+    Multiple alignment program for amino acid or nucleotide sequences
+malt (0.5.2-2) [universe]
+    sequence alignment and analysis tool to process sequencing data
+mandelbrot-solver (3.2.1-5) [universe]
+    Solver for Mandelbrot polynomials based on MPSolve
+mapdamage (2.2.1+dfsg-2) [universe]
+    tracking and quantifying damage patterns in ancient DNA sequences
+mapsembler2 (2.2.4+dfsg1-4) [universe]
+    bioinformatics targeted assembly software
+maq (0.7.1-9) [universe]
+    maps short fixed-length polymorphic DNA sequence reads to reference sequences
+maqview (0.2.5-10) [universe]
+    graphical read alignment viewer for short gene sequences
+mash (2.3+dfsg-1build2) [universe]
+    fast genome and metagenome distance estimation using MinHash
+massxpert (6.0.3-1) [universe]
+    polymer chemistry modelling and mass spectrometry data simulation (runtime)
+massxpert-data (6.0.3-1) [universe]
+    polymer chemistry modelling and mass spectrometry data simulation (data)
+# matlab-brain2mesh (0.7.9-2) [multiverse]
+#     automated brain tetrahedral mesh generation toolbox for MATLAB
+# matlab-gdf (0.1.3-11) [multiverse]
+#     IO library for the GDF -- Matlab interface
+# matlab-iso2mesh (1.9.6+ds-7) [multiverse]
+#     3D surface and volumetric mesh generator for MATLAB
+# matlab-jnifti (0.6-2) [multiverse]
+#     fast NIfTI-1/2 reader and NIfTI-to-JNIfTI converter for MATLAB
+# matlab-jsonlab (2.0-1.1) [multiverse]
+#     native JSON/UBJSON/MassagePack encoder/decoder for MATLAB
+# matlab-zmat (0.9.8+ds-6) [multiverse]
+#     in-memory data compression for MATLAB
+maude (3.1-2) [universe]
+    high-performance logical framework
+mauve-aligner (2.4.0+4736-4) [universe]
+    multiple genome alignment
+mayavi2 (4.7.1-3ubuntu1) [universe]
+    scientific visualization package for 2-D and 3-D data
+mbpoll (1.4.11+dfsg-2) [universe]
+    command line utility to communicate with ModBus slave (RTU or TCP)
+# mbt (3.6-3) [universe]
+#     memory-based tagger-generator and tagger
+# mbtserver (0.14-2) [universe]
+#     Server extensions for the MBT tagger
+mcaller (1.0.3+git20210624.b415090-1) [universe]
+    find methylation in nanopore reads
+mcpl (1.3.2-3) [universe]
+    Monte Carlo Particle Lists - libraries and tools
+mecat2 (0.0+git20200428.f54c542+ds-3) [universe]
+    ultra-fast and accurate de novo assembly tools for SMRT reads
+meep (1.17.1-1build1) [universe]
+    software package for FDTD simulation
+meep-mpi-default (1.17.1-2build1) [universe]
+    software package for FDTD simulation, parallel (OpenMPI) version
+meep-openmpi (1.17.1-2build1) [universe]
+    software package for FDTD simulation, parallel (OpenMPI) version
+megahit (1.2.9-3) [universe]
+    ultra-fast and memory-efficient meta-genome assembler
+megan-ce (6.21.1+dfsg-2) [universe]
+    interactive tool to explore and analyse microbiome sequencing data
+melting (5.2.0-2) [universe]
+    compute the melting temperature of nucleic acid duplex
+merkaartor (0.19.0+ds-2build2) [universe]
+    map editor for OpenStreetMap.org
+meryl (0~20150903+r2013-8build2) [universe]
+    in- and out-of-core kmer counting and utilities
+metabat (2.15-3) [universe]
+    robust statistical framework for reconstructing genomes from metagenomic data
+# metaphlan2 (3.0.14-1) [universe]
+#     Metagenomic Phylogenetic Analysis
+# metaphlan2-data (2.6.0+ds-4) [universe]
+#     data package for Metagenomic Phylogenetic Analysis
+metastudent (2.0.1-9) [universe]
+    predictor of Gene Ontology terms from protein sequence
+metastudent-data (2.0.1-8) [universe]
+    predictor of Gene Ontology terms from protein sequence - data files
+metastudent-data-2 (1.0.0-6) [universe]
+    predictor of Gene Ontology terms from protein sequence - data #2
+metview (5.14.1-1) [universe]
+    Interactive data visualization and analysis environment,
+metview-data (5.14.1-1) [universe]
+    Data needed for the Metview data analysis environment
+mhap (2.1.3+dfsg-3) [universe]
+    locality-sensitive hashing to detect long-read overlaps
+mia-doctools (2.4.7-8ubuntu1) [universe]
+    Helper scripts for run-time document creation
+mia-tools (2.4.7-8ubuntu1) [universe]
+    Command line tools for gray scale image processing
+mia-viewit (1.0.5-3) [universe]
+    Viewer program for 3D data sets created by using MIA
+mialmpick (0.2.15-2) [universe]
+    Tools for landmark picking in 3D volume data sets
+microbegps (1.0.0-5) [universe]
+    explorative taxonomic profiling tool for metagenomic data
+microbiomeutil (20101212+dfsg1-5) [universe]
+    Microbiome Analysis Utilities
+microbiomeutil-data (20101212+dfsg1-5) [universe]
+    Reference 16S sequences and NAST-alignments used by microbiomeutil tools
+microhope (4.8.8+repack-2) [universe]
+    hardware & software framework to learn microcontrollers
+minc-tools (2.3.00+dfsg-8) [universe]
+    MNI medical image format tools
+mindthegap (2.2.3-4) [universe]
+    performs detection and assembly of DNA insertion variants in NGS read datasets
+mindthegap-examples (2.2.3-4) [universe]
+    optional scripts and example resources for mindthegap
+minexpert2 (8.2.0-1) [universe]
+    MS^n mass spectrometric data visualization and mining (runtime)
+minia (3.2.6-1) [universe]
+    short-read biological sequence assembler
+miniasm (0.3+dfsg-3) [universe]
+    ultrafast de novo assembler for long noisy DNA sequencing reads
+minimac4 (1.0.2-4) [universe]
+    Fast Imputation Based on State Space Reduction HMM
+minimap (0.2-6) [universe]
+    tool for approximate mapping of long biosequences such as DNA reads
+minimap2 (2.24+dfsg-2) [universe]
+    versatile pairwise aligner for genomic and spliced nucleotide sequences
+minisat (1:2.2.1-5build2) [universe]
+    Fast and lightweight SAT solver
+minisat+ (1.0-4build1) [universe]
+    solver for pseudo-Boolean constraints
+minisat2 (1:2.2.1-5build2) [universe]
+    Transitional package for minisat
+minisat2
+    virtual package provided by minisat
+mipe (1.1-9) [universe]
+    Tools to store PCR-derived data
+mira-assembler (4.9.6-5build2) [universe]
+    Whole Genome Shotgun and EST Sequence Assembler
+mira-rfam-12s-rrna (4.9.6-5build2) [universe]
+    extract of RFAM 12 rRNA database
+mirtop (0.4.24-1) [universe]
+    annotate miRNAs with a standard mirna/isomir naming
+missfits (2.8.0-5) [universe]
+    Basic maintenance and packaging tasks on FITS files
+mitools (2.0.5-2) [universe]
+    view, convert and perform basic maths with medical image datasets
+mlpack-bin (3.4.2-5ubuntu1) [universe]
+    intuitive, fast, scalable C++ machine learning library (binaries)
+mlv-smile (1.47-8) [universe]
+    Find statistically significant patterns in sequences
+mmb (3.5+dfsg-4ubuntu1) [universe]
+    model the structure and dynamics of macromolecules
+mmb-common (3.5+dfsg-4ubuntu1) [universe]
+    model the structure and dynamics of macromolecules (common files)
+mmmulti (0.1-2) [universe]
+    memory backed multimap
+mmseqs2 (13-45111+ds-2) [universe]
+    ultra fast and sensitive protein search and clustering
+mmseqs2-examples (13-45111+ds-2) [universe]
+    optional resources for the mmseqs2 package
+mocassin (2.02.73.2-1) [universe]
+    MOnte CArlo SimulationS of Ionised Nebulae
+mocassin-benchmarks (2.02.73.2-1) [universe]
+    benchmarks for the photoionisation code MOCASSIN
+mocassin-data (2.02.73.2-1) [universe]
+    atomic and optical data for the photoionisation code MOCASSIN
+mocassin-examples (2.02.73.2-1) [universe]
+    Examples for the photoionisation code MOCASSIN
+molequeue (0.9.0-1) [universe]
+    Desktop integration of high performance computing resources
+montage (6.0+dfsg-7build5) [universe]
+    Toolkit for assembling FITS images into mosaics
+montage-gridtools (6.0+dfsg-7build5) [universe]
+    Create files to run montage on the grid
+mopac7-bin (1.15-6ubuntu4) [universe]
+    Semi-empirical Quantum Chemistry Library (binaries)
+mothur (1.47.0-1) [universe]
+    sequence analysis suite for research on microbiota
+mpb (1.11.1-4) [universe]
+    MIT Photonic-Bands
+mpb-mpi (1.11.1-4) [universe]
+    MIT Photonic-Bands, parallel (mpich) version
+mpb-scm (1.11.1-4) [universe]
+    MIT Photonic-Bands initialisation files
+mpgrafic (0.3.19-1build1) [universe]
+    MPI version of N-body initial conditions grafic package
+mpqc (2.3.1-21) [universe]
+    Massively Parallel Quantum Chemistry Program
+mpqc-support (2.3.1-21) [universe]
+    Massively Parallel Quantum Chemistry Program (support tools)
+mpsolve (3.2.1-5) [universe]
+    Multiprecision polynomial solver (command line version)
+mptp (0.2.4-3build1) [universe]
+    single-locus species delimitation
+mrbayes-mpi (3.2.7a-5) [universe]
+    Bayesian Inference of Phylogeny - mpi version
+mriconvert (1:2.1.0-4build1) [universe]
+    medical image file conversion utility
+mricron (1.2.20211006+dfsg-1) [universe]
+    magnetic resonance image conversion, viewing and analysis
+mricron-data (1.2.20211006+dfsg-1) [universe]
+    data files for MRIcron
+# mrpt-apps (1:2.4.2+ds-2) [universe]
+#     Mobile Robot Programming Toolkit - Console and GUI applications
+# mrpt-common (1:2.4.2+ds-2) [universe]
+#     Mobile Robot Programming Toolkit - Example datasets and files
+mrtrix3 (3.0.3-1) [universe]
+    diffusion-weighted MRI white matter tractography
+mseed2sac (2.3+ds1-1) [universe]
+    Convert MiniSEED time series data to SAC
+mssstest (3.0-7build1) [multiverse]
+    Normalisation of disease scores for patients with Multiple Sclerosis
+msxpertsuite (5.8.9-1) [universe]
+    mass spectrometry software suite - metapackage
+msxpertsuite-massxpert (5.8.9-1) [universe]
+    mass spectrometry software suite - massXpert
+msxpertsuite-massxpert-data-doc (5.8.9-1) [universe]
+    mass spectrometry software suite - massXpert - data and doc
+msxpertsuite-minexpert (5.8.9-1) [universe]
+    mass spectrometry software suite - mineXpert
+msxpertsuite-minexpert-data-doc (5.8.9-1) [universe]
+    mass spectrometry software suite - mineXpert - data and doc
+multiqc (1.12+dfsg-1) [universe]
+    output integration for RNA sequencing across tools and samples
+mumax3 (3.10-2) [multiverse]
+    GPU-accelerated micromagnetic simulator
+mummer (3.23+dfsg-7) [universe]
+    Efficient sequence alignment of full genomes
+# munipack (0.5.14-2) [universe]
+#     Astronomical photometry software package
+# munipack-cli (0.5.14-2) [universe]
+#     Command line interface of Munipack
+# munipack-core (0.5.14-2) [universe]
+#     Core routines of Munipack
+# munipack-gui (0.5.14-2) [universe]
+#     Graphical user interface of Munipack
+murasaki (1.68.6-13build1) [universe]
+    homology detection tool across multiple large genomes
+murasaki-common (1.68.6-13build1) [universe]
+    homology detection tool across multiple large genomes (common files)
+murasaki-mpi (1.68.6-13build1) [universe]
+    homology detection tool across multiple large genomes (MPI-version)
+muscle (1:3.8.1551-2build1) [universe]
+    Multiple alignment program of protein sequences
+music-bin (1.1.16-1.1build4) [universe]
+    Multi-Simulation Coordinator for MPI -- Utilities
+mustang (3.2.3-4) [universe]
+    multiple structural alignment of proteins
+mustang-testdata (3.2.3-4) [universe]
+    multiple structural alignment of proteins, test data
+nanolyse (1.2.0-3) [universe]
+    remove lambda phage reads from a fastq file
+nanook (1.33+dfsg-4) [universe]
+    pre- and post-alignment analysis of nanopore sequencing data
+nanook-examples (1.33+dfsg-4) [universe]
+    pre- and post-alignment analysis of nanopore sequencing data (examples)
+nanopolish (0.13.3-2) [universe]
+    consensus caller for nanopore sequencing data
+nanostat (1.4.0-3) [universe]
+    statistics on long biological sequences
+nanosv (1.2.4+git20190409.c1ae30c-6) [universe]
+    structural variant caller for nanopore data
+nast-ier (20101212+dfsg1-5) [universe]
+    NAST-based DNA alignment tool
+nastran (0.1.95-2) [multiverse]
+    NASA Structural Analysis System
+nautic (1.5-5) [universe]
+    computation of observer position in astro-navigation
+ncbi-acc-download (0.2.8-1) [universe]
+    download genome files from NCBI by accession
+ncbi-blast+ (2.12.0+ds-3build1) [universe]
+    next generation suite of BLAST sequence search tools
+ncbi-blast+-legacy (2.12.0+ds-3build1) [universe]
+    NCBI Blast legacy call script
+ncbi-cn3d (3.0.20170106+dfsg1-9) [universe]
+    3-dimensional viewer for biological molecules
+ncbi-entrez-direct (14.6.20210224+dfsg-5ubuntu0.2 [amd64], 14.6.20210224+dfsg-5 [arm64, armhf, ppc64el, riscv64, s390x]) [universe] [security]
+    NCBI Entrez utilities on the command line
+ncbi-epcr (2.3.12-1-9) [universe]
+    Tool to test a DNA sequence for the presence of sequence tagged sites
+ncbi-rrna-data (6.1.20170106+dfsg1-9) [universe]
+    large rRNA BLAST databases distributed with the NCBI toolkit
+ncbi-seg (0.0.20000620-6) [universe]
+    tool to mask segments of low compositional complexity in amino acid sequences
+ncbi-tools-bin (6.1.20170106+dfsg1-9) [universe]
+    NCBI libraries for biology applications (text-based utilities)
+ncbi-tools-x11 (6.1.20170106+dfsg1-9) [universe]
+    NCBI libraries for biology applications (X-based utilities)
+ncl-ncarg (6.6.2-10build2) [universe]
+    NCAR Command Language and NCAR graphics
+ncl-tools (2.1.21+git20210811.b1213a7-1) [universe]
+    tools to deal with NEXUS files
+ncoils (2002-9) [universe]
+    coiled coil secondary structure prediction
+ncview (2.1.8+ds-4build1) [universe]
+    X11 visual browser for NetCDF format files
+neat (2.3.2-2) [universe]
+    Nebular Empirical Analysis Tool
+neobio (0.0.20030929-6) [universe]
+    computes alignments of amino acid and nucleotide sequences
+netcdf-bin (1:4.8.1-1) [universe]
+    Programs for reading and writing NetCDF files
+# neurodebian (0.41.0) [universe]
+#     neuroscience-oriented distribution - repository configuration
+# neurodebian-archive-keyring (0.41.0) [universe]
+#     neuroscience-oriented distribution - GnuPG archive keys
+# neurodebian-desktop (0.41.0) [universe]
+#     neuroscience-oriented distribution - desktop integration
+# neurodebian-dev (0.41.0) [universe]
+#     neuroscience-oriented distribution - development tools
+# neurodebian-freeze (0.41.0) [universe]
+#     nd_freeze tool to freeze APT sources to use snapshots
+# neurodebian-popularity-contest (0.41.0) [universe]
+#     neuroscience-oriented distribution - popcon integration
+neuron (7.6.3-1build6) [universe]
+    Simulation environment for computational models of neurons
+neuron-dev (7.6.3-1build6) [universe]
+    Neuron simulation environment - Development files
+nexus-tools (4.4.3-5) [universe]
+    NeXus scientific data file format - applications
+ngmlr (0.2.7+git20210816.a2a31fb+dfsg-2) [universe]
+    CoNvex Gap-cost alignMents for Long Reads
+nifti2dicom (0.4.11-3) [universe]
+    convert 3D medical images to DICOM 2D series
+nifti2dicom-data (0.4.11-3) [universe]
+    data files for nifti2dicom
+njplot (2.4-9) [universe]
+    phylogenetic tree drawing program
+norsnet (1.0.17-7) [universe]
+    tool to identify unstructured loops in proteins
+norsp (1.0.6-7) [universe]
+    predictor of non-regular secondary structure
+ntcard (1.2.2+dfsg-3) [universe]
+    Streaming algorithm to estimate cardinality in genomics datasets
+nthash (2.2.0-2) [universe]
+    Methods to evaluate runtime and uniformity tests for hashing methods
+numdiff (5.9.0-1) [universe]
+    Compare similar files with numeric fields
+nutsqlite (2.0.6-3) [universe]
+    Dietary nutrition analysis software
+nwchem (7.0.2-3) [universe]
+    High-performance computational chemistry software (default MPI)
+nwchem-data (7.0.2-3) [universe]
+    High-performance computational chemistry software (data files)
+nwchem-mpich (7.0.2-3) [universe]
+    High-performance computational chemistry software (MPICH build)
+nwchem-openmpi (7.0.2-3) [universe]
+    High-performance computational chemistry software (OpenMPI build)
+nxtrim (0.4.3+dfsg-2) [universe]
+    Optimized trimming of Illumina mate pair reads
+# oar-common (2.5.9-1) [universe]
+#     OAR batch scheduler common package
+# oar-node (2.5.9-1) [universe]
+#     OAR batch scheduler node package
+# oar-restful-api (2.5.9-1) [universe]
+#     OAR web services
+# oar-server (2.5.9-1) [universe]
+#     OAR batch scheduler server package
+# oar-server-mysql (2.5.9-1) [universe]
+#     OAR batch scheduler MySQL server backend package
+# oar-server-pgsql (2.5.9-1) [universe]
+#     OAR batch scheduler PostgreSQL server backend package
+# oar-user (2.5.9-1) [universe]
+#     OAR batch scheduler user package
+# oar-user-mysql (2.5.9-1) [universe]
+#     OAR batch scheduler MySQL user backend package
+# oar-user-pgsql (2.5.9-1) [universe]
+#     OAR batch scheduler PostgreSQL user backend package
+# oar-web-status (2.5.9-1) [universe]
+#     OAR batch scheduler visualization tool package
+objcryst-fox (1.9.6.0-2.2) [universe]
+    Free Objects for Xtallography
+occt-draw (7.5.1+dfsg1-2ubuntu1) [universe]
+    Open CASCADE Technology command interpreter and graphical test system
+oce-draw (0.18.3-2) [universe]
+    OpenCASCADE Community Edition CAE platform shared library
+octave-bart (0.7.00-2) [universe]
+    Octave bindings for BART
+octave-biosig (2.3.3-1build2) [universe]
+    Octave bindings for BioSig library
+octave-brain2mesh (0.7.9-2) [universe]
+    automated brain tetrahedral mesh generation toolbox for Octave
+octave-gdf (0.1.3-11) [universe]
+    IO library for the GDF -- Octave interface
+octave-iso2mesh (1.9.6+ds-7) [universe]
+    3D surface and volumetric mesh generator for Octave
+octave-jnifti (0.6-2) [universe]
+    fast NIfTI-1/2 reader and NIfTI-to-JNIfTI converter
+octave-jsonlab (2.0-1.1) [universe]
+    native JSON/UBJSON/MassagePack encoder/decoder for Octave
+octave-psychtoolbox-3 (3.0.18.4.dfsg1-1) [universe]
+    toolbox for vision research -- Octave bindings
+octave-zmat (0.9.8+ds-6) [universe]
+    in-memory data compression for Octave
+octomap-tools (1.9.7+dfsg-3) [universe]
+    Tools for 3D occupancy grid mapping
+octovis (1.9.7+dfsg-3) [universe]
+    Visualization tool for OctoMap
+odil (0.12.1-5build1) [universe]
+    C++11 library for the DICOM standard (application)
+odin (2.0.5-2) [universe]
+    develop, simulate and run magnetic resonance sequences
+ogdi-bin (4.1.0+ds-5) [universe]
+    Open Geographic Datastore Interface Library -- utilities
+ompl-demos (1.5.2+ds1-1) [universe]
+    Open Motion Planning Library (OMPL) demos
+ompl-plannerarena (1.5.2+ds1-1) [universe]
+    Open Motion Planning Library (OMPL) plannerarena
+ont-fast5-api (4.0.0+dfsg-1) [universe]
+    simple interface to HDF5 files of the Oxford Nanopore .fast5 file format
+# open3d-gui (0.14.1+dfsg-7build3) [universe]
+#     Library for 3D data processing - GUI
+# open3d-gui-data (0.14.1+dfsg-7build3) [universe]
+#     Library for 3D data processing - GUI resources
+openbabel (3.1.1+dfsg-6ubuntu5) [universe]
+    Chemical toolbox utilities (cli)
+# openbabel-gui (3.1.1+dfsg-6ubuntu5) [universe]
+#     Chemical toolbox utilities (graphical user interface)
+opendrop (3.3.1-3build1) [universe]
+    fully-featured pendant drop tensiometry software
+openfoam (1912.200626-1) [universe]
+    Open source toolbox for Computational Fluid Dynamics (CFD) - binaries
+openfoam-examples (1912.200626-1) [universe]
+    Open source toolbox for Computational Fluid Dynamics (CFD) - examples
+openmolcas (21.10-1ubuntu1) [universe]
+    Quantum chemistry software package
+openmolcas-data (21.10-1ubuntu1) [universe]
+    Quantum chemistry software package (data files)
+openmotor (0.4.0-4) [universe]
+    internal ballistics simulator for rocket motor experimenters
+openms (2.6.0+cleaned1-3build1) [universe]
+    package for LC/MS data management and analysis
+openms-common (2.6.0+cleaned1-3build1) [universe]
+    package for LC/MS data management and analysis - shared data
+openmx (3.8.5+dfsg1-1build1) [universe]
+    package for nano-scale material simulations
+openmx-data (3.8.5+dfsg1-1build1) [universe]
+    package for nano-scale material simulations (data)
+openrocket (15.03.6) [universe]
+    Model Rocket Simulator
+openstructure (2.3.1-2build1) [universe]
+    Open-Source Computational Structural Biology Framework
+openuniverse (1.0beta3.1+dfsg-7) [universe]
+    3D Universe Simulator
+openuniverse-common (1.0beta3.1+dfsg-7) [universe]
+    3D Universe Simulator data files
+optgeo (2.25-2build1) [universe]
+    simulator for geometrical optics
+opticalraytracer (9.6-1) [universe]
+    Virtual lens/mirror design workshop
+optimir (1.1-1) [universe]
+    Integrating genetic variations in miRNA alignment
+origami (1.2.7+really0.7.4-1.1) [universe]
+    command-line management tool for Folding @ Home clients
+# orthanc (1.10.0+dfsg-1) [universe]
+#     Lightweight, RESTful DICOM server for medical imaging
+# orthanc-dicomweb (1.7+dfsg-2build1) [universe]
+#     Plugin to extend Orthanc with support of WADO and DICOMweb
+# orthanc-gdcm (1.4-3build1) [universe]
+#     DICOM transcoder/decoder for Orthanc using GDCM (notably for JPEG2k)
+# orthanc-imagej (1.2+dfsg-3) [universe]
+#     ImageJ plugin to import images from Orthanc
+# orthanc-mysql (4.3-3build1) [universe]
+#     Plugins to use MySQL or MariaDB as a database back-end to Orthanc
+# orthanc-postgresql (4.0-5build1) [universe]
+#     Plugins to use PostgreSQL as a database back-end to Orthanc
+# orthanc-python (4.0+ds-1) [universe]
+#     Develop plugins for Orthanc using the Python programming language
+# orthanc-webviewer (2.8-1) [universe]
+#     Web viewer of medical images for Orthanc
+# orthanc-wsi (1.1-2build1) [universe]
+#     Whole-slide imaging support for Orthanc (digital pathology)
+oscar (1.3.1-1) [universe]
+    Open Source CPAP Analysis Reporter (OSCAR)
+otf-trace (1.12.5+dfsg-8) [universe]
+    Open Trace Format support library - development files
+packmol (20.010-1build1) [universe]
+    Initial configurations for Molecular Dynamics Simulations
+paje.app (1.98-1.1) [universe]
+    generic visualization tool (Gantt chart and more)
+pal2nal (14.1-3) [universe]
+    converts proteins to genomic DNA alignment
+paleomix (1.3.6-1) [universe]
+    pipelines and tools for the processing of ancient and modern HTS data
+paml (4.9j+dfsg-3) [universe]
+    Phylogenetic Analysis by Maximum Likelihood (PAML)
+# pan-config (0.3) [universe]
+#     PAN Blend config package
+# pan-tasks (0.3) [universe]
+#     PAN Blends tasks for tasksel
+paraclu (10-1) [universe]
+    Parametric clustering of genomic and transcriptomic features
+parafly (0.1.0-3) [universe]
+    parallel command processing using OpenMP
+parallel-fastq-dump (0.6.7-2) [universe]
+    parallel fastq-dump wrapper
+paraview (5.10.0~rc1-1build3) [universe]
+    Parallel Visualization Application
+parsinsert (1.04-10) [universe]
+    Parsimonious Insertion of unclassified sequences into phylogenetic trees
+parsinsert-testdata (1.04-10) [universe]
+    Test data for parsinsert
+parsnp (1.6.2+dfsg-1) [universe]
+    rapid core genome multi-alignment
+patman (1.2.2+dfsg-8) [universe]
+    rapid alignment of short sequences to large databases
+pbbamtools (2.0.0+dfsg-2) [universe]
+    processing Pacific Biosciences binary alignment/map files
+pbdagcon (0.3+git20180411.c14c422+dfsg-8) [universe]
+    sequence consensus using directed acyclic graphs
+pbhoney (15.8.24+dfsg-7) [universe]
+    genomic structural variation discovery
+pbjelly (15.8.24+dfsg-7) [universe]
+    genome assembly upgrading tool
+pbsim (1.0.3+git20180330.e014b1d+dfsg-2) [universe]
+    simulator for PacBio sequencing reads
+pdb2pqr (2.1.1+dfsg-8) [universe]
+    Preparation of protein structures for electrostatics calculations
+perlprimer (1.2.4-2) [universe]
+    Graphical design of primers for PCR
+perlprimer-doc (1.2.4-2) [universe]
+    Tutorial to perlprimer
+perm (0.4.0-8) [universe]
+    efficient mapping of short reads with periodic spaced seeds
+pftools (3.2.11-2) [universe]
+    build and search protein and DNA generalized profiles
+phast (1.6+dfsg-3) [universe]
+    phylogenetic analysis with space/time models
+phipack (0.0.20160614-5) [universe]
+    PHI test and other tests of recombination
+phybin (0.3-5build1) [universe]
+    binning/clustering newick trees by topology
+phylip (1:3.697+dfsg-2) [universe]
+    package of programs for inferring phylogenies
+phylip-doc (1:3.697+dfsg-2) [universe]
+    package of programs for inferring phylogenies (documentation)
+phylonium (1.6-1) [universe]
+    Fast and Accurate Estimation of Evolutionary Distances
+phyml (3:3.3.20211231-1) [universe]
+    Phylogenetic estimation using Maximum Likelihood
+physamp (1.1.0-3) [universe]
+    sample sequence alignment corresponding to phylogeny
+phyutility (2.7.3+dfsg-4) [universe]
+    simple analyses or modifications on both phylogenetic trees and data matrices
+phyx (1.01+ds-2build1) [universe]
+    UNIX-style phylogenetic analyses on trees and sequences
+picard-tools (2.26.10+dfsg-1) [universe]
+    Command line tools to manipulate SAM and BAM files
+picopore (1.2.0-2) [universe]
+    lossless compression of Nanopore files
+picosat (965-2) [universe]
+    SAT solver with proof and core support
+pigx-rnaseq (0.0.19-2) [universe]
+    pipeline for checkpointed and distributed RNA-seq analyses
+piler (0~20140707-3) [universe]
+    genomic repeat analysis
+pilercr (1.06+dfsg-5) [universe]
+    software for finding CRISPR repeats
+pilon (1.24-1) [universe]
+    automated genome assembly improvement and variant detection tool
+pinfish (0.1.0+ds-3) [universe]
+    Collection of tools to annotate genomes using long read transcriptomics data
+pinfish-examples (0.1.0+ds-3) [universe]
+    Examples and test data for pinfish
+pique (1.0-3) [universe]
+    software pipeline for performing genome wide association studies
+pirs (2.0.2+dfsg-10) [universe]
+    Profile based Illumina pair-end Reads Simulator
+pirs-examples (2.0.2+dfsg-10) [universe]
+    profile basd Illumina pair-end Reads Simulator (example data)
+pirs-profiles (2.0.2+dfsg-10) [universe]
+    profile basd Illumina pair-end Reads Simulator (profile data)
+pizzly (0.37.3+ds-6) [universe]
+    Identifies gene fusions in RNA sequencing data
+pkg-r-autopkgtest (20210218ubuntu1) [universe]
+    Script for the automatic testing of R packages
+pktools (2.6.7.6+ds-3build3) [universe]
+    GDAL add-on tools to perform useful raster processing
+placnet (1.04-1) [universe]
+    Plasmid Constellation Network project
+planetary-system-stacker (0.8.31-2) [universe]
+    create a sharp image of a planetary system object (moon, sun, planets)
+planets (0.1.13-20build2) [universe]
+    Gravitation simulation of planetary bodies
+plasmidid (1.6.5+dfsg-1) [universe]
+    mapping-based, assembly-assisted plasmid identification tool
+plasmidseeker (1.3+dfsg-2) [universe]
+    identification of known plasmids from whole-genome sequencing reads
+plast (2.3.2+dfsg-8) [universe]
+    Parallel Local Sequence Alignment Search Tool
+plast-example (2.3.2+dfsg-8) [universe]
+    Parallel Local Sequence Alignment Search Tool (example data)
+plink (1.07+dfsg-4) [universe]
+    whole-genome association analysis toolset
+plink1.9 (1.90~b6.21-201019-1) [universe]
+    whole-genome association analysis toolset
+plink2 (2.00~a3-220218+dfsg-1) [universe]
+    whole-genome association analysis toolset
+pluto-jpl-eph (0.0~git20180228-1.1build1) [universe]
+    command line handling of JPL ephemeres data
+pluto-lunar (0.0~git20180825.e34c1d1-1build1) [universe]
+    routines for predictions of positions in solar system
+pnetcdf-bin (1.12.2-1) [universe]
+    Programs for reading and writing parallel NetCDF files
+poa (2.0+20060928-8) [universe]
+    Partial Order Alignment for multiple sequence alignment
+populations (1.2.33+svn0120106+dfsg-6) [universe]
+    population genetic software
+porechop (0.2.4+dfsg-3) [universe]
+    adapter trimmer for Oxford Nanopore reads
+poretools (0.6.0+dfsg-5) [universe]
+    toolkit for nanopore nucleotide sequencing data
+poretools-data (0.6.0+dfsg-5) [universe]
+    toolkit for nanopore nucleotide sequencing data -- sample datasets
+pplacer (1.1~alpha19-6) [universe]
+    phylogenetic placement and downstream analysis
+praat (6.2.09-1) [universe]
+    program for speech analysis and synthesis
+prank (0.0.170427+dfsg-3) [universe]
+    Probabilistic Alignment Kit for DNA, codon and amino-acid sequences
+predictnls (1.0.20-8) [universe]
+    prediction and analysis of protein nuclear localization signals
+prime-phylo (1.0.11-10) [universe]
+    bayesian estimation of gene trees taking the species tree into account
+primer3 (2.5.0-1) [universe]
+    tool to design flanking oligo nucleotides for DNA amplification
+primer3-examples (2.5.0-1) [universe]
+    tool to design flanking oligo nucleotides for DNA amplification (examples)
+prinseq-lite (0.20.4-6) [universe]
+    PReprocessing and INformation of SEQuence data (lite version)
+prinseq-lite-examples (0.20.4-6) [universe]
+    PReprocessing and INformation of SEQuence data (example data)
+proalign (0.603-5) [universe]
+    Probabilistic multiple alignment program
+probabel (0.5.0+dfsg-4) [universe]
+    Toolset for Genome-Wide Association Analysis
+probabel-examples (0.5.0+dfsg-4) [universe]
+    Example files for ProbABEL
+probalign (1.4-9) [universe]
+    multiple sequence alignment using partition function posterior probabilities
+probcons (1.12-14) [universe]
+    PROBabilistic CONSistency-based multiple sequence alignment
+probcons-extra (1.12-14) [universe]
+    Extra programs from the probcons package
+proda (1.0-13) [universe]
+    multiple alignment of protein sequences
+prodigal (1:2.6.3-5) [universe]
+    Microbial (bacterial and archaeal) gene finding program
+profbval (1.0.22-8) [universe]
+    predictor of flexible/rigid protein residues from sequence
+profisis (1.0.11-7) [universe]
+    prediction of protein-protein interaction sites from sequence
+profnet-bval (1.0.22-8) [universe]
+    neural network architecture for profbval
+profnet-chop (1.0.22-8) [universe]
+    neural network architecture for profchop
+profnet-con (1.0.22-8) [universe]
+    neural network architecture for profcon
+profnet-isis (1.0.22-8) [universe]
+    neural network architecture for profisis
+profnet-md (1.0.22-8) [universe]
+    neural network architecture for metadisorder
+profnet-norsnet (1.0.22-8) [universe]
+    neural network architecture for norsnet
+profnet-prof (1.0.22-8) [universe]
+    neural network architecture for profacc
+profnet-snapfun (1.0.22-8) [universe]
+    neural network architecture for snapfun
+profphd-net (1.0.22-8) [universe]
+    neural network architecture for profphd
+profphd-utils (1.0.10-7) [universe]
+    profphd helper utilities convert_seq and filter_hssp
+proftmb (1.1.12-11) [universe]
+    per-residue prediction of bacterial transmembrane beta barrels
+progressivemauve (1.2.0+4713+dfsg-5build1) [universe]
+    multiple genome alignment algorithms
+proj-bin (8.2.1-1) [universe]
+    Cartographic projection library (tools)
+proj-rdnap (2008+2018-5) [multiverse]
+    RDNAP grid correction files for PROJ
+prokka (1.14.6+dfsg-4) [universe]
+    rapid annotation of prokaryotic genomes
+prooftree (0.13-2build4) [universe]
+    proof-tree visualization for Proof General
+proteinortho (6.0.33+dfsg-1) [universe]
+    Detection of (Co-)orthologs in large-scale protein analysis
+prottest (3.4.2+dfsg-7) [universe]
+    selection of best-fit models of protein evolution
+pscan-chip (1.1-3build1) [universe]
+    ChIP-based identifcation of TF binding sites
+pscan-chip-data (1.1-3build1) [universe]
+    auxiliary data for PScan-ChIP
+pscan-tfbs (1.2.2-4build1) [universe]
+    search for transcription factor binding sites
+psfex (3.17.1+dfsg-6) [universe]
+    Point Spread Function model extractor
+psi3 (3.4.0-6ubuntu1) [universe]
+    Quantum Chemical Program Suite
+psi4 (1:1.3.2+dfsg-2.1) [universe]
+    Quantum Chemical Program Suite
+psi4-data (1:1.3.2+dfsg-2.1) [universe]
+    Quantum Chemical Program Suite (data files)
+psortb (3.0.6+dfsg-2build2) [universe]
+    bacterial localization prediction tool
+# psychopy (2022.1.1+dfsg-1) [universe]
+#     environment for creating psychology stimuli in Python
+# psychtoolbox-3-common (3.0.18.4.dfsg1-1) [universe]
+#     toolbox for vision research -- arch/interpreter independent part
+# psychtoolbox-3-lib (3.0.18.4.dfsg1-1) [universe]
+#     toolbox for vision research -- arch-specific parts
+pullseq (1.0.2-3) [universe]
+    Extract sequence from a fasta or fastq
+pycoqc (2.5.2+dfsg-3) [universe]
+    computes metrics and generates Interactive QC plots
+pyensembl (1.9.4+ds-1) [universe]
+    installs data from the Ensembl genome database
+pyfai (0.21.1+dfsg1-1build1) [universe]
+    Fast Azimuthal Integration scripts
+pyfr (1.5.0-3) [universe]
+    flux reconstruction in Python
+pymca (5.7.1+dfsg-1build1) [universe]
+    Applications and toolkit for X-ray fluorescence analysis -- scripts
+pymca-data (5.7.1+dfsg-1build1) [universe]
+    Architecture independent data files for PyMca
+pymoctool (0.5.0-5) [universe]
+    Python Multi-Order Coverage maps tool for Virtual Observatory
+pymol (2.5.0+dfsg-1build1) [universe]
+    Molecular Graphics System
+pymol-data (2.5.0+dfsg-1build1) [universe]
+    data files for PyMOL
+python-drizzle-testdata (1.13.4-1build1) [universe]
+    Dithered image combination for Python (Test data)
+python-escript-doc (5.6-4build1) [universe]
+    Documentation for Escript/Finley
+python-pairix-examples (0.3.7-5build1) [universe]
+    1D/2D indexing and querying with a pair of genomic coordinates (examples)
+python3-airr (1.3.1-1) [universe]
+    Data Representation Standard library for antibody and TCR sequences
+python3-alignlib (0.1.1+dfsg-2build1) [universe]
+    edit and Hamming distances for biological sequences
+python3-amp (0.6.1-1build6) [universe]
+    Atomistic Machine-learning Package (python 3)
+python3-bornagain (1.19.0-3build2) [universe]
+    Simulate and fit X-ray and neutron GISAS -- Python3
+python3-cif2cell (2.0.0a3+dfsg-1) [universe]
+    prepare CIF files for electronic structure calculations
+python3-dcmstack (0.8-3) [universe]
+    DICOM to NIfTI conversion - python3 package
+python3-emperor (1.0.3+ds-2) [universe]
+    visualizing high-throughput microbial community data
+python3-escript (5.6-4build1) [universe]
+    Escript/Finley finite elements Python3 system (with OpenMP)
+python3-escript-mpi (5.6-4build1) [universe]
+    Escript/Finley finite elements Python3 system (OpenMP + MPI)
+python3-faiss (1.7.2-5) [universe]
+    Python 3 module for efficient similarity search and clustering of dense vectors
+python3-freesas (0.9.0-3) [universe]
+    Python libraries for small angle scattering tools
+python3-gfapy (1.2.3+dfsg-1) [universe]
+    flexible and extensible software library for handling sequence graphs
+python3-gffutils (0.10.1-2) [universe]
+    Work with GFF and GTF files in a flexible database framework
+python3-gtfparse (1.2.1+ds-2) [universe]
+    parser for gene transfer format (aka GFF2)
+python3-harmonypy (0.0.5-2) [universe]
+    is a data integration algorithm
+python3-jupyter-sphinx (0.3.2-1) [universe]
+    Jupyter Sphinx Extension - Python3
+python3-louvain (0.0+20181013git3fc1f575-2) [universe]
+    community graph analysis implementing Louvain method
+python3-mmtf (1.1.2-3) [universe]
+    binary encoding of biological structures (Python 3)
+python3-navarp (1.3.0-1) [universe]
+    Navigation tool for ARPES data (Python 3)
+python3-noise (1.2.3-3build4) [universe]
+    Perlin noise for image generation
+python3-onnx (1.7.0+dfsg-3ubuntu2) [universe]
+    Open Neural Network Exchange (ONNX) (Python)
+python3-peptidebuilder (1.1.0-3) [universe]
+    generate atomic oligopeptide 3D structure from sequence
+python3-py2bit (0.3.0-6build3) [universe]
+    access to 2bit files
+python3-pybel (0.14.10-1) [universe]
+    Biological Expression Language
+python3-pybigwig (0.3.18+dfsg-1build1) [universe]
+    Python 3 module for quick access to bigBed and bigWig files
+python3-pynlpl (1.2.9-1) [universe]
+    PyNLPl is a library for Natural Language Processing (Python 3 version)
+python3-pynndescent (0.5.2+dfsg-1) [universe]
+    nearest neighbor descent for approximate nearest neighbors
+python3-pyvkfft (2022.1.1-2build1) [multiverse]
+    binding to the CUDA and OpenCL backends of VkFFT - Python3
+python3-pyxrd (0.8.4-2) [universe]
+    modeling of X-ray diffraction (XRD) patterns of disordered lamellar structures
+python3-qiskit-aer (0.4.1-2build2) [universe] [ports]
+    Quantum Information Science Kit (Qiskit): Aer
+python3-qiskit-ibmq-provider (0.4.6-3) [universe]
+    Quantum Information Science Kit (Qiskit): IBM Q Provider
+python3-qiskit-terra (0.12.0-4) [universe]
+    Quantum Information Science Kit (Qiskit) for Python 3
+python3-seqcluster (1.2.8+ds-1) [multiverse]
+    analysis of small RNA in NGS data
+python3-skorch (0.9.0-3ubuntu1) [universe]
+    scikit-learn compatible neural network library that wraps PyTorch
+python3-tinyalign (0.2.1-1build1) [universe]
+    numerical representation of differences between strings
+python3-torch-ignite (0.4.3-1ubuntu1) [universe]
+    High-level library to help with training and evaluating in PyTorch
+python3-torchaudio (0.7.2-1ubuntu2) [universe]
+    Data manipulation and transformation for audio signal processing
+python3-torchtext (0.8.1-1ubuntu1) [universe]
+    Data loaders and abstractions for text and NLP
+python3-torchvision (0.8.2-1ubuntu2) [universe]
+    Datasets, Transforms and Models specific to Computer Vision
+python3-xrstools (0.15.0+git20210910+c147919d-2build1) [universe]
+    x-ray Raman scattering tools (Python 3)
+pyzo (4.11.2-1) [universe]
+    interactive editor for scientific Python
+q2-alignment (2021.8.0-1) [universe]
+    QIIME 2 plugin for generating and manipulating alignments
+q2-cutadapt (2021.8.0-1) [universe]
+    QIIME 2 plugin to work with adapters in sequence data
+q2-dada2 (2021.8.0-1) [universe]
+    QIIME 2 plugin to work with adapters in sequence data
+q2-demux (2021.8.0+dfsg-1) [universe]
+    QIIME 2 plugin for demultiplexing of sequence reads
+q2-feature-classifier (2021.8.0-1) [universe]
+    QIIME 2 plugin supporting taxonomic classification
+q2-feature-table (2021.8.0+dfsg-1) [universe]
+    QIIME 2 plugin supporting operations on feature tables
+q2-fragment-insertion (2021.8.0-3) [universe]
+    QIIME 2 plugin for fragment insertion
+q2-metadata (2021.8.0-1) [universe]
+    QIIME 2 plugin for working with and visualizing Metadata
+q2-phylogeny (2021.4.0-2) [universe]
+    QIIME 2 plugin for phylogeny
+q2-quality-control (2021.8.0-1) [universe]
+    QIIME 2 plugin for quality assurance of feature and sequence data
+q2-quality-filter (2021.8.0-1) [universe]
+    QIIME2 plugin for PHRED-based filtering and trimming
+q2-sample-classifier (2021.8.0-1) [universe]
+    QIIME 2 plugin for machine learning prediction of sample data
+q2-taxa (2021.8.0+dfsg-1) [universe]
+    QIIME 2 plugin for working with feature taxonomy annotations
+q2-types (2021.8.0-1) [universe]
+    QIIME 2 plugin defining types for microbiome analysis
+q2templates (2021.8.0+ds-1) [universe]
+    Design template package for QIIME 2 Plugins
+qcat (1.1.0-3) [universe]
+    demultiplexing Oxford Nanopore reads from FASTQ files
+qcat-examples (1.1.0-3) [universe]
+    demultiplexing Oxford Nanopore reads from FASTQ files (examples)
+# qcumber (2.3.0-2) [universe]
+#     quality control of genomic sequences
+# qemu-web-desktop (21.11.30+ds1-1) [universe]
+#     Remote desktop service with virtual machines in a browser.
+qfits-tools (6.2.0-8ubuntu2) [universe]
+    FITS manipulation tools
+qfitsview (4.1+dfsg-1build1) [universe]
+    FITS file viewer based on DPUSER
+# qgis (3.22.4+dfsg-3build1) [universe]
+#     Geographic Information System (GIS)
+# qgis-api-doc (3.22.4+dfsg-3build1) [universe]
+#     QGIS API documentation
+# qgis-common (3.22.4+dfsg-3build1) [universe]
+#     QGIS - architecture-independent data
+# qgis-plugin-grass (3.22.4+dfsg-3build1) [universe]
+#     GRASS plugin for QGIS
+# qgis-plugin-grass-common (3.22.4+dfsg-3build1) [universe]
+#     GRASS plugin for QGIS - architecture-independent data
+# qgis-provider-grass (3.22.4+dfsg-3build1) [universe]
+#     GRASS provider for QGIS
+# qgis-providers (3.22.4+dfsg-3build1) [universe]
+#     collection of data providers to QGIS
+# qgis-providers-common (3.22.4+dfsg-3build1) [universe]
+#     collection of data providers to QGIS - architecture-independent files
+# qgis-server (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services
+# qgis-server-bin (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (executables)
+# qgis-server-common (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (data)
+# qgis-server-dummy (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (dummy)
+# qgis-server-landingpage (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (landing page)
+# qgis-server-wcs (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (WCS)
+# qgis-server-wfs (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (WFS)
+# qgis-server-wfs3 (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (WFS 3)
+# qgis-server-wms (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (WMS)
+# qgis-server-wmts (3.22.4+dfsg-3build1) [universe]
+#     QGIS server providing various OGC services (WMTS)
+# qgis3-survex-import (1.3-1) [universe]
+#     QGIS3 plugin to read survex 3d files, for cave surveying
+qiime (2021.8.0-2) [universe]
+    Quantitative Insights Into Microbial Ecology
+qmapshack (1.16.1-1build2) [universe]
+    GPS mapping (GeoTiff and vector) and GPSr management
+qmc (0.94-4) [universe]
+    Quine McClusky Simplification Tool
+# qnifti2dicom (0.4.11-3) [universe]
+#     convert 3D medical images to DICOM 2D series (gui)
+qrisk2 (0.1.20150729-5) [universe]
+    cardiovascular disease risk calculator
+qthid-fcd-controller (4.1-6) [universe]
+    Funcube Dongle controller
+qtltools (1.3.1+dfsg-2build2) [universe]
+    Tool set for molecular QTL discovery and analysis
+quantum-espresso (6.7-2build1) [universe]
+    Electronic-Structure and Ab-Initio Molecular Dynamics Suite
+quantum-espresso-data (6.7-2build1) [universe]
+    Electronic-Structure and Ab-Initio Molecular Dynamics Suite (Documentation)
+quicktree (2.5-5) [universe]
+    Neighbor-Joining algorithm for phylogenies
+quorum (1.1.1-6) [universe]
+    QUality Optimized Reads of genomic sequences
+qutemol (0.4.1~cvs20081111-14build1) [universe]
+    interactive visualization of macromolecules
+r-cran-colorspace (2.0-2+dfsg-1) [universe]
+    GNU R Color Space Manipulation
+r-cran-epibasix (1.5-2build1) [universe]
+    GNU R Elementary Epidemiological Functions
+r-cran-genetics (1.3.8.1.3-1) [universe]
+    GNU R package for population genetics
+r-cran-haplo.stats (1.8.7-1) [universe]
+    GNU R package for haplotype analysis
+r-cran-maptools (1:1.1-2+dfsg-1) [universe]
+    GNU R Tools for reading and handling spatial objects
+r-cran-msm (1.6.9-1) [universe]
+    GNU R Multi-state Markov and hidden Markov models in continuous time
+r-cran-randomforest (4.7-1-1) [universe]
+    GNU R package implementing the random forest classificator
+r-cran-sdmtools (1.1-221.2-1build1) [universe]
+    Species Distribution Modelling Tools
+r-cran-sp (1:1.4-6-1) [universe]
+    GNU R classes and methods for spatial data
+r-cran-spc (1:0.6.5-1) [universe]
+    GNU R Statistical Process Control
+r-cran-surveillance (1.19.1-1) [multiverse]
+    GNU R package for the Modeling and Monitoring of Epidemic Phenomena
+r-cran-vcd (1:1.4-9-1) [universe]
+    GNU R Visualizing Categorical Data
+r-cran-xtable (1:1.8-4-2) [universe]
+    GNU R coerce data to LaTeX and HTML tables
+racon (1.5.0-2) [universe]
+    consensus module for raw de novo DNA assembly of long uncorrected reads
+radiant (2.8.1+dfsg-1) [universe]
+    explore hierarchical metagenomic data with zoomable pie charts
+ragout (2.3-3) [universe]
+    Reference-Assisted Genome Ordering UTility
+ragout-examples (2.3-3) [universe]
+    Reference-Assisted Genome Ordering UTility (example data)
+rambo-k (1.21+dfsg-4) [universe]
+    Read Assignment Method Based On K-mers
+rampler (2.0.0-2) [universe]
+    module for sampling genomic sequences
+rapmap (0.15.0+dfsg-2) [universe]
+    rapid sensitive and accurate DNA read mapping via quasi-mapping
+rapmap-dev (0.15.0+dfsg-2) [universe]
+    rapmap - rapid sensitive and accurate DNA read mapping (some headers)
+rapmap-example-data (0.15.0+dfsg-2) [universe]
+    example data for rapmap - rapid sensitive and accurate DNA read mapping
+rasmol (2.7.6.0-2) [universe]
+    visualization of biological macromolecules
+rasmol-doc (2.7.6.0-2) [universe]
+    documentation for rasmol
+raster3d (3.0-7-2) [multiverse]
+    tools for generating images of proteins or other molecules
+rate4site (3.0.0-8) [universe]
+    detector of conserved amino-acid sites
+rawtran (1.1-1build2) [universe]
+    RAW photo to FITS converter
+raxml (8.2.12+dfsg-8) [universe]
+    Randomized Axelerated Maximum Likelihood of phylogenetic trees
+ray (2.3.1-7build1) [universe]
+    de novo genome assemblies of next-gen sequencing data
+ray-extra (2.3.1-7build1) [universe]
+    Scripts and XSL sheets for post-processing for ray
+rdkit-data (202109.2-1build1) [universe]
+    Collection of cheminformatics and machine-learning software (data files)
+rdp-classifier (2.10.2-6) [universe]
+    extensible sequence classifier for fungal lsu, bacterial and archaeal 16s
+readseq (1-14) [universe]
+    Conversion between sequence formats
+readucks (0.0.3-3) [universe]
+    Nanopore read de-multiplexer (read demux -> readux -> readucks, innit)
+reapr (1.0.18+dfsg-5build1) [universe]
+    universal tool for genome assembly evaluation
+recan (0.1.2-2) [universe]
+    genetic distance plotting for recombination events analysis
+refmac-dictionary (5.41-2) [universe]
+    dictionary for macromolecular refinement and model building
+relion (3.1.3-1) [universe]
+    toolkit for 3D reconstructions in cryo-electron microscopy
+relion-cuda (3.1.0-2) [multiverse]
+    parallel toolkit for 3D reconstructions in cryo-electron microscopy
+relion-gui (3.1.3-1) [universe]
+    parallel toolkit for 3D reconstructions in cryo-electron microscopy
+relion-gui-cuda (3.1.0-2) [multiverse]
+    parallel toolkit for 3D reconstructions in cryo-electron microscopy
+repeatmasker-recon (1.08-7) [universe]
+    finds repeat families from biological sequences
+reprof (1.0.1-8) [universe]
+    protein secondary structure and accessibility predictor
+resfinder (4.1.6-1) [universe]
+    identify acquired antimicrobial resistance genes
+resfinder-db (0.0+git20200408.0322c0d-1) [universe]
+    ResFinder database is a curated database of acquired resistance genes
+resfinder-example (4.1.6-1) [universe]
+    identify acquired antimicrobial resistance genes (example data)
+rna-star (2.7.10a+dfsg-1) [universe]
+    ultrafast universal RNA-seq aligner
+rnahybrid (2.1.2-6) [universe]
+    Fast and effective prediction of microRNA/target duplexes
+roary (3.13.0+dfsg-1) [universe]
+    high speed stand alone pan genome pipeline
+rocketcea (1.1.18+dfsg-2build2) [universe]
+    NASA Chemical Equilibrium, wrapped in Python
+rocs (4:21.12.3-0ubuntu1) [universe]
+    graph theory IDE
+roguenarok (1.0.1-3) [universe]
+    versatile and scalable algorithm for rogue taxon identification
+routine-update (0.0.10) [universe]
+    routine updater for a Debian source package
+rsem (1.3.3+dfsg-2) [universe]
+    RNA-Seq by Expectation-Maximization
+rtax (0.984-8) [universe]
+    Classification of sequence reads of 16S ribosomal RNA gene
+ruby-getspg (1.16.2-2build3) [universe]
+    C library for crystal symmetry determination - Ruby bindings
+ruby-rgfa (1.3.1+dfsg-2) [universe]
+    parse, edit and write GFA format graphs in Ruby
+runcircos-gui (0.0+git20200528.82dda8c-1) [universe]
+    GUI tool to run circos
+sac2mseed (1.13+ds1-1) [universe]
+    Convert SAC waveform data to MiniSEED
+saga (7.3.0+dfsg-7) [universe]
+    System for Automated Geoscientific Analyses
+saga-common (7.3.0+dfsg-7) [universe]
+    SAGA GIS architecture independent files
+saint (2.5.0+dfsg-4build1) [universe]
+    Significance Analysis of INTeractome
+salmid (0.1.23-4) [universe]
+    rapid Kmer based Salmonella identifier from sequence data
+salmon (1.4.0+ds1-1build1) [universe]
+    wicked-fast transcript quantification from RNA-seq data
+sambamba (0.8.2+dfsg-2) [universe]
+    tools for working with SAM/BAM data
+samblaster (0.1.26-3) [universe]
+    marks duplicates, extracts discordant/split reads
+samclip (0.4.0-3) [universe]
+    filter SAM file for soft and hard clipped alignments
+samtools (1.13-4) [universe]
+    processing sequence alignments in SAM, BAM and CRAM formats
+samtools-test (1.13-4) [universe]
+    test files for the samtools package
+# saods9 (8.3+repack-1) [universe]
+#     Image display tool for astronomy
+sasview (5.0.4-1) [universe]
+    Small Angle Scattering Analysis suite
+sat4j (2.3.5-0.3) [universe]
+    Efficient library of SAT solvers in Java
+savi (1.5.1-4) [universe]
+    satellite constellation visualisation
+sbmltoolbox (4.1.0-5) [universe]
+    libsbml toolbox for octave and matlab
+scamp (2.10.0-2) [universe]
+    Compute astrometric and photometric solutions
+# science-distributedcomputing (1.14.2ubuntu1) [universe]
+#     Debian Science Distributed Computing packages
+# science-electrophysiology (1.14.2ubuntu1) [universe]
+#     Debian Science packages for Electrophysiology
+# science-highenergy-physics (1.14.2ubuntu1) [universe]
+#     Debian Science High Energy Physics packages
+# science-highenergy-physics-dev (1.14.2ubuntu1) [universe]
+#     Debian Science High Energy Physics development packages
+science-machine-learning (1.14.2ubuntu1) [universe]
+    Debian Science Machine Learning packages
+# science-nanoscale-physics (1.14.2ubuntu1) [universe]
+#     Debian Science Nanoscale Physics packages
+# science-nanoscale-physics-dev (1.14.2ubuntu1) [universe]
+#     Debian Science Nanoscale Physics development packages
+science-neuroscience-modeling (1.14.2ubuntu1) [universe]
+    Debian Science packages for modeling of neural systems
+# science-physics-dev (1.14.2ubuntu1) [universe]
+#     Debian Science Physics-dev packages
+# science-psychophysics (1.14.2ubuntu1) [universe]
+#     Debian Science packages for Psychophysics
+science-simulations (1.14.2ubuntu1) [universe]
+    Debian Science Simulation packages
+scoary (1.6.16-3) [universe]
+    pangenome-wide association studies
+# scram (0.16.2-3) [universe]
+#     Probabilistic Risk Analysis Tool
+# scram-gui (0.16.2-3) [universe]
+#     SCRAM GUI front-end
+scrappie (1.4.2-8) [universe]
+    basecaller for Nanopore sequencer
+scrm (1.7.4-1) [universe]
+    simulator of evolution of genetic sequences
+sctk (2.4.10-20151007-1312Z+dfsg2-3.1) [universe]
+    speech recognition scoring toolkit
+scythe (0.994+git20141017.20d3cff-3) [universe]
+    Bayesian adaptor trimmer for sequencing reads
+sdaps (1.9.8-0.1build2) [universe]
+    scripts for data acquisition with paper-based surveys
+seaview (1:5.0.5-1) [multiverse]
+    Multiplatform interface for sequence alignment and phylogeny
+secrecy (0.0.5+ds-2) [universe]
+    tool to handle libsecrecy keys and encrypted files
+seer (1.1.4-6) [universe]
+    genomic sequence element (kmer) enrichment analysis
+segemehl (0.3.4-5) [universe]
+    short read mapping with gaps
+segyio-bin (1.8.3-1.1ubuntu2) [universe]
+    SEG-Y read/write library for seismic processing (shell utilities)
+sentencepiece (0.1.96-1build1) [universe]
+    Unsupervised text tokenizer and detokenizer
+sepp (4.5.1+really4.5.1+dfsg-3) [universe]
+    phylogeny with ensembles of Hidden Markov Models
+seq-gen (1.3.4-2) [universe]
+    simulate the evolution of nucleotide or amino acid sequences
+seqcluster (1.2.8+ds-1) [multiverse]
+    analysis of small RNA in NGS data
+seqkit (2.1.0+ds-1) [universe]
+    cross-platform and ultrafast toolkit for FASTA/Q file manipulation
+seqkit-examples (2.1.0+ds-1) [universe]
+    examples for seqkit: toolkit for FASTA/Q file manipulation
+seqmagick (0.8.4-3) [universe]
+    imagemagick-like frontend to Biopython SeqIO
+seqprep (1.3.2-7) [universe]
+    stripping adaptors and/or merging paired reads of DNA sequences with overlap
+seqprep-data (1.3.2-7) [universe]
+    example data set for seqprep - only used for testing
+seqsero (1.0.1+dfsg-5) [universe]
+    Salmonella serotyping from genome sequencing data
+seqtk (1.3-2) [universe]
+    Fast and lightweight tool for processing sequences in the FASTA or FASTQ format
+seriation (0.1+git20210125.fc7b8cb-1) [universe]
+    finds a suitable linear order for a set of objects
+seriation-data (0.1+git20210125.fc7b8cb-1) [universe]
+    test data for seriation
+sextractor (2.25.0+ds-3) [universe]
+    Dummy transitional package for name change
+sga (0.10.15-7) [universe]
+    de novo genome assembler that uses string graphs
+shapeit4 (4.2.2+dfsg-1) [universe]
+    fast and accurate method for estimation of haplotypes (phasing)
+shasta (0.8.0-2ubuntu1) [universe]
+    nanopore whole genome assembly (binaries and scripts)
+shelxle (1.0.1346-1) [universe]
+    graphical user interface for SHELXL
+shovill (1.1.0-5) [universe]
+    Assemble bacterial isolate genomes from Illumina paired-end reads
+shovill-examples (1.1.0-5) [universe]
+    Test Data for shovill
+sibelia (3.0.7+dfsg-3) [universe]
+    comparative genomics tool
+sibelia-examples (3.0.7+dfsg-3) [universe]
+    comparative genomics tool (example data)
+sibsim4 (0.20-5) [universe]
+    align expressed RNA sequences on a DNA template
+sickle (1.33+git20150314.f3d6ae3-2) [universe]
+    windowed adaptive trimming tool for FASTQ files using quality
+siconos (4.3.1+dfsg-2build3) [universe]
+    modeling and simulation of nonsmooth dynamical systems (simulation runner tool)
+siconos-mechanics-tools (4.3.1+dfsg-2build3) [universe]
+    modeling and simulation of nonsmooth dynamical systems (mechanics tools)
+sift (4.0.3b-6) [multiverse]
+    predicts if a substitution in a protein has a phenotypic effect
+sightcalibrator (21.0.0-4) [universe]
+    Camera calibration software
+sightviewer (21.0.0-4) [universe]
+    DICOM viewer
+sigma-align (1.1.3-8) [universe]
+    Simple greedy multiple alignment of non-coding DNA sequences
+sigviewer (0.6.4-2) [universe]
+    GUI viewer for biosignals such as EEG, EMG, and ECG
+silx (1.0.0+dfsg-4) [universe]
+    Toolbox for X-Ray data analysis - Executables
+sim4 (0.0.20121010-8) [universe]
+    tool for aligning cDNA and genomic DNA
+sim4db (0~20150903+r2013-8build2) [universe]
+    batch spliced alignment of cDNA sequences to a target genome
+simka (1.5.3-5) [universe]
+    comparative metagenomics method dedicated to NGS datasets
+simkamin (1.5.3-5) [universe]
+    approximate comparative metagenomics method dedicated to NGS datasets
+simrisc (14.05.00-3) [universe]
+    simulation model for breast cancer risk
+# siril (0.99.10.1-2build1) [universe]
+#     astronomical image processing tool
+# siril-common (0.99.10.1-2build1) [universe]
+#     architecture-independent files for siril
+skesa (2.4.0-3) [universe]
+    strategic Kmer extension for scrupulous assemblies
+skewer (0.2.2-6) [universe]
+    post-processing of high-throughput DNA sequence reads
+# skycat (3.1.2+starlink1~b+dfsg-6) [universe]
+#     Image visualization and access to catalogs and data for astronomy
+slang-xfig (0.2.0~.135-1) [universe]
+    produce plots and drawings through Xfig's fig2dev in S-Lang
+smalt (0.7.6-12) [universe]
+    Sequence Mapping and Alignment Tool
+smalt-examples (0.7.6-12) [universe]
+    Sequence Mapping and Alignment Tool (examples)
+smithwaterman (0.0+git20160702.2610e25-12) [universe]
+    determine similar regions between two strings or genomic sequences
+smrtanalysis (0~20210112) [universe]
+    software suite for single molecule, real-time sequencing
+snakemake (6.15.1-2) [universe]
+    pythonic workflow management system
+snap (2013-11-29-11) [universe]
+    location of genes from DNA sequence with hidden markov model
+snap-aligner (1.0.0+dfsg-3) [universe]
+    Scalable Nucleotide Alignment Program
+snaphu (2.0.5-1) [multiverse]
+    Statistical-Cost, Network-Flow Algorithm for 2D Phase Unwrapping
+sniffles (2.0.2-1) [universe]
+    structural variation caller using third-generation sequencing
+snp-sites (2.5.1-2) [universe]
+    Binary code for the package snp-sites
+snpomatic (1.0-5) [universe]
+    fast, stringent short-read mapping software
+soapaligner (2.20-5) [universe]
+    aligner of short reads of next generation sequencers
+soapdenovo (1.05-6) [universe]
+    short-read assembly method to build de novo draft assembly
+soapdenovo2 (242+dfsg-2) [universe]
+    short-read assembly method to build de novo draft assembly
+soapsnp (1.03-4) [universe]
+    resequencing utility that can assemble consensus sequence of genomes
+solvate (1.0-3) [multiverse]
+    arranges water molecules around protein structures
+solvate-doc (1.0-3) [multiverse]
+    Documentation for solvate
+sortmerna (2.1-5) [universe]
+    tool for filtering, mapping and OTU-picking NGS reads
+# source-extractor (2.25.0+ds-3) [universe]
+#     Source extractor for astronomical images
+spaced (1.2.0-201605+dfsg-3) [universe]
+    alignment-free sequence comparison using spaced words
+spades (3.13.1+dfsg-2ubuntu1) [universe]
+    genome assembler for single-cell and isolates data sets
+spaln (2.4.7+dfsg-1) [universe]
+    splicing-aware transcript-alignment to genomic DNA
+spaln-data (2.4.7+dfsg-1) [universe]
+    splicing-aware transcript-alignment to genomic DNA (data)
+spass (3.9-1.1) [universe]
+    automated theorem prover for first-order logic with equality
+spatialite-bin (5.0.1-1build1) [universe]
+    Geospatial extension for SQLite - tools
+spd (1.3.0-1ubuntu3) [universe]
+    Synchrotron image corrections and azimuthal integration
+splash (3.3.4-1) [universe]
+    Visualisation tool for Smoothed Particle Hydrodynamics simulation
+spoa (4.0.7+ds-2) [universe]
+    SIMD partial order alignment tool
+sprai (0.9.9.23+dfsg1-2) [universe]
+    single-pass sequencing read accuracy improver
+spread-phy (1.0.7+dfsg-4) [multiverse]
+    analyze and visualize phylogeographic reconstructions
+spview (2.0.0~beta2-2) [universe]
+    Spectrum Viewer
+squizz (0.99d+dfsg-3) [universe]
+    Converter for genetic sequences and alignments
+sra-toolkit (2.11.3+dfsg-1ubuntu1) [universe]
+    utilities for the NCBI Sequence Read Archive
+srst2 (0.2.0-9) [universe]
+    Short Read Sequence Typing for Bacterial Pathogens
+ssake (4.0.1-1) [universe]
+    genomics application for assembling millions of very short DNA sequences
+ssake-examples (4.0.1-1) [universe]
+    example data for SSAKE, a genomic assembler of short reads
+sspace (2.1.1+dfsg-6) [universe]
+    scaffolding pre-assembled contigs after extension
+ssshtest (0.0+git20190416.6f5438a-2) [universe]
+    stupid simple (ba)sh testing
+ssw-align (1.1-13) [universe]
+    Smith-Waterman aligner based on libssw
+stacks (2.60+dfsg-1) [universe]
+    pipeline for building loci from short-read DNA sequences
+staden (2.0.0+b11-4build2) [universe]
+    DNA sequence assembly (Gap4/Gap5), editing and analysis tools
+staden-common (2.0.0+b11-4build2) [universe]
+    Architecture independent files for Staden
+staden-io-lib-examples (1.14.14+dfsg-1) [universe]
+    programs for manipulating DNA sequencing files (usage examples)
+staden-io-lib-utils (1.14.14+dfsg-1) [universe]
+    programs for manipulating DNA sequencing files
+# stardata-common (0.8build1) [universe]
+#     Common framework to manage astronomy packages
+starplot (0.95.5-8.3build2) [universe]
+    3-dimensional perspective star map viewer
+starpu-contrib-examples (1.3.9+dfsg-1) [multiverse]
+    Task scheduler for heterogeneous multicore machines - exs
+starpu-examples (1.3.9+dfsg-1) [universe]
+    Task scheduler for heterogeneous multicore machines - exs
+stellarium (0.20.4-3) [universe]
+    real-time photo-realistic sky generator
+stellarium-data (0.20.4-3) [universe]
+    Stellarium data files
+stiff (2.4.0-6) [universe]
+    convert scientific FITS images to the TIFF format
+stilts (3.4.3-1) [universe]
+    Starlink Tables Infrastructure Library Tool Set
+stimfit (0.16.0-1ubuntu1) [universe]
+    Program for viewing and analyzing electrophysiological data
+stringtie (2.2.1+ds-2) [universe]
+    assemble short RNAseq reads to transcripts
+subread (2.0.3+dfsg-1) [universe]
+    toolkit for processing next-gen sequencing data
+subread-data (2.0.3+dfsg-1) [universe]
+    data files for subread package
+suitename (0.4.130509+git20210223.ebb1325-1) [universe]
+    categorize each suite in an RNA backbone
+sumaclust (1.0.36+ds-1) [universe]
+    fast and exact clustering of genomic sequences
+sumatra (1.0.36+ds-1) [universe]
+    fast and exact comparison and clustering of sequences
+sumo (1.12.0+dfsg1-1) [universe]
+    Simulation of Urban MObility (SUMO)
+surankco (0.0.r5+dfsg-3) [universe]
+    Supervised Ranking of Contigs in de novo Assemblies
+surpyvor (0.5-2) [universe]
+    modification of VCF files with SURVIVOR
+survex (1.4.1-1) [universe]
+    cave surveying and mapping software
+survex-aven (1.4.1-1) [universe]
+    sophisticated cave survey viewer for Survex
+survivor (1.0.7-3) [universe]
+    tool set for simulating/evaluating SVs
+svim (2.0.0-2) [universe]
+    Structural variant caller for long sequencing reads
+swarm (3.1.0+dfsg-1) [universe]
+    robust and fast clustering method for amplicon-based studies
+swarp (2.41.5-1) [universe]
+    Resample and co-add together FITS images
+swarp
+    virtual package provided by suckless-tools
+swe-basic-data (1.80.00.0002-1.1) [universe]
+    basic data files for the libswe package
+swe-standard-data (00004-1.1) [universe]
+    standard data for the Swiss Ephemeris
+sweed (3.2.1+dfsg-5) [universe]
+    assessment of SNPs for their evolutionary advantage
+# syrthes (4.3.5+20200129-dfsg1-1build1) [universe]
+#     Transient thermal simulations in complex solid geometries
+# syrthes-gui (4.3.5+20200129-dfsg1-1build1) [universe]
+#     Transient thermal simulations in complex solid geometries - GUI
+# syrthes-tests (4.3.5+20200129-dfsg1-1build1) [universe]
+#     Test cases for SYRTHES
+# syrthes-tools (4.3.5+20200129-dfsg1-1build1) [universe]
+#     Transient thermal simulations in complex solid geometries - tools
+t-coffee (13.41.0.28bdc39+dfsg-4) [universe]
+    Multiple Sequence Alignment
+t-coffee-examples (13.41.0.28bdc39+dfsg-4) [universe]
+    annotated examples for the use of T-Coffee
+tabix (1.13+ds-2build1) [universe]
+    generic indexer for TAB-delimited genome position files
+tandem-mass (1:201702011-1build1) [universe]
+    mass spectrometry software for protein identification
+tantan (26-1) [universe]
+    low complexity and tandem repeat masker for biosequences
+tcd-utils (20061127-2build1) [universe]
+    convert Tide Constituent Database (TCD) files
+tcl-fitstcl (2.4-4build2) [universe]
+    Tcl interface to FITS files
+tclfitsy (8.3+repack-1) [universe]
+    Tcl FITS Extension
+tcliis (8.3+repack-1) [universe]
+    Tcl IIS protocol package
+terraintool (1.16-3) [universe]
+    Generates survex/therion terrain models from SRTM/NASADEM data.
+# theli (3.1.3-1) [universe]
+#     Astronomical image data reduction pipeline
+therion (6.0.5-1) [universe]
+    Cave surveying - 2D and 3D drawing software
+therion-doc (6.0.5-1) [universe]
+    Documentation for Therion Cave surveying software
+therion-viewer (6.0.5-1) [universe]
+    Cave surveying - 3D viewer for therion models
+theseus (3.3.0-10build1) [universe]
+    superimpose macromolecules using maximum likelihood
+theseus-examples (3.3.0-10build1) [universe]
+    superimpose macromolecules using maximum likelihood (examples)
+thesias (3.1.1-1) [universe]
+    Testing Haplotype Effects In Association Studies
+threeb (0.0~git20220106110332.a3144e0-4) [universe]
+    3B Microscopy Analysis Software - command-line tool
+threeb-imagej (0.0~git20220106110332.a3144e0-4) [universe]
+    3B Microscopy Analysis Software - ImageJ plugin
+tiddit (2.12.2+dfsg-1build1) [universe]
+    structural variant calling
+tigr-glimmer (3.02b-6) [universe]
+    Gene detection in archea and bacteria
+# timbl (6.5-3) [universe]
+#     Tilburg Memory Based Learner
+# timblserver (1.14-3) [universe]
+#     Server extensions for Timbl
+tipp (1.0+dfsg-2) [universe]
+    tool for Taxonomic Identification and Phylogenetic Profiling
+# ftksao (8.3+repack-1) [universe]
+#     Tk widgets for astronomical imaging and data visualization
+tm-align (20190822+dfsg-2build1) [universe]
+    structural alignment of proteins
+tnseq-transit (3.2.3-2) [universe]
+    statistical calculations of essentiality of genes or genomic regions
+tombo (1.5.1-3build2) [universe]
+    identification of modified nucleotides from raw nanopore sequencing data
+topcat (4.8.3-1) [universe]
+    Tool for OPerations on Catalogues And Tables
+tophat-recondition (1.4-3) [universe]
+    post-processor for TopHat unmapped reads
+topp (2.6.0+cleaned1-3build1) [universe]
+    set of programs implementing The OpenMS Proteomic Pipeline
+toppic (1.3.0+dfsg1-4build1) [universe]
+    Top-down proteoform identification and characterization (programs)
+toppic-common (1.3.0+dfsg1-4build1) [universe]
+    Top-down proteoform identification and characterization (common data)
+toppred (1.10-9) [universe]
+    transmembrane topology prediction
+tortoize (2.0.5-2) [universe]
+    Application to calculate ramachandran z-scores
+toulbar2 (1.1.1+dfsg-1) [universe]
+    Exact combinatorial optimization for Graphical Models
+toulbar2-doc (1.1.1+dfsg-1) [universe]
+    Exact combinatorial optimization for Graphical Models - documentation
+trace2dbest (3.0.1-2) [universe]
+    bulk submission of chromatogram data to dbEST
+trace2dbest-doc (3.0.1-2) [universe]
+    Documentation and sample files for trace2dbest
+tracetuner (3.0.6~beta+dfsg-3) [universe]
+    interpretation of DNA Sanger sequencing data
+transcalc (0.14-7) [universe]
+    microwave and RF transmission line calculator
+transdecoder (5.0.1-5) [universe]
+    find coding regions within RNA transcript sequences
+transfuse (0.5.7-1build2) [universe]
+    Runs formatted documents through transformations/translation
+transrate-tools (1.0.0-4) [universe]
+    helper for transrate
+transtermhp (2.09-5) [universe]
+    find rho-independent transcription terminators in bacterial genomes
+travis (210521-1) [universe]
+    trajectory analyzer and visualizer
+tree-ppuzzle (5.3~rc16+dfsg-9) [universe]
+    Parallelized reconstruction of phylogenetic trees by maximum likelihood
+tree-puzzle (5.3~rc16+dfsg-9) [universe]
+    Reconstruction of phylogenetic trees by maximum likelihood
+tree-puzzle-doc (5.3~rc16+dfsg-9) [universe]
+    Reconstruction of phylogenetic trees by maximum likelihood (doc)
+treeview (1.2.0+dfsg-1) [multiverse]
+    Java re-implementation of Michael Eisen's TreeView
+treeviewx (0.5.1+git20100823.7e4d0e9-3) [universe]
+    Displays and prints phylogenetic trees
+trf (4.09.1-5) [universe]
+    locate and display tandem repeats in DNA sequences
+trf-examples (4.09.1-5) [universe]
+    locate and display tandem repeats in DNA sequences (examples)
+triangle-bin (1.6-4) [multiverse]
+    High-quality 2-D mesh generator binary programs
+trim-galore (0.6.7-1) [universe]
+    automate quality and adapter trimming for DNA sequencing
+trimmomatic (0.39+dfsg-2) [universe]
+    flexible read trimming tool for Illumina NGS data
+trinculo (0.96+dfsg-4) [universe]
+    toolkit to carry out genetic association for multi-category phenotypes
+trinityrnaseq (2.13.2+dfsg-3) [universe]
+    RNA-Seq De novo Assembly
+trinityrnaseq-examples (2.13.2+dfsg-3) [universe]
+    RNA-Seq De novo Assembly common example and testing files
+trnascan-se (2.0.9+ds-1) [multiverse]
+    detection of transfer RNA genes in genomic sequence
+trnascan-se-common (2.0.9+ds-1) [multiverse]
+    detection of transfer RNA genes in genomic sequence (common files)
+tunnelx (20190701-1) [universe]
+    Cave Survey drawing software
+tvc (5.0.3+git20151221.80e144e+dfsg-4build1) [universe]
+    genetic variant caller for Ion Torrent sequencing platforms
+# twms (0.07z+git20201202+bb7c3f8-1) [universe]
+#     tiny web map service
+ubertooth (2018.12.R1-5) [universe]
+    2.4 GHz wireless development platform for Bluetooth experimentation
+ubertooth-firmware (2018.12.R1-5) [universe]
+    Firmware for Ubertooth
+ubertooth-firmware-source (2018.12.R1-5) [universe]
+    Source code for the Ubertooth firmware
+uc-echo (1.12-16) [universe]
+    error correction algorithm designed for short-reads from NGS
+ucto (0.21.1-2build2) [universe]
+    Unicode Tokenizer
+uctodata (0.8-2) [universe]
+    Data files for Ucto
+ucx-utils (1.12.1~rc2-1) [universe]
+    Utilities for the UCX messaging library
+ugene (34.0+dfsg-2) [multiverse]
+    integrated bioinformatics toolkit
+ugene-data (34.0+dfsg-2) [multiverse]
+    required data for UGENE - integrated bioinformatics toolkit
+# uhd-doc (4.1.0.5-3) [universe]
+#     universal hardware driver for Ettus Research products - doc
+# uhd-host (4.1.0.5-3) [universe]
+#     universal hardware driver for Ettus Research products - host apps
+umap-learn (0.4.5+dfsg-2) [universe]
+    Uniform Manifold Approximation and Projection
+umis (1.0.8-1build1) [universe]
+    tools for processing UMI RNA-tag data
+umis-examples (1.0.8-1build1) [universe]
+    tools for processing UMI RNA-tag data (examples)
+uncalled (2.2+ds1-1build1) [universe]
+    Utility for Nanopore Current Alignment to Large Expanses of DNA
+unicycler (0.4.8+dfsg-2build1) [universe]
+    hybrid assembly pipeline for bacterial genomes
+unicycler-data (0.4.8+dfsg-2build1) [universe]
+    hybrid assembly pipeline for bacterial genomes (data package)
+unikmer (0.18.8-1) [universe]
+    Toolkit for nucleic acid k-mer analysis
+units-filter (4.2-3) [universe]
+    Parser for expressions concerning physical values
+# units-master (4.2-3) [universe]
+#     Powerful units converter with a GUI
+# v-sim (3.7.2-8build7) [universe]
+#     Visualize atomic structures
+# v-sim-common (3.7.2-8build7) [universe]
+#     Visualize atomic structures (support files)
+# v-sim-plugins (3.7.2-8build7) [universe]
+#     Plugins for V_Sim (a 3D visualization package)
+# varna (3-93+ds-3) [universe]
+#     Visualization Applet for RNA
+varscan (2.4.3+dfsg-4) [multiverse]
+    variant detection in next-generation sequencing data
+vcfanno (0.3.3+ds-1) [universe]
+    annotate a VCF with other VCFs/BEDs/tabixed files
+vcfanno-examples (0.3.3+ds-1) [universe]
+    examples for vcfanno: annotate a VCF with other VCFs/BEDs/tabixed files
+vcftools (0.1.16-3) [universe]
+    Collection of tools to work with VCF files
+vdjtools (1.2.1+git20190311-6) [multiverse]
+    framework for post-analysis of B/T cell repertoires
+velvet (1.2.10+dfsg1-7) [universe]
+    Nucleic acid sequence assembler for very short reads
+velvet-example (1.2.10+dfsg1-7) [universe]
+    Example data for the Velvet sequence assembler
+velvet-long (1.2.10+dfsg1-7) [universe]
+    Nucleic acid sequence assembler for very short reads, long version
+velvet-tests (1.2.10+dfsg1-7) [universe]
+    Test data for the Velvet sequence assembler
+velvetoptimiser (2.2.6-4) [universe]
+    automatically optimise Velvet do novo assembly parameters
+veusz (3.3.1-3build1) [universe]
+    2D and 3D scientific plotting application with graphical interface
+vg (1.30.0+ds-1) [universe]
+    tools for working with genome variation graphs
+vg-docs (1.30.0+ds-1) [universe]
+    tools for working with genome variation graphs -- docs
+vienna-rna (2.4.17+dfsg-2build2) [multiverse]
+    RNA sequence analysis
+viewmol (2.4.1-26ubuntu1) [universe]
+    graphical front end for computational chemistry programs
+virulencefinder (2.0.4-2) [universe]
+    identify virulence genes in total or partial sequenced isolates of bacteria
+virulencefinder-examples (2.0.4-2) [universe]
+    example data for virulencefinder
+visp-images-data (3.5.0-1) [universe]
+    visual servoing library - dataset reference files
+vistrails (3.0~git+9dc22bd-2build1) [universe]
+    Science visualisation workflow toolkit
+vmatch (2.3.1+dfsg-7) [universe]
+    large scale sequence analysis software
+voro++ (0.5+revert-to-0.4.6+dfsg1-1) [universe]
+    library for the computation of the Voronoi diagram
+voro++-examples (0.5+revert-to-0.4.6+dfsg1-1) [universe]
+    library for the computation of the Voronoi diagram (examples)
+voronota (1.22.3149-1) [universe]
+    Voronoi diagram-based tool to find atom contacts
+votca-csg (2021.2-1) [universe]
+    VOTCA's coarse-graining engine
+votca-csg-scripts (2021.2-1) [universe]
+    VOTCA's coarse-graining scripts
+votca-csg-tutorials (2021.2-1) [universe]
+    VOTCA's coarse-graining tutorials
+votca-tools (2021.2-1) [universe]
+    VOTCA's tools library, helper binaries
+votca-xtp (2021.2-1ubuntu1) [universe]
+    VOTCA's exciton transport engine
+votca-xtp-tutorials (2021.2-1ubuntu1) [universe]
+    VOTCA's coarse-graining tutorials
+vowpal-wabbit (8.6.1.dfsg1-1build3) [universe]
+    fast and scalable online machine learning algorithm
+vsearch (2.21.1-1) [universe]
+    tool for processing metagenomic sequences
+vsearch-examples (2.21.1-1) [universe]
+    Test Data for vsearch tool for processing metagenomic sequences
+vt (0.57721+ds-3) [universe]
+    toolset for short variant discovery in genetic sequence data
+vt-examples (0.57721+ds-3) [universe]
+    toolset for short variant discovery in genetic sequence data (examples)
+wannier90 (3.1.0+ds-7) [universe]
+    Maximally Localized Wannier Functions - executables
+wannier90-data (3.1.0+ds-7) [universe]
+    Maximally Localized Wannier Functions - documentation and examples
+wcslib-tools (7.7+ds-1) [universe]
+    Command line tools utilizing wcslib
+wcstools (3.9.6-1) [universe]
+    Handle the WCS of a FITS image
+# weightwatcher (1.12+dfsg-2) [universe]
+#     Combine maps and polygon data for astronomical image processing
+weka (3.6.14-3) [universe]
+    Machine learning algorithms for data mining tasks
+wham-align (0.1.5-8) [universe]
+    Wisconsin's High-Throughput Alignment Method
+wigeon (20101212+dfsg1-5) [universe]
+    reimplementation of the Pintail 16S DNA anomaly detection utility
+wise (2.4.1-23) [universe]
+    comparison of biopolymers, like DNA and protein sequences
+wsclean (3.0-2build2) [universe]
+    Fast generic widefield interferometric imager
+wtdbg2 (2.5-8) [universe]
+    de novo sequence assembler for long noisy reads
+wtdbg2-examples (2.5-8) [universe]
+    Examples for wtdbg - de novo sequence assembler
+# wxastrocapture (1.8.1+git20140821.796e1a1+dfsg-1build1) [universe]
+#     Windows linuX Astronomy Capture
+x13as (1.1-b58-1) [multiverse]
+    seasonal adjustment software for modeling time series
+xbs (0-11) [universe]
+    3-d models and movies of molecules
+# xcas (1.7.0.39+dfsg2-1build2) [universe]
+#     Computer Algebra System - console and graphical calculator
+xcrysden (1.6.2-4) [universe]
+    Crystalline and Molecular Structure Visualizer
+xcrysden-data (1.6.2-4) [universe]
+    Crystalline and Molecular Structure Visualizer (Data Files)
+xdrawchem (1:1.11.0-3) [universe]
+    Chemical structures and reactions editor
+xeus-python-dev (0.12.5-1build1) [universe]
+    Native jupyter kernel for python (headers)
+xfoil (6.99.dfsg+1-3) [universe]
+    program for the design and analysis of subsonic airfoils
+xgboost (1.5.2-1) [universe]
+    Scalable and Flexible Gradient Boosting (Executable)
+xgterm (2.1+dfsg-1) [universe]
+    Terminal emulator to work with IRAF
+ximtool (2.1+dfsg-1) [universe]
+    Interactive image display program for the X Window System
+xmakemol (5.16-10) [universe]
+    program for visualizing atomic and molecular systems
+xmakemol-gl (5.16-10) [universe]
+    program for visualizing atomic and molecular systems (OpenGL)
+xmds2 (3.1.0+dfsg-3) [universe]
+    eXtensible Multi-Dimensional Simulator
+xmpsolve (3.2.1-5) [universe]
+    Multiprecision polynomial solver (graphical version)
+xpa-tools (2.1.20-1) [universe]
+    Tools for seamless communication between Unix programs
+xplot (1.19-9build2) [universe]
+    simple on-screen x-y column data plotter
+xplot-xplot.org (0.90.7.1-4) [universe]
+    fast tool to graph and visualize lots of data
+xpore (2.1-1) [universe]
+    Nanopore analysis of differential RNA modifications
+xppaut (6.11b+1.dfsg-1.1) [universe]
+    Phase Plane Plus Auto: Solves many kinds of equations
+xpython (0.12.5-1build1) [universe]
+    Native jupyter kernel for python (binary)
+xtide (2.15.2-1.1) [universe]
+    provides tide and current predictions
+xtide-coastline (20020202-1.2) [universe]
+    coastline data for xtide
+xtide-data (20191229-1.1) [universe]
+    Harmonics data for xtide
+xtide-data-nonfree (20100529-1.1) [multiverse]
+    Harmonics data for xtide (Canada, Netherlands, Germany and UK)
+xtpcpp (0.4.51-1) [universe]
+    C++ version of X!TandemPipeline
+xtpcpp-tandemwrapper (0.4.51-1) [universe]
+    X!Tandem wrapper for timsTOF pro and modern mzML data
+xyscan (4.61-1) [universe]
+    data thief for scientists
+yade (2022.01a-7) [universe]
+    Platform for discrete element modeling
+yagv (0.4~20171211.r234ef16+dfsg-2) [universe]
+    yet another G-code viewer
+yaha (0.1.83-3) [universe]
+    find split-read mappings on single-end queries
+yanagiba (1.0.0-5) [universe]
+    filter low quality Oxford Nanopore reads basecalled with Albacore
+yanosim (0.1-4) [universe]
+    read simulator nanopore DRS datasets
+yorick-av (0.0.6-1) [universe]
+    write movies from Yorick in various formats
+yorick-full (2.2.04+dfsg1+full) [universe]
+    full installation of the Yorick interpreter and add-ons
+yorick-gy (0.0.5-2) [universe]
+    GObject introspection and Gtk bindings for Yorick
+yorick-gyoto (1.4.4-7build1) [universe]
+    General relativistic geodesic integration for the Yorick language
+yorick-mira (1.1.0+git20170124.3bd1c3~dfsg1-2) [universe]
+    optical interferometry image reconstruction within Yorick
+yorick-mpeg (0.1-3) [universe]
+    MPEG output support for the Yorick language
+yorick-mpy-common (2.2.04+dfsg1-12) [universe]
+    Message Passing Yorick (common files)
+yorick-mpy-mpich2 (2.2.04+dfsg1-12) [universe]
+    Message Passing Yorick (MPICH2 build)
+yorick-mpy-openmpi (2.2.04+dfsg1-12) [universe]
+    Message Passing Yorick (OpenMPI build)
+yorick-svipc (0.16-5build5) [universe]
+    interprocess communication (shared memory...) for Yorick
+yorick-ygsl (1.2.1-1build3) [universe]
+    GSL special functions plugin for the Yorick language
+yorick-ynfft (1.0.3-1) [universe]
+    nonequispaced fast Fourier transform for Yorick
+z3 (4.8.12-1) [universe]
+    theorem prover from Microsoft Research
+z88 (13.0.0+dfsg2-6) [universe]
+    Finite Element Analysis Program - runtime
+zalign (0.9.1-5) [universe]
+    parallel local alignment of biological sequences
+zegrapher (3.1.1-2) [universe]
+    plotting mathematical functions and sequences on the plane
+ztex-bmp (20120314-2) [universe]
+    universal macro processor
+
