@@ -40,12 +40,31 @@ autogen/jammy 1:5.18.16-4 amd64
 shtool/jammy,jammy 2.0.8-10 all
   
 libarchive-dev/jammy 3.6.0-1ubuntu1 amd64
- 
+
+libxpm-dev/jammy-updates,jammy-security,now 1:3.5.12-1ubuntu0.22.04.2 amd64 [installed]
+  X11 pixmap library (development headers)
+
+libgif-dev/jammy,now 5.1.9-2build2 amd64 [installed]
+  library for GIF images (development)
+
+libtiff-dev/jammy-updates,jammy-security,now 4.3.0-6ubuntu0.6 amd64 [installed]
+  Tag Image File Format library (TIFF), development files
+
+cmigemo/jammy,now 1:1.2+gh0.20150404-7.1 amd64 [installed]
+  Japanese incremental search tool written in C - binary
+
+
 cmake/jammy-updates 3.22.1-1ubuntu1.22.04.1 amd64
  
 clang/jammy 1:14.0-55~exp2 amd64
 
+## Python2
+
 python2/jammy,now 2.7.18-3 amd64 [installed]
+
+virtualenv/jammy,jammy 20.13.0+ds-2 all
+
+## Python3
 
 python3/jammy-updates,jammy-security,now 3.10.6-1~22.04 amd64 [installed]
  
@@ -53,7 +72,21 @@ python3-pip/jammy-updates,jammy-updates,jammy-security,jammy-security,now 22.0.2
  
 python-is-python3/jammy,jammy,now 3.9.2-2 all [installed]
 
-virtualenv/jammy,jammy 20.13.0+ds-2 all
+python3-full/jammy-updates,jammy-security 3.10.6-1~22.04 amd64
+  Default Python Interpreter with complete class library
+
+python3-venv/jammy-updates,jammy-security 3.10.6-1~22.04 amd64
+  venv module for python3 (default python3 version)
+
+python3-virtualenv/jammy,jammy 20.13.0+ds-2 all
+  Python virtual environment creator
+
+python3-poetry/jammy-updates,jammy-updates 1.1.12+dfsg-1ubuntu1 all
+  Python dependency management and packaging made easy (Python 3)
+
+pipenv/jammy,jammy 11.9.0-1.1 all
+  Python's?officially recommended packaging tool
+
 
 libffi-dev/jammy,now 3.4.2-4 amd64 [installed,automatic]
  

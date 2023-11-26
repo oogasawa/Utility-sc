@@ -1,6 +1,5 @@
 package com.github.oogasawa.utility.sc;
 
-
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
