@@ -39,9 +39,10 @@ public class WebMonitor {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
+
+        String url = "https://ddbj.nig.ac.jp/public/ddbj_database/README.TXT";
         WebMonitor monitor = new WebMonitor();
-        monitor.monitor();
+        monitor.monitor(url);
     }
 
     public void addStats(String code, Integer count, Map<String, Integer> stats) {
@@ -56,13 +57,13 @@ public class WebMonitor {
     }
 
     
-    public void monitor() {
+    public void monitor(String url) {
         Timer timer = new Timer();
 
         int[] minutesToRunExternalProgram = { 0, 10, 20, 30, 40, 50 };
         int[] minutesToRunFunction = { 59 };
 
-        scheduleTasks(timer, minutesToRunExternalProgram, new ExecuteExternalProgramTask());
+        scheduleTasks(timer, minutesToRunExternalProgram, new ExecuteExternalProgramTask(url));        
         scheduleTasks(timer, minutesToRunFunction, new ExecuteSpecificFunctionTask());        
     }
     
@@ -96,12 +97,19 @@ public class WebMonitor {
 
     
     class ExecuteExternalProgramTask extends TimerTask {
+
+        String url = null;
+
+        public ExecuteExternalProgramTask(String url) {
+            this.url = url;
+        }
+        
         @Override
         public void run() {
             try {
                 // Execute the external program
                 Process p
-                    = new ProcessBuilder("curl", "-i", "https://ddbj.nig.ac.jp/public/ddbj_database/README.TXT")
+                    = new ProcessBuilder("curl", "-i", url)
                     .start();
                 p.waitFor();
 
@@ -128,7 +136,7 @@ public class WebMonitor {
         // Clone method to create new instances of TimerTask
         @Override
         public Object clone() {
-            return new ExecuteExternalProgramTask();
+            return new ExecuteExternalProgramTask(this.url);
         }
 
         

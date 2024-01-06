@@ -1,17 +1,8 @@
 package com.github.oogasawa.utility.sc;
 
-import org.apache.commons.cli.CommandLine;
-import org.apache.commons.cli.Option;
-import org.apache.commons.cli.Options;
-import org.apache.commons.cli.ParseException;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
@@ -27,6 +18,7 @@ import com.github.oogasawa.utility.cli.CliCommands;
 import com.github.oogasawa.utility.sc.apt.AptFormatter;
 import com.github.oogasawa.utility.sc.apt.AptInstaller;
 import com.github.oogasawa.utility.sc.apt.AptSearcher;
+import com.github.oogasawa.utility.sc.monitor.WebMonitor;
 import com.github.oogasawa.utility.sc.paper.PaperInfo;
 import com.github.oogasawa.utility.sc.paper.PaperSorter;
 import com.github.oogasawa.utility.sc.pubmed.PubmedTableRow;
@@ -34,293 +26,123 @@ import com.github.oogasawa.utility.sc.pubmed.StAXUtil;
 import com.github.oogasawa.utility.sc.tsv.TableChecker;
 import com.github.oogasawa.utility.sc.tsv.ToHtml;
 
+import java.io.InputStreamReader;
+import java.net.URISyntaxException;
+import java.nio.file.Path;
+import java.nio.file.Files;
 
-public class App {
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.Option;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
 
-    private static final Logger logger = Logger.getLogger(App.class.getName());
+
+
+public class App
+{
     
-    public static void main( String[] args ) throws URISyntaxException, IOException, InterruptedException, XMLStreamException
+    private static final Logger logger = Logger.getLogger(App.class.getName());
+
+    String      synopsis = "java -jar Utility-sc-VERSION-fat.jar <command> <options>";
+    CliCommands cmds     = new CliCommands();
+
+    
+    public static void main( String[] args )
     {
 
         try {
             LogManager.getLogManager()
-                    .readConfiguration(App.class.getClassLoader().getResourceAsStream("logging.properties"));
+                    .readConfiguration(WebMonitor.class.getClassLoader().getResourceAsStream("logging.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
-        var helpStr = "java -jar utility-sc-fat.jar <command> <options>";
-        var cli = new CliCommands();
-
-        cli.addCommand("apt:command", createAptCommandOptions(), "Generate apt install command line.");
-        cli.addCommand("apt:filter", createAptFilterOptions(), "Filter apt search results.");
-        cli.addCommand("apt:format", createAptFormatOptions(), "Format the information on packages to be installed.");
-        cli.addCommand("apt:install", createAptInstallOptions(), "Batch installation with apt install");
-        cli.addCommand("apt:list", createAptListOptions(), "List deb packages");
-        cli.addCommand("apt:remove", createAptRemoveOptions(), "Batch uninstall with apt remove");
 
         
-        cli.addCommand("paper:sort", createPaperSortOptions(), "Sort papers into meaingful categories");
-        cli.addCommand("paper:pmid_table", createPmidTableOptions(), "Print a table with respect to the elements with PMIDs");
-        cli.addCommand("paper:pubmed_xml", createPubmedXmlOptions(), "Print an XML corresponding to the given Pubmed ID.");
-
-        cli.addCommand("tsv:toHtml", createToHtmlOptions(), "Convert a TSV table to a HTML table.");
-        cli.addCommand("tsv:check_table", createTableCheckerOptions(), "Check if the data in the table is normal.");
-
-
+        App app = new App();
         
+        app.setupCommands();
+
         try {
 
-            CommandLine cmd = cli.parse(args);
-
-            if (cli.getCommand() == null) {
-                // check universal options.
-                if (cmd.hasOption("h") || cmd.hasOption("help")) {
-                    cli.printHelp(helpStr);
-                }
-
-            }
-
+            CommandLine cl = app.cmds.parse(args);
+            String command = app.cmds.getCommand();
             
-            else if (cli.getCommand().equals("apt:command")) {
-                String infile = cmd.getOptionValue("infile");
-
-                List<String> packages = AptInstaller.readFile(Path.of(infile));
-                System.out.println(AptInstaller.toAptInstallCommand(packages));
+            if (command == null) {
+                app.cmds.printCommandList(app.synopsis);
             }
-            
-
-
-            else if (cli.getCommand().equals("apt:filter")) {
-                List<String> pkgList = new ArrayList<>();
-                
-                String[] pkgNames = cmd.getOptionValues("list");
-
-                if (pkgNames != null) {
-                    pkgList = List.of(cmd.getOptionValue("list").split(","));
-                }
-                
-                String pkg = cmd.getOptionValue("infile");
-                if (pkg != null) {
-                    pkgList.add(pkg);
-                }
-
-                if (pkgList.size() == 0) {
-                    cli.printHelp(helpStr);
-                }
-                else {
-                    try (BufferedReader is = new BufferedReader(new InputStreamReader(System.in))) {
-                        AptSearcher.filter(is, pkgList);
-                    } catch (IOException e) {
-                        logger.log(Level.SEVERE, "Error occured when reading from stdin", e);
-                    }
-                }
-
+            else if (app.cmds.hasCommand(command)) {
+                app.cmds.execute(command, cl);
             }
-
-
-
-            else if (cli.getCommand().equals("apt:format")) {
-                List<String> pkgList = new ArrayList<>();
-                
-                String infile = cmd.getOptionValue("infile");
-                logger.info("infile: " + infile);
-                
-                String pwd = System.getenv("PWD");
-                logger.info("Current working directory: " + pwd);
-                Path infilePath = Path.of(pwd, infile);
-
-                logger.info(infilePath.toString());
-                
-                try (BufferedReader is = new BufferedReader(new FileReader(infilePath.toFile()))) {
-                    AptFormatter.format(is);
-                } catch (IOException e) {
-                    logger.log(Level.SEVERE, "Error occured when reading from: " + infile, e);
-                }
-
-            }
-
-            
-            
-            else if (cli.getCommand().equals("apt:install")) {
-                String infile = cmd.getOptionValue("infile");
-
-                String fnumStr = cmd.getOptionValue("from");
-                String tnumStr = cmd.getOptionValue("to");
-
-                if (fnumStr != null && tnumStr != null) {
-                    int fnum = Integer.parseInt(fnumStr);
-                    int tnum = Integer.parseInt(tnumStr);
-                    List<String> packages = AptInstaller.readFile(Path.of(infile));
-                    AptInstaller.install(packages, fnum, tnum);
-                }
-                else {
-                    List<String> packages = AptInstaller.readFile(Path.of(infile));
-                    AptInstaller.install(packages);
-                }
-
-                
-            }
-
-
-            
-            else if (cli.getCommand().equals("apt:list")) {
-
-                String category = cmd.getOptionValue("category");
-                if (category != null) {
-                    AptSearcher.list(category);
-                }
-
-                
-                String infile = cmd.getOptionValue("infile");
-
-                List<String> packages = AptInstaller.readFile(Path.of(infile));
-                AptInstaller.install(packages);
-            }
-
-            else if (cli.getCommand().equals("apt:remove")) {
-                String infile = cmd.getOptionValue("infile");
-
-                String includeComment = cmd.getOptionValue("includeComment");
-                List<String> packages = null;
-                if (includeComment != null) {
-                    packages = AptInstaller.readFile(Path.of(infile), true);
-                }
-                else {
-                    packages = AptInstaller.readFile(Path.of(infile), false);
-                }
-
-                
-                String fnumStr = cmd.getOptionValue("from");
-                String tnumStr = cmd.getOptionValue("to");
-
-                if (fnumStr != null && tnumStr != null) {
-                    int fnum = Integer.parseInt(fnumStr);
-                    int tnum = Integer.parseInt(tnumStr);
-                    AptInstaller.remove(packages, fnum, tnum);
-                }
-                else {
-                    AptInstaller.remove(packages);
-                }
-
-            }
-
-
-            
-            
-            
-            else if (cli.getCommand().equals("paper:sort")) {
-                String infile = cmd.getOptionValue("infile");
-                PaperSorter sorter = new PaperSorter.Builder(Path.of(infile)).build();
-                sorter.sort();
-            }
-            else if (cli.getCommand().equals("paper:pubmed_xml")) {
-                String pmid = cmd.getOptionValue("pmid");
-                StAXUtil obj = new StAXUtil();
-                String xml = obj.efetch(pmid);
-                String tag = cmd.getOptionValue("tag");
-                if (tag != null) {
-                    xml = obj.extractXml(xml, tag);
-                }
-
-                System.out.println(xml);
-            }
-
-            else if (cli.getCommand().equals("tsv:toHtml")) {
-                String infile = cmd.getOptionValue("infile");
-
-                ToHtml converter = new ToHtml();
-                converter.convert(Path.of(infile));
-                
-            }
-
-            else if (cli.getCommand().equals("tsv:check_table")) {
-                String infile = cmd.getOptionValue("infile");
-
-                TableChecker.check(Path.of(infile));
-                
-            }
-
-
-            
-            
-            else if (cli.getCommand().equals("paper:pmid_table")) {
-
-                String infile = cmd.getOptionValue("infile");
-
-                Pattern pPmid = Pattern.compile("([0-9]+)");
-
-                try {
-                    Files.lines(Path.of(infile)).skip(1).map(l -> {
-                        return new PaperInfo(l);
-                    }).filter(paperInfo -> {
-                        String pmid = paperInfo.getPubmedId();
-                        if (pmid.length() > 0) {
-                            Matcher m = pPmid.matcher(pmid);
-                            if (m.matches()) {
-                                return true;
-                            }
-                        }
-                        return false;
-                    }).forEach(paperInfo -> {
-
-                        try {
-
-                            String pmid = paperInfo.getPubmedId();
-                            PubmedTableRow row = new PubmedTableRow();
-                            row.parse(row.efetch(pmid));
-
-                            StringJoiner joiner = new StringJoiner("\t");
-                            joiner.add(paperInfo.getAccountNameJa());
-                            joiner.add(normalize(removeQuotations(paperInfo.getAccountNameEn())));
-                            joiner.add(row.toTSV());
-
-                            System.out.println(joiner.toString());
-                            Thread.sleep(15000);
-
-                        } catch (Exception e) {
-                            logger.log(Level.SEVERE, "Unexpected exception", e);
-                        }
-                    });
-
-                } catch (IOException e) {
-                    logger.log(Level.SEVERE, "", e);
-                }
-
-            }
-
             else {
-                cli.printHelp(helpStr);
+                System.err.println("The specified command is not available: " + app.cmds.getCommand());
+                app.cmds.printCommandList(app.synopsis);
             }
 
         } catch (ParseException e) {
-            System.err.println("Parsing failed.  Reason: " + e.getMessage());
-            cli.printHelp(helpStr);
-        }
+            System.err.println("Parsing failed.  Reason: " + e.getMessage() + "\n");
+            app.cmds.printCommandHelp(app.cmds.getCommand());
+        } 
+            
+    
     }
-
-
-
-        
-    public static Options createAptCommandOptions() {
-        Options opts = new Options();
-
-        opts.addOption(Option.builder("infile")
-                       .option("i")
-                       .longOpt("infile")
-                       .hasArg(true)
-                       .argName("infile")
-                       .desc("Input file with list of packages to install.")
-                       .required(true)
-                       .build());
-
-        return opts;
-    }
-
 
 
     
-    public static Options createAptFilterOptions() {
+    public void setupCommands() {
+    
+        aptCommandCommand();
+        aptFilterCommand();
+        aptFormatCommand();
+        aptInstallCommand();
+        aptListCommand();
+        aptRemoveCommand();
+
+        paperSortCommand();
+        paperPmidTableCommand();
+        paperPubmedXmlCommand();
+
+        tsvToHtmlCommand();
+        tsvCheckTableCommand();
+
+        WebMonitorCommand();
+
+    }
+
+
+    /* ********** ********** ********** */
+    /* Command defining methods         */
+    /* ********** ********** ********** */
+
+    
+
+    public void aptCommandCommand() {
+
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("infile")
+                .option("i")
+                .longOpt("infile")
+                .hasArg(true)
+                .argName("infile")
+                .desc("Input file with list of packages to install.")
+                .required(true)
+                .build());
+        
+    
+        this.cmds.addCommand("apt:command", opts,
+                       "Generate `apt install` commands",
+                       (CommandLine cl)-> {
+                                 String infile = cl.getOptionValue("infile");
+
+                                 List<String> packages = AptInstaller.readFile(Path.of(infile));
+                                 System.out.println(AptInstaller.toAptInstallCommand(packages));
+                             });
+
+    }
+
+
+    
+    public void aptFilterCommand() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("pkg")
@@ -341,14 +163,41 @@ public class App {
                        .desc("A list of package names (comma delimited)")
                        .required(false)
                        .build());
-        
-        return opts;
+
+
+        this.cmds.addCommand("apt:filter", opts,
+                "Filter `apt search` results",
+                (CommandLine cl) -> {
+                    List<String> pkgList = new ArrayList<>();
+
+                    String[] pkgNames = cl.getOptionValues("list");
+
+                    if (pkgNames != null) {
+                        pkgList = List.of(cl.getOptionValue("list").split(","));
+                    }
+
+                    String pkg = cl.getOptionValue("infile");
+                    if (pkg != null) {
+                        pkgList.add(pkg);
+                    }
+
+                    if (pkgList.size() == 0) {
+                        this.cmds.printCommandHelp(this.cmds.getCommand());
+                    } else {
+                        try (BufferedReader is = new BufferedReader(new InputStreamReader(System.in))) {
+                            AptSearcher.filter(is, pkgList);
+                        } catch (IOException e) {
+                            logger.log(Level.SEVERE, "Error occured when reading from stdin", e);
+                        }
+                    }
+                });
+
     }
 
 
 
-       
-    public static Options createAptFormatOptions() {
+    
+    public void aptFormatCommand() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("infile")
@@ -360,14 +209,34 @@ public class App {
                        .required(false)
                        .build());
 
-        
-        return opts;
+
+
+        this.cmds.addCommand("apt:format", opts,
+                "Format the information on packages to be installed.",
+                (CommandLine cl) -> {
+                    String infile = cl.getOptionValue("infile");
+                    logger.info("infile: " + infile);
+
+                    String pwd = System.getenv("PWD");
+                    logger.info("Current working directory: " + pwd);
+                    Path infilePath = Path.of(pwd, infile);
+
+                    logger.info(infilePath.toString());
+
+                    try (BufferedReader is = new BufferedReader(new FileReader(infilePath.toFile()))) {
+                        AptFormatter.format(is);
+                    } catch (IOException e) {
+                        logger.log(Level.SEVERE, "Error occured when reading from: " + infile, e);
+                    }
+
+                });
+
     }
 
 
-    
+
         
-    public static Options createAptInstallOptions() {
+    public void aptInstallCommand() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("infile")
@@ -398,14 +267,35 @@ public class App {
                        .required(false)
                        .build());
 
-        
-        return opts;
+
+        this.cmds.addCommand("apt:install", opts,
+                "Batch installation with apt install",
+                 (CommandLine cl) -> {
+                    String infile = cl.getOptionValue("infile");
+
+                    String fnumStr = cl.getOptionValue("from");
+                    String tnumStr = cl.getOptionValue("to");
+
+                    if (fnumStr != null && tnumStr != null) {
+                        int fnum = Integer.parseInt(fnumStr);
+                        int tnum = Integer.parseInt(tnumStr);
+                        List<String> packages = AptInstaller.readFile(Path.of(infile));
+                        AptInstaller.install(packages, fnum, tnum);
+                    } else {
+                        List<String> packages = AptInstaller.readFile(Path.of(infile));
+                        AptInstaller.install(packages);
+                    }
+
+                });
+
     }
 
 
 
-    
-    public static Options createAptListOptions() {
+
+
+        
+    public void aptListCommand() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("category")
@@ -426,13 +316,34 @@ public class App {
                        .desc("A package name list file.")
                        .required(false)
                        .build());
-        
-        return opts;
+
+
+        this.cmds.addCommand("apt:install", opts,
+                "Batch installation with apt install",
+                 (CommandLine cl) -> {
+                    String infile = cl.getOptionValue("infile");
+
+                    String fnumStr = cl.getOptionValue("from");
+                    String tnumStr = cl.getOptionValue("to");
+
+                    if (fnumStr != null && tnumStr != null) {
+                        int fnum = Integer.parseInt(fnumStr);
+                        int tnum = Integer.parseInt(tnumStr);
+                        List<String> packages = AptInstaller.readFile(Path.of(infile));
+                        AptInstaller.install(packages, fnum, tnum);
+                    } else {
+                        List<String> packages = AptInstaller.readFile(Path.of(infile));
+                        AptInstaller.install(packages);
+                    }
+
+                });
+
     }
 
 
-        
-    public static Options createAptRemoveOptions() {
+    
+
+    public void aptRemoveCommand() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("infile")
@@ -474,36 +385,132 @@ public class App {
                        .build());
 
 
+        this.cmds.addCommand("apt:remove", opts,
+                "Batch uninstall with `apt remove`",
+                 (CommandLine cl) -> {
+                    String infile = cl.getOptionValue("infile");
+
+                    String includeComment = cl.getOptionValue("includeComment");
+                    List<String> packages = null;
+                    if (includeComment != null) {
+                        packages = AptInstaller.readFile(Path.of(infile), true);
+                    } else {
+                        packages = AptInstaller.readFile(Path.of(infile), false);
+                    }
+
+                    String fnumStr = cl.getOptionValue("from");
+                    String tnumStr = cl.getOptionValue("to");
+
+                    if (fnumStr != null && tnumStr != null) {
+                        int fnum = Integer.parseInt(fnumStr);
+                        int tnum = Integer.parseInt(tnumStr);
+                        AptInstaller.remove(packages, fnum, tnum);
+                    } else {
+                        AptInstaller.remove(packages);
+                    }
+
+                });
+
+
         
-        return opts;
+        }
+
+
+
+       
+    
+    public void paperSortCommand() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("infile")
+                       .option("i")
+                       .longOpt("infile")
+                       .hasArg(true)
+                       .argName("infile")
+                       .desc("Input file (in TSV format with UTF-8 encoding)")
+                       .required(true)
+                       .build());
+
+
+        this.cmds.addCommand("paper:sort", opts,
+                "Sort papers into meaingful categories",
+                 (CommandLine cl) -> {
+                    String infile = cl.getOptionValue("infile");
+                    PaperSorter sorter = new PaperSorter.Builder(Path.of(infile)).build();
+                    sorter.sort();
+
+                });
+        
+
     }
-
-
 
 
     
-    
-    public static Options createPaperSortOptions() {
+    public void paperPmidTableCommand() {
         Options opts = new Options();
 
-        opts.addOption(Option.builder("infile").option("i").longOpt("infile").hasArg(true).argName("infile")
-                .desc("Input file (in TSV format with UTF-8 encoding)").required(true).build());
+        opts.addOption(Option.builder("infile")
+                       .option("i")
+                       .longOpt("infile")
+                       .hasArg(true)
+                       .argName("infile")
+                       .desc("Input file (in TSV format with UTF-8 encoding)")
+                       .required(true)
+                       .build());
 
-        return opts;
+        
+        this.cmds.addCommand("paper:pmid_table", opts,
+                "Print a table with respect to the elements with PMIDs",
+                 (CommandLine cl) -> {
+                    String infile = cl.getOptionValue("infile");
+
+                    Pattern pPmid = Pattern.compile("([0-9]+)");
+
+                    try {
+                        Files.lines(Path.of(infile)).skip(1).map(l -> {
+                            return new PaperInfo(l);
+                        }).filter(paperInfo -> {
+                            String pmid = paperInfo.getPubmedId();
+                            if (pmid.length() > 0) {
+                                Matcher m = pPmid.matcher(pmid);
+                                if (m.matches()) {
+                                    return true;
+                                }
+                            }
+                            return false;
+                        }).forEach(paperInfo -> {
+
+                            try {
+
+                                String pmid = paperInfo.getPubmedId();
+                                PubmedTableRow row = new PubmedTableRow();
+                                row.parse(row.efetch(pmid));
+
+                                StringJoiner joiner = new StringJoiner("\t");
+                                joiner.add(paperInfo.getAccountNameJa());
+                                joiner.add(normalize(removeQuotations(paperInfo.getAccountNameEn())));
+                                joiner.add(row.toTSV());
+
+                                System.out.println(joiner.toString());
+                                Thread.sleep(15000);
+
+                            } catch (Exception e) {
+                                logger.log(Level.SEVERE, "Unexpected exception", e);
+                            }
+                        });
+
+                    } catch (IOException e) {
+                        logger.log(Level.SEVERE, "", e);
+                    }
+
+                });
+
+
     }
 
-    public static Options createPmidTableOptions() {
-        Options opts = new Options();
-
-        opts.addOption(Option.builder("infile").option("i").longOpt("infile").hasArg(true).argName("infile")
-                .desc("Input file (in TSV format with UTF-8 encoding)").required(true).build());
-
-        return opts;
-    }
 
 
-
-    public static Options createPubmedXmlOptions() {
+    public void paperPubmedXmlCommand() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("pmid")
@@ -526,13 +533,35 @@ public class App {
                        .build());
 
 
+        this.cmds.addCommand("paper:pubmed_xml", opts,
+                "Print an XML corresponding to the specified pubmed ID",
+                 (CommandLine cl) -> {
+                    String pmid = cl.getOptionValue("pmid");
+                    StAXUtil obj = new StAXUtil();
+                    String xml;
+                    try {
+                        xml = StAXUtil.efetch(pmid);
+                        String tag = cl.getOptionValue("tag");
+                        if (tag != null) {
+                            xml = obj.extractXml(xml, tag);
+                        }
+
+                        System.out.println(xml);
+
+                    } catch (URISyntaxException | IOException | InterruptedException e) {
+                        logger.log(Level.WARNING, "Error occured when reading from: " + pmid, e);
+                    } catch (XMLStreamException e) {
+                        logger.log(Level.WARNING, "Error occured when reading from: " + pmid, e);
+                    }
+   
+                });
         
-        return opts;
+
     }
 
 
     
-    public static Options createToHtmlOptions() {
+    public void tsvToHtmlCommand() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("infile")
@@ -544,12 +573,22 @@ public class App {
                        .required(true)
                        .build());
 
-        return opts;
+        
+        this.cmds.addCommand("tsv:toHtml", opts,
+                "Convert a TSV file to HTML table.",
+                 (CommandLine cl) -> {
+                    String infile = cl.getOptionValue("infile");
+
+                    ToHtml converter = new ToHtml();
+                    converter.convert(Path.of(infile));
+                });
+
+
     }
 
 
         
-    public static Options createTableCheckerOptions() {
+    public void tsvCheckTableCommand() {
         Options opts = new Options();
 
         opts.addOption(Option.builder("infile")
@@ -561,13 +600,53 @@ public class App {
                        .required(true)
                        .build());
 
-        return opts;
+
+        this.cmds.addCommand("tsv:check_table", opts,
+                "Check the integrity of a TSV table.",
+                 (CommandLine cl) -> {
+                    String infile = cl.getOptionValue("infile");
+                    TableChecker.check(Path.of(infile));
+                });
+
+
+        
+    }
+
+
+
+        
+    public void WebMonitorCommand() {
+        Options opts = new Options();
+
+        opts.addOption(Option.builder("url")
+                       .option("u")
+                       .longOpt("url")
+                       .hasArg(true)
+                       .argName("url")
+                       .desc("URL to be monitored.")
+                       .required(true)
+                       .build());
+
+
+        this.cmds.addCommand("WebMonitor", opts,
+                "Perform remote web page uptime monitoring.",
+                 (CommandLine cl) -> {
+                        String url = cl.getOptionValue("url");
+                        WebMonitor monitor = new WebMonitor();
+                        monitor.monitor(url);
+                });
+
+
+        
     }
 
 
     
 
-
+    /* ********** ********** ********** */
+    /* Utility methods                  */
+    /* ********** ********** ********** */
+    
     public static String removeQuotations(String str) {
         Pattern pStr = Pattern.compile("\"(.+)\"");
         String result = "";
@@ -589,5 +668,8 @@ public class App {
         return result;
     }
 
-    
+
 }
+
+
+
