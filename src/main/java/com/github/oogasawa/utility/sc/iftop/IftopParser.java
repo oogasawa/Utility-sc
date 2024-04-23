@@ -67,12 +67,12 @@ public class IftopParser {
      *     gw2.ddbj.nig.ac.jp                       <=      821Mb      821Mb      821Mb      205MB
      * }</pre>
      */
-    public void makeDownloadSpeedTable(String fqdn, File infile, File outfile) {
+    public void makeDownloadSpeedTable(String fqdn, File infile, File outfile, int col) {
         try (BufferedReader br = new BufferedReader(new FileReader(infile));
              BufferedWriter bw = new BufferedWriter(new FileWriter(outfile))) {
 
 
-            Pattern p =  Pattern.compile(fqdn + "\\s+<=\\s+[0-9]+[KMG]b\\s+[0-9]+[KMB]b\\s+([0-9]+)[KMG]b");
+            Pattern p =  Pattern.compile(fqdn + "\\s+<=\\s+([0-9.,]+[KMG])b\\s+([0-9.,]+[KMB])b\\s+([0-9.,]+[KMG])b");
 
             int second = 0;
             String line = null;
@@ -80,8 +80,8 @@ public class IftopParser {
                 Matcher m = p.matcher(line);
                 if (m.find()) {
                     second +=2;
-                    String speed = m.group(1);
-                    bw.write(String.format("%d\t%s\n", second, speed));
+                    double speed = megaBps(m.group(col));
+                    bw.write(String.format("%d\t%.2f\n", second, speed));
                 }
             }
         }
@@ -93,5 +93,36 @@ public class IftopParser {
         }
     }
 
+
+    /** Unify input data with mixed K, M, and G suffixes into mega bit per second units.
+     * 
+     * It is assumed that the numeric part of the input data consists of integers or real numbers,
+     * and the suffix part consists of K, M, and G (uppercase).
+     * It is assumed that the suffix is not omitted and must always be present.
+     *
+     * Examples of input data formats are as follows: {@code 12.4K, 822M, 1.2G}
+     * 
+     */
+    public double megaBps(String orig) {
+        String numericPart = orig.substring(0, orig.length()-1);
+        char suffix = orig.charAt(orig.length()-1);
+
+        double val = 0.0;
+        if (suffix == 'K') {
+            val = Double.valueOf(numericPart) / 1000.0;
+        }
+        else if (suffix == 'G') {
+            val = Double.valueOf(numericPart) * 1000.0;
+        }
+        else if (suffix == 'M') {
+            val = Double.valueOf(numericPart);
+        }
+        else { // This is an inherently improbable case.
+            val = Double.valueOf(numericPart) / 1000000.0;
+        }
+
+        return val;
+    }
+    
     
 }

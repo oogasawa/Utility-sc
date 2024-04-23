@@ -455,6 +455,16 @@ public class App
                 .build());
 
         
+        opts.addOption(Option.builder("column")
+                .option("c")
+                .longOpt("column")
+                .hasArg(true)
+                .argName("column")
+                .desc("A column of original data (1,2,3)")
+                .required(false)
+                .build());
+
+        
     
         this.cmds.addCommand("iftop:downloadspeed", opts,
                 "Create a tally table of download speeds",
@@ -462,9 +472,10 @@ public class App
                         String fqdn = cl.getOptionValue("FQDN");
                         String infile = cl.getOptionValue("infile");
                         String outfile = cl.getOptionValue("outfile");
+                        int col = Integer.parseInt(cl.getOptionValue("column", "3"));
 
                         IftopParser parser = new IftopParser();
-                        parser.makeDownloadSpeedTable(fqdn, new File(infile), new File(outfile));
+                        parser.makeDownloadSpeedTable(fqdn, new File(infile), new File(outfile), col);
                 });
 
     }
