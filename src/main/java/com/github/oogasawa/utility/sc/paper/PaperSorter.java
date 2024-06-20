@@ -10,12 +10,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 /**
@@ -70,7 +71,7 @@ import java.util.stream.Stream;
  */
 public class PaperSorter {
 
-    private static final Logger logger = Logger.getLogger(PaperSorter.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(PaperSorter.class);
     
     /** A data file path. */
     Path infile;
@@ -126,22 +127,30 @@ public class PaperSorter {
         List<PaperInfo> pmidRows = null;
         
         try {
+
+            logger.debug("infile: " + this.infile.toString());
+            
             pmidRows
                 = Files.lines(this.infile)
                 .skip(1)
-                .map(l -> {
-                        return new PaperInfo(l);
+                .map((String line) -> {
+                        //logger.info("line" + line);
+                        PaperInfo p = new PaperInfo(line);
+                        logger.debug("PaperInfo" + p.pubmedId);
+                        return p;
                     })
-                .filter(p -> {
+                .filter((PaperInfo p) -> {
+                        //logger.debug("PMID: " + p.getPubmedId());
+                        
                         return !p.getPubmedId().trim().isEmpty();
                     })
                 .sorted((a, b)->{return a.getPubmedId().compareTo(b.getPubmedId());})
                 .collect(Collectors.toList());
 
-            //logger.info(String.format("Rows with PMID: %d", rowsWithPMID.size()));
+            logger.debug(String.format("Rows with PMID: %d", pmidRows.size()));
 
         } catch (IOException e) {
-            logger.log(Level.SEVERE, "Exception occurred when loading data.", e);
+            logger.error("Exception occurred when loading data.", e);
         }
 
         return pmidRows;
@@ -171,7 +180,7 @@ public class PaperSorter {
             //logger.info(String.format("Rows with DOI: %d", rowsWithDoi.size()));
 
         } catch (IOException e) {
-            logger.log(Level.SEVERE, "Exception occurred when loading data.", e);
+            logger.error("Exception occurred when loading data.", e);
         }
 
         return doiRows;
@@ -201,7 +210,7 @@ public class PaperSorter {
             //logger.info(String.format("otherRows: %d", otherRows.size()));
 
         } catch (IOException e) {
-            logger.log(Level.SEVERE, "Exception occurred when loading data.", e);
+            logger.error("Exception occurred when loading data.", e);
         }
         
         return otherRows;

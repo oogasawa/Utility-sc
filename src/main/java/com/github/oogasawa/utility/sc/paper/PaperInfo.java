@@ -4,8 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
 public class PaperInfo {
 
+    private static final Logger logger = LoggerFactory.getLogger(PaperInfo.class);
+    
     String tracking_id;
     String uid;
     String accountNameJa;
@@ -35,11 +41,15 @@ public class PaperInfo {
     public PaperInfo(String line) {
         List<String> cols = splitByTab(line);
         this.setColumns(cols);
+        //logger.info("PaperInfo, num of columns: " + this.toTSV().split("\t").length);
     }
 
 
     public void setColumns(List<String> cols) {
 
+        //logger.info("PaperInfo, num of columns: " + cols.size());
+        //logger.info("PaperInfo, columns: " + cols);
+        
         tracking_id = cols.get(0);
         uid = cols.get(1);
         accountNameJa = cols.get(2);
