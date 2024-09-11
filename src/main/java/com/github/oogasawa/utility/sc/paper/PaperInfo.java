@@ -47,7 +47,6 @@ public class PaperInfo {
 
     public void setColumns(List<String> cols) {
 
-        //logger.info("PaperInfo, num of columns: " + cols.size());
         //logger.info("PaperInfo, columns: " + cols);
         
         tracking_id = cols.get(0);
@@ -66,6 +65,7 @@ public class PaperInfo {
         pubmedId = cols.get(13);
         doi = cols.get(14);
 
+        logger.debug(String.format("PaperInfo.setColumns: nCols=%d, tracking_id=%s, pubmedId=%s", cols.size(), tracking_id, pubmedId));
         
     }
 

@@ -1,39 +1,22 @@
 package com.github.oogasawa.sc.pubmed;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 import java.util.StringJoiner;
-import java.util.logging.Level;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 import javax.xml.stream.XMLStreamException;
 
 import com.github.oogasawa.utility.sc.paper.PaperInfo;
 import com.github.oogasawa.utility.sc.pubmed.PubmedTableRow;
 
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Order;
@@ -41,11 +24,13 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestMethodOrder;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
  
 
 public class PubmedTableTest {
 
-    private static final Logger logger = Logger.getLogger("oogasawa.utility.sc.PubmedTableTest");
+    private static final Logger logger = LoggerFactory.getLogger(PubmedTableTest.class);
 
     @TestInstance(TestInstance.Lifecycle.PER_CLASS)
     @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -63,16 +48,7 @@ public class PubmedTableTest {
          */
         @BeforeAll
         static void setUpClass() {
-            try {
-                // Read logging configuration.
-                LogManager.getLogManager().readConfiguration(PubmedTableTest.class.getClassLoader().getResourceAsStream("logging.properties"));
-
-
-                origTablePath = Path.of(System.getenv("PWD")).resolve("paper_list.utf8.txt");
-                
-            } catch (IOException e) {
-                logger.log(Level.SEVERE, "could not create tmpdir", e);
-            }            
+            origTablePath = Path.of(System.getenv("PWD")).resolve("paper_list.utf8.txt");
         }
 
 
@@ -101,14 +77,14 @@ public class PubmedTableTest {
                     //
                     lineNo++;
                     if (cols.size() != 16) {
-                        logger.warning(String.format("%02d\t%d\t%s\t%s", lineNo, cols.size(), cols.get(0), cols.get(1)));
+                        logger.warn(String.format("%02d\t%d\t%s\t%s", lineNo, cols.size(), cols.get(0), cols.get(1)));
                     }
                     assertTrue(cols.size() == 16);
                 }
 
 
             } catch (IOException e) {
-                logger.log(Level.SEVERE, "Exception occurred when loading data.", e);
+                logger.error("Exception occurred when loading data.", e);
             }
                         
         }
@@ -146,7 +122,7 @@ public class PubmedTableTest {
                 UnitTest.pmidList = pmidList;
                 
             } catch (IOException e) {
-                logger.log(Level.SEVERE, "", e);
+                logger.error("", e);
             }
 
             
@@ -172,7 +148,7 @@ public class PubmedTableTest {
                 }
             }
             catch (Exception e) {
-                logger.log(Level.SEVERE, "Unexpected Error.", e);
+                logger.error("Unexpected Error.", e);
             }
             
         }
@@ -220,7 +196,7 @@ public class PubmedTableTest {
                 }
             }
             catch (Exception e) {
-                logger.log(Level.SEVERE, "Unexpected Error.", e);
+                logger.error("Unexpected Error.", e);
             }
             
 
@@ -278,14 +254,14 @@ public class PubmedTableTest {
                                     Thread.sleep(10000);
 
                                 } catch (Exception e) {
-                                    logger.log(Level.SEVERE, "Unexpected exception", e);
+                                    logger.error("Unexpected exception", e);
                                 }
                             });
 
 
                 
             } catch (IOException e) {
-                logger.log(Level.SEVERE, "", e);
+                logger.error("", e);
             }
         }
 

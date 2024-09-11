@@ -1,19 +1,11 @@
 package com.github.oogasawa.utility.sc.paper;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -136,7 +128,7 @@ public class PaperSorter {
                 .map((String line) -> {
                         //logger.info("line" + line);
                         PaperInfo p = new PaperInfo(line);
-                        logger.debug("PaperInfo" + p.pubmedId);
+                        //logger.debug("PaperInfo" + p.pubmedId);
                         return p;
                     })
                 .filter((PaperInfo p) -> {

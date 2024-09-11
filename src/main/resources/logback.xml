@@ -1,4 +1,8 @@
 <configuration>
+    <!-- Suppress Logback internal messages to WARN level and above -->
+     <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+    <logger name="ch.qos.logback" level="WARN" />
+     
     <!-- Configuration for the STDOUT appender -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -9,11 +13,11 @@
     <!-- Configuration for the asynchronous appender -->
     <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
         <queueSize>500</queueSize>
-        <appender-ref ref="STDOUT" />
+        <appender-ref ref="STDERR" />
     </appender>
 
     <!-- Configuration for the root logger -->
-    <root level="INFO">
+    <root level="DEBUG">
         <appender-ref ref="ASYNC" />
     </root>
 

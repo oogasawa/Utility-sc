@@ -7,9 +7,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
-import java.util.logging.Level;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -38,12 +35,13 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class App
 {
     
-    private static final Logger logger = Logger.getLogger(App.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(App.class);
 
     String      synopsis = "java -jar Utility-sc-VERSION-fat.jar <command> <options>";
     CliCommands cmds     = new CliCommands();
@@ -52,12 +50,12 @@ public class App
     public static void main( String[] args )
     {
 
-        try {
-            LogManager.getLogManager()
-                    .readConfiguration(WebMonitor.class.getClassLoader().getResourceAsStream("logging.properties"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // try {
+        //     LogManager.getLogManager()
+        //             .readConfiguration(WebMonitor.class.getClassLoader().getResourceAsStream("logging.properties"));
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // }
 
         
         App app = new App();
@@ -191,7 +189,7 @@ public class App
                         try (BufferedReader is = new BufferedReader(new InputStreamReader(System.in))) {
                             AptSearcher.filter(is, pkgList);
                         } catch (IOException e) {
-                            logger.log(Level.SEVERE, "Error occured when reading from stdin", e);
+                            logger.error("Error occured when reading from stdin", e);
                         }
                     }
                 });
@@ -230,7 +228,7 @@ public class App
                     try (BufferedReader is = new BufferedReader(new FileReader(infilePath.toFile()))) {
                         AptFormatter.format(is);
                     } catch (IOException e) {
-                        logger.log(Level.SEVERE, "Error occured when reading from: " + infile, e);
+                        logger.error("Error occured when reading from: " + infile, e);
                     }
 
                 });
@@ -536,7 +534,7 @@ public class App
                     Pattern pPmid = Pattern.compile("([0-9]+)");
 
                     try {
-                        Files.lines(Path.of(infile)).skip(1).map(l -> {
+                        Files.lines(Path.of(infile)).map(l -> {
                             return new PaperInfo(l);
                         }).filter(paperInfo -> {
                             String pmid = paperInfo.getPubmedId();
@@ -564,12 +562,12 @@ public class App
                                 Thread.sleep(15000);
 
                             } catch (Exception e) {
-                                logger.log(Level.SEVERE, "Unexpected exception", e);
+                                logger.error("Unexpected exception", e);
                             }
                         });
 
                     } catch (IOException e) {
-                        logger.log(Level.SEVERE, "", e);
+                        logger.error("", e);
                     }
 
                 });
@@ -618,9 +616,9 @@ public class App
                         System.out.println(xml);
 
                     } catch (URISyntaxException | IOException | InterruptedException e) {
-                        logger.log(Level.WARNING, "Error occured when reading from: " + pmid, e);
+                        logger.error("Error occured when reading from: " + pmid, e);
                     } catch (XMLStreamException e) {
-                        logger.log(Level.WARNING, "Error occured when reading from: " + pmid, e);
+                        logger.error("Error occured when reading from: " + pmid, e);
                     }
    
                 });

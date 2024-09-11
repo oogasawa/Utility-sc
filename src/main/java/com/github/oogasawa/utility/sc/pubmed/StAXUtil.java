@@ -2,31 +2,27 @@ package com.github.oogasawa.utility.sc.pubmed;
 
 
 import java.io.IOException;
-import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.StringJoiner;
-import java.util.logging.Logger;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class StAXUtil {
 
 
-    private static final Logger logger = Logger.getLogger(StAXUtil.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(StAXUtil.class);
 
 
     public static String efetch(String pmid) throws URISyntaxException, IOException, InterruptedException {
@@ -61,7 +57,7 @@ public class StAXUtil {
             case XMLStreamConstants.START_ELEMENT:
                 String elementName = reader.getLocalName();
 
-                logger.finer(String.format("elementName: %s", elementName));
+                logger.debug(String.format("elementName: %s", elementName));
 
                 if (tagName.equals(elementName)) {
                     value = reader.getElementText();

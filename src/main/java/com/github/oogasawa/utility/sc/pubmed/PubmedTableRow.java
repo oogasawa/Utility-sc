@@ -11,7 +11,6 @@ import java.net.http.HttpResponse;
 import java.util.Map;
 import java.util.StringJoiner;
 import java.util.TreeMap;
-import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -20,10 +19,12 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class PubmedTableRow {
 
-    private static final Logger logger = Logger.getLogger(PubmedTableRow.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(PubmedTableRow.class);
 
 
     String articleTitle = null;
@@ -110,7 +111,7 @@ public class PubmedTableRow {
             case XMLStreamConstants.START_ELEMENT:
                 String elementName = reader.getLocalName();
 
-                logger.finer(String.format("elementName: %s", elementName));
+                logger.debug(String.format("elementName: %s", elementName));
 
                 if ("ArticleTitle".equals(elementName)) {
                     this.articleTitle = parseArticleTitle(reader);
@@ -146,10 +147,10 @@ public class PubmedTableRow {
                     Map<String, String> attributes = parseAttributes(reader);
                     if (attributes.containsKey("EIdType")) {
                         if (attributes.get("EIdType").equals("doi")) {
-                            this.doi = reader.getElementText();
+                            this.doi = reader.getElementText().trim();
                         }
                         else if (attributes.get("EIdType").equals("pii")) {
-                            this.pii = reader.getElementText();
+                            this.pii = reader.getElementText().trim();
                         }
                     }
                     else {
