@@ -23,7 +23,7 @@
     <dependency>
       <groupId>com.github.oogasawa</groupId>
       <artifactId>Utility-cli</artifactId>
-      <version>2.1.0</version>
+      <version>2.5.0</version>
     </dependency>
     
     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
